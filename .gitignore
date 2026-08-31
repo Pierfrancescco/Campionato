@@ -14,6 +14,7 @@ provaCpp_new.exe
 *.exe
 build/
 dist/
+output/
 
 # Virtual Environments
 venv*/
@@ -34,7 +35,7 @@ Trash/
 Git/
 struttura_progetto_Campionato.txt
 
-# VS Code personal workspace state (keeps settings/launch if wanted)
+# VS Code personal workspace state
 .vscode/*
 !.vscode/settings.json
 !.vscode/launch.json
