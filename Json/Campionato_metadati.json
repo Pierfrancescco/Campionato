@@ -1,0 +1,161 @@
+{
+  "forma": {
+    "num_righe": 340,
+    "num_colonne": 8,
+    "dimensioni_totali": 2720,
+    "numero_dimensioni": 2
+  },
+  "colonne": {
+    "nomi_colonne": [
+      "Championship",
+      "DayWeek",
+      "DayMonth",
+      "Month",
+      "Home",
+      "Away",
+      "GoalHome",
+      "GoalAway"
+    ],
+    "tipi_dati": {
+      "Championship": "object",
+      "DayWeek": "object",
+      "DayMonth": "int64",
+      "Month": "object",
+      "Home": "object",
+      "Away": "object",
+      "GoalHome": "int64",
+      "GoalAway": "int64"
+    },
+    "valori_unici_per_colonna": {
+      "Championship": 1,
+      "DayWeek": 7,
+      "DayMonth": 31,
+      "Month": 9,
+      "Home": 22,
+      "Away": 22,
+      "GoalHome": 8,
+      "GoalAway": 8
+    }
+  },
+  "qualita_dati": {
+    "valori_mancanti_per_colonna": {
+      "Championship": 0,
+      "DayWeek": 0,
+      "DayMonth": 0,
+      "Month": 0,
+      "Home": 0,
+      "Away": 0,
+      "GoalHome": 0,
+      "GoalAway": 0
+    },
+    "percentuale_valori_mancanti": {
+      "Championship": 0.0,
+      "DayWeek": 0.0,
+      "DayMonth": 0.0,
+      "Month": 0.0,
+      "Home": 0.0,
+      "Away": 0.0,
+      "GoalHome": 0.0,
+      "GoalAway": 0.0
+    },
+    "numero_righe_duplicate": "0",
+    "percentuale_righe_duplicate": 0.0
+  },
+  "memoria": {
+    "memoria_per_colonna_bytes": {
+      "Index": 132,
+      "Championship": 19040,
+      "DayWeek": 17340,
+      "DayMonth": 2720,
+      "Month": 17680,
+      "Home": 28293,
+      "Away": 28312,
+      "GoalHome": 2720,
+      "GoalAway": 2720
+    },
+    "memoria_totale_mb": 0.11
+  },
+  "metadati_file": {
+    "percorso_file": "Excel\\Campionato.xlsm",
+    "data_elaborazione": "2026-04-30 13:53:59",
+    "responsabile": "Sistema automatico",
+    "versione": "1.0"
+  },
+  "statistiche_numeriche": {
+    "DayMonth": {
+      "media": 16.4,
+      "mediana": 17.0,
+      "deviazione_standard": 9.0,
+      "minimo": "1",
+      "massimo": "31",
+      "quartile_25": 8.0,
+      "quartile_75": 24.0
+    },
+    "GoalHome": {
+      "media": 1.63,
+      "mediana": 1.0,
+      "deviazione_standard": 1.73,
+      "minimo": "0",
+      "massimo": "8",
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "GoalAway": {
+      "media": 1.51,
+      "mediana": 1.0,
+      "deviazione_standard": 1.45,
+      "minimo": "0",
+      "massimo": "9",
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    }
+  },
+  "statistiche_categoriche": {
+    "Championship": {
+      "valori_piu_frequenti": {
+        "2025/26": 340
+      },
+      "numero_categorie": 1
+    },
+    "DayWeek": {
+      "valori_piu_frequenti": {
+        "Su": 142,
+        "Sa": 107,
+        "Mo": 42,
+        "Fr": 24,
+        "We": 14
+      },
+      "numero_categorie": 7
+    },
+    "Month": {
+      "valori_piu_frequenti": {
+        "Jan": 58,
+        "Feb": 40,
+        "Oct": 40,
+        "Apr": 40,
+        "Nov": 39
+      },
+      "numero_categorie": 9
+    },
+    "Home": {
+      "valori_piu_frequenti": {
+        "Genoa ": 18,
+        "Sassuolo ": 17,
+        "AS Roma ": 17,
+        "Cagliari ": 17,
+        "Como ": 17
+      },
+      "numero_categorie": 22
+    },
+    "Away": {
+      "valori_piu_frequenti": {
+        " Cremonese": 18,
+        " Lecce": 17,
+        " Napoli": 17,
+        " Bologna": 17,
+        " Fiorentina": 17
+      },
+      "numero_categorie": 22
+    }
+  }
+}

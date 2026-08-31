@@ -1,0 +1,860 @@
+{
+  "forma": {
+    "num_righe": 60,
+    "num_colonne": 59,
+    "dimensioni_totali": 3540,
+    "numero_dimensioni": 2
+  },
+  "colonne": {
+    "nomi_colonne": [
+      "Championship",
+      "DayWeek",
+      "DayMonth",
+      "Month",
+      "Home",
+      "Away",
+      "GoalHome",
+      "GoalAway",
+      "Win",
+      "Draw",
+      "Lose",
+      "ResultHome",
+      "ResultAway",
+      "Result",
+      "PointHome",
+      "PointAway",
+      "GamesPlayed",
+      "SignResultHome",
+      "SignResultAway",
+      "HomeMatch_1_Ago",
+      "HomeMatch_2_Ago",
+      "HomeMatch_3_Ago",
+      "HomeMatch_4_Ago",
+      "HomeMatch_5_Ago",
+      "HomeMatch_1_Ago_InHome",
+      "HomeMatch_2_Ago_InHome",
+      "HomeMatch_3_Ago_InHome",
+      "HomeMatch_4_Ago_InHome",
+      "HomeMatch_5_Ago_InHome",
+      "AwayMatch_1_Ago",
+      "AwayMatch_2_Ago",
+      "AwayMatch_3_Ago",
+      "AwayMatch_4_Ago",
+      "AwayMatch_5_Ago",
+      "AwayMatch_1_Ago_InAway",
+      "AwayMatch_2_Ago_InAway",
+      "AwayMatch_3_Ago_InAway",
+      "AwayMatch_4_Ago_InAway",
+      "AwayMatch_5_Ago_InAway",
+      "HomeGoal_1_match_Ago",
+      "HomeGoal_2_match_Ago",
+      "HomeGoal_3_match_Ago",
+      "HomeGoal_4_match_Ago",
+      "HomeGoal_5_match_Ago",
+      "HomeGoal_1_match_Ago_InHome",
+      "HomeGoal_2_match_Ago_InHome",
+      "HomeGoal_3_match_Ago_InHome",
+      "HomeGoal_4_match_Ago_InHome",
+      "HomeGoal_5_match_Ago_InHome",
+      "AwayGoal_1_match_Ago",
+      "AwayGoal_2_match_Ago",
+      "AwayGoal_3_match_Ago",
+      "AwayGoal_4_match_Ago",
+      "AwayGoal_5_match_Ago",
+      "AwayGoal_1_match_Ago_InAway",
+      "AwayGoal_2_match_Ago_InAway",
+      "AwayGoal_3_match_Ago_InAway",
+      "AwayGoal_4_match_Ago_InAway",
+      "AwayGoal_5_match_Ago_InAway"
+    ],
+    "tipi_dati": {
+      "Championship": "object",
+      "DayWeek": "object",
+      "DayMonth": "int64",
+      "Month": "object",
+      "Home": "object",
+      "Away": "object",
+      "GoalHome": "int64",
+      "GoalAway": "int64",
+      "Win": "bool",
+      "Draw": "bool",
+      "Lose": "bool",
+      "ResultHome": "int64",
+      "ResultAway": "int64",
+      "Result": "object",
+      "PointHome": "int64",
+      "PointAway": "int64",
+      "GamesPlayed": "int64",
+      "SignResultHome": "object",
+      "SignResultAway": "object",
+      "HomeMatch_1_Ago": "object",
+      "HomeMatch_2_Ago": "object",
+      "HomeMatch_3_Ago": "object",
+      "HomeMatch_4_Ago": "object",
+      "HomeMatch_5_Ago": "object",
+      "HomeMatch_1_Ago_InHome": "object",
+      "HomeMatch_2_Ago_InHome": "object",
+      "HomeMatch_3_Ago_InHome": "object",
+      "HomeMatch_4_Ago_InHome": "object",
+      "HomeMatch_5_Ago_InHome": "object",
+      "AwayMatch_1_Ago": "object",
+      "AwayMatch_2_Ago": "object",
+      "AwayMatch_3_Ago": "object",
+      "AwayMatch_4_Ago": "object",
+      "AwayMatch_5_Ago": "object",
+      "AwayMatch_1_Ago_InAway": "object",
+      "AwayMatch_2_Ago_InAway": "object",
+      "AwayMatch_3_Ago_InAway": "object",
+      "AwayMatch_4_Ago_InAway": "object",
+      "AwayMatch_5_Ago_InAway": "object",
+      "HomeGoal_1_match_Ago": "float64",
+      "HomeGoal_2_match_Ago": "float64",
+      "HomeGoal_3_match_Ago": "float64",
+      "HomeGoal_4_match_Ago": "float64",
+      "HomeGoal_5_match_Ago": "float64",
+      "HomeGoal_1_match_Ago_InHome": "float64",
+      "HomeGoal_2_match_Ago_InHome": "float64",
+      "HomeGoal_3_match_Ago_InHome": "float64",
+      "HomeGoal_4_match_Ago_InHome": "float64",
+      "HomeGoal_5_match_Ago_InHome": "float64",
+      "AwayGoal_1_match_Ago": "float64",
+      "AwayGoal_2_match_Ago": "float64",
+      "AwayGoal_3_match_Ago": "float64",
+      "AwayGoal_4_match_Ago": "float64",
+      "AwayGoal_5_match_Ago": "float64",
+      "AwayGoal_1_match_Ago_InAway": "float64",
+      "AwayGoal_2_match_Ago_InAway": "float64",
+      "AwayGoal_3_match_Ago_InAway": "float64",
+      "AwayGoal_4_match_Ago_InAway": "float64",
+      "AwayGoal_5_match_Ago_InAway": "float64"
+    },
+    "valori_unici_per_colonna": {
+      "Championship": 1,
+      "DayWeek": 4,
+      "DayMonth": 18,
+      "Month": 3,
+      "Home": 20,
+      "Away": 20,
+      "GoalHome": 6,
+      "GoalAway": 4,
+      "Win": 2,
+      "Draw": 2,
+      "Lose": 2,
+      "ResultHome": 3,
+      "ResultAway": 3,
+      "Result": 3,
+      "PointHome": 3,
+      "PointAway": 3,
+      "GamesPlayed": 1,
+      "SignResultHome": 3,
+      "SignResultAway": 3,
+      "HomeMatch_1_Ago": 3,
+      "HomeMatch_2_Ago": 3,
+      "HomeMatch_3_Ago": 3,
+      "HomeMatch_4_Ago": 3,
+      "HomeMatch_5_Ago": 3,
+      "HomeMatch_1_Ago_InHome": 3,
+      "HomeMatch_2_Ago_InHome": 1,
+      "HomeMatch_3_Ago_InHome": 1,
+      "HomeMatch_4_Ago_InHome": 1,
+      "HomeMatch_5_Ago_InHome": 2,
+      "AwayMatch_1_Ago": 3,
+      "AwayMatch_2_Ago": 3,
+      "AwayMatch_3_Ago": 3,
+      "AwayMatch_4_Ago": 3,
+      "AwayMatch_5_Ago": 3,
+      "AwayMatch_1_Ago_InAway": 3,
+      "AwayMatch_2_Ago_InAway": 1,
+      "AwayMatch_3_Ago_InAway": 1,
+      "AwayMatch_4_Ago_InAway": 2,
+      "AwayMatch_5_Ago_InAway": 2,
+      "HomeGoal_1_match_Ago": 6,
+      "HomeGoal_2_match_Ago": 6,
+      "HomeGoal_3_match_Ago": 6,
+      "HomeGoal_4_match_Ago": 6,
+      "HomeGoal_5_match_Ago": 6,
+      "HomeGoal_1_match_Ago_InHome": 6,
+      "HomeGoal_2_match_Ago_InHome": 6,
+      "HomeGoal_3_match_Ago_InHome": 6,
+      "HomeGoal_4_match_Ago_InHome": 6,
+      "HomeGoal_5_match_Ago_InHome": 6,
+      "AwayGoal_1_match_Ago": 4,
+      "AwayGoal_2_match_Ago": 4,
+      "AwayGoal_3_match_Ago": 4,
+      "AwayGoal_4_match_Ago": 4,
+      "AwayGoal_5_match_Ago": 4,
+      "AwayGoal_1_match_Ago_InAway": 4,
+      "AwayGoal_2_match_Ago_InAway": 4,
+      "AwayGoal_3_match_Ago_InAway": 4,
+      "AwayGoal_4_match_Ago_InAway": 4,
+      "AwayGoal_5_match_Ago_InAway": 4
+    }
+  },
+  "qualita_dati": {
+    "valori_mancanti_per_colonna": {
+      "Championship": 0,
+      "DayWeek": 0,
+      "DayMonth": 0,
+      "Month": 0,
+      "Home": 0,
+      "Away": 0,
+      "GoalHome": 0,
+      "GoalAway": 0,
+      "Win": 0,
+      "Draw": 0,
+      "Lose": 0,
+      "ResultHome": 0,
+      "ResultAway": 0,
+      "Result": 0,
+      "PointHome": 0,
+      "PointAway": 0,
+      "GamesPlayed": 0,
+      "SignResultHome": 0,
+      "SignResultAway": 0,
+      "HomeMatch_1_Ago": 0,
+      "HomeMatch_2_Ago": 0,
+      "HomeMatch_3_Ago": 0,
+      "HomeMatch_4_Ago": 0,
+      "HomeMatch_5_Ago": 0,
+      "HomeMatch_1_Ago_InHome": 0,
+      "HomeMatch_2_Ago_InHome": 0,
+      "HomeMatch_3_Ago_InHome": 0,
+      "HomeMatch_4_Ago_InHome": 0,
+      "HomeMatch_5_Ago_InHome": 0,
+      "AwayMatch_1_Ago": 0,
+      "AwayMatch_2_Ago": 0,
+      "AwayMatch_3_Ago": 0,
+      "AwayMatch_4_Ago": 0,
+      "AwayMatch_5_Ago": 0,
+      "AwayMatch_1_Ago_InAway": 0,
+      "AwayMatch_2_Ago_InAway": 0,
+      "AwayMatch_3_Ago_InAway": 0,
+      "AwayMatch_4_Ago_InAway": 0,
+      "AwayMatch_5_Ago_InAway": 0,
+      "HomeGoal_1_match_Ago": 0,
+      "HomeGoal_2_match_Ago": 0,
+      "HomeGoal_3_match_Ago": 0,
+      "HomeGoal_4_match_Ago": 0,
+      "HomeGoal_5_match_Ago": 0,
+      "HomeGoal_1_match_Ago_InHome": 0,
+      "HomeGoal_2_match_Ago_InHome": 0,
+      "HomeGoal_3_match_Ago_InHome": 0,
+      "HomeGoal_4_match_Ago_InHome": 0,
+      "HomeGoal_5_match_Ago_InHome": 0,
+      "AwayGoal_1_match_Ago": 0,
+      "AwayGoal_2_match_Ago": 0,
+      "AwayGoal_3_match_Ago": 0,
+      "AwayGoal_4_match_Ago": 0,
+      "AwayGoal_5_match_Ago": 0,
+      "AwayGoal_1_match_Ago_InAway": 0,
+      "AwayGoal_2_match_Ago_InAway": 0,
+      "AwayGoal_3_match_Ago_InAway": 0,
+      "AwayGoal_4_match_Ago_InAway": 0,
+      "AwayGoal_5_match_Ago_InAway": 0
+    },
+    "percentuale_valori_mancanti": {
+      "Championship": 0.0,
+      "DayWeek": 0.0,
+      "DayMonth": 0.0,
+      "Month": 0.0,
+      "Home": 0.0,
+      "Away": 0.0,
+      "GoalHome": 0.0,
+      "GoalAway": 0.0,
+      "Win": 0.0,
+      "Draw": 0.0,
+      "Lose": 0.0,
+      "ResultHome": 0.0,
+      "ResultAway": 0.0,
+      "Result": 0.0,
+      "PointHome": 0.0,
+      "PointAway": 0.0,
+      "GamesPlayed": 0.0,
+      "SignResultHome": 0.0,
+      "SignResultAway": 0.0,
+      "HomeMatch_1_Ago": 0.0,
+      "HomeMatch_2_Ago": 0.0,
+      "HomeMatch_3_Ago": 0.0,
+      "HomeMatch_4_Ago": 0.0,
+      "HomeMatch_5_Ago": 0.0,
+      "HomeMatch_1_Ago_InHome": 0.0,
+      "HomeMatch_2_Ago_InHome": 0.0,
+      "HomeMatch_3_Ago_InHome": 0.0,
+      "HomeMatch_4_Ago_InHome": 0.0,
+      "HomeMatch_5_Ago_InHome": 0.0,
+      "AwayMatch_1_Ago": 0.0,
+      "AwayMatch_2_Ago": 0.0,
+      "AwayMatch_3_Ago": 0.0,
+      "AwayMatch_4_Ago": 0.0,
+      "AwayMatch_5_Ago": 0.0,
+      "AwayMatch_1_Ago_InAway": 0.0,
+      "AwayMatch_2_Ago_InAway": 0.0,
+      "AwayMatch_3_Ago_InAway": 0.0,
+      "AwayMatch_4_Ago_InAway": 0.0,
+      "AwayMatch_5_Ago_InAway": 0.0,
+      "HomeGoal_1_match_Ago": 0.0,
+      "HomeGoal_2_match_Ago": 0.0,
+      "HomeGoal_3_match_Ago": 0.0,
+      "HomeGoal_4_match_Ago": 0.0,
+      "HomeGoal_5_match_Ago": 0.0,
+      "HomeGoal_1_match_Ago_InHome": 0.0,
+      "HomeGoal_2_match_Ago_InHome": 0.0,
+      "HomeGoal_3_match_Ago_InHome": 0.0,
+      "HomeGoal_4_match_Ago_InHome": 0.0,
+      "HomeGoal_5_match_Ago_InHome": 0.0,
+      "AwayGoal_1_match_Ago": 0.0,
+      "AwayGoal_2_match_Ago": 0.0,
+      "AwayGoal_3_match_Ago": 0.0,
+      "AwayGoal_4_match_Ago": 0.0,
+      "AwayGoal_5_match_Ago": 0.0,
+      "AwayGoal_1_match_Ago_InAway": 0.0,
+      "AwayGoal_2_match_Ago_InAway": 0.0,
+      "AwayGoal_3_match_Ago_InAway": 0.0,
+      "AwayGoal_4_match_Ago_InAway": 0.0,
+      "AwayGoal_5_match_Ago_InAway": 0.0
+    },
+    "numero_righe_duplicate": "0",
+    "percentuale_righe_duplicate": 0.0
+  },
+  "memoria": {
+    "memoria_per_colonna_bytes": {
+      "Index": 132,
+      "Championship": 3360,
+      "DayWeek": 3630,
+      "DayMonth": 480,
+      "Month": 3400,
+      "Home": 3334,
+      "Away": 3338,
+      "GoalHome": 480,
+      "GoalAway": 480,
+      "Win": 60,
+      "Draw": 60,
+      "Lose": 60,
+      "ResultHome": 480,
+      "ResultAway": 480,
+      "Result": 3000,
+      "PointHome": 480,
+      "PointAway": 480,
+      "GamesPlayed": 480,
+      "SignResultHome": 3000,
+      "SignResultAway": 3000,
+      "HomeMatch_1_Ago": 3000,
+      "HomeMatch_2_Ago": 3000,
+      "HomeMatch_3_Ago": 3000,
+      "HomeMatch_4_Ago": 3000,
+      "HomeMatch_5_Ago": 3000,
+      "HomeMatch_1_Ago_InHome": 3000,
+      "HomeMatch_2_Ago_InHome": 3000,
+      "HomeMatch_3_Ago_InHome": 3000,
+      "HomeMatch_4_Ago_InHome": 3000,
+      "HomeMatch_5_Ago_InHome": 3000,
+      "AwayMatch_1_Ago": 3000,
+      "AwayMatch_2_Ago": 3000,
+      "AwayMatch_3_Ago": 3000,
+      "AwayMatch_4_Ago": 3000,
+      "AwayMatch_5_Ago": 3000,
+      "AwayMatch_1_Ago_InAway": 3000,
+      "AwayMatch_2_Ago_InAway": 3000,
+      "AwayMatch_3_Ago_InAway": 3000,
+      "AwayMatch_4_Ago_InAway": 3000,
+      "AwayMatch_5_Ago_InAway": 3000,
+      "HomeGoal_1_match_Ago": 480,
+      "HomeGoal_2_match_Ago": 480,
+      "HomeGoal_3_match_Ago": 480,
+      "HomeGoal_4_match_Ago": 480,
+      "HomeGoal_5_match_Ago": 480,
+      "HomeGoal_1_match_Ago_InHome": 480,
+      "HomeGoal_2_match_Ago_InHome": 480,
+      "HomeGoal_3_match_Ago_InHome": 480,
+      "HomeGoal_4_match_Ago_InHome": 480,
+      "HomeGoal_5_match_Ago_InHome": 480,
+      "AwayGoal_1_match_Ago": 480,
+      "AwayGoal_2_match_Ago": 480,
+      "AwayGoal_3_match_Ago": 480,
+      "AwayGoal_4_match_Ago": 480,
+      "AwayGoal_5_match_Ago": 480,
+      "AwayGoal_1_match_Ago_InAway": 480,
+      "AwayGoal_2_match_Ago_InAway": 480,
+      "AwayGoal_3_match_Ago_InAway": 480,
+      "AwayGoal_4_match_Ago_InAway": 480,
+      "AwayGoal_5_match_Ago_InAway": 480
+    },
+    "memoria_totale_mb": 0.1
+  },
+  "metadati_file": {
+    "percorso_file": "Campionato.csv",
+    "data_elaborazione": "2025-10-26 18:41:46",
+    "responsabile": "Sistema automatico",
+    "versione": "1.0"
+  },
+  "statistiche_numeriche": {
+    "DayMonth": {
+      "media": 20.15,
+      "mediana": 22.5,
+      "deviazione_standard": 8.89,
+      "minimo": "3",
+      "massimo": "31",
+      "quartile_25": 14.0,
+      "quartile_75": 28.0
+    },
+    "GoalHome": {
+      "media": 1.3,
+      "mediana": 1.0,
+      "deviazione_standard": 1.31,
+      "minimo": "0",
+      "massimo": "5",
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "GoalAway": {
+      "media": 1.08,
+      "mediana": 1.0,
+      "deviazione_standard": 0.94,
+      "minimo": "0",
+      "massimo": "3",
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "ResultHome": {
+      "media": 0.07,
+      "mediana": 0.0,
+      "deviazione_standard": 0.84,
+      "minimo": "-1",
+      "massimo": "1",
+      "quartile_25": -1.0,
+      "quartile_75": 1.0
+    },
+    "ResultAway": {
+      "media": -0.07,
+      "mediana": 0.0,
+      "deviazione_standard": 0.84,
+      "minimo": "-1",
+      "massimo": "1",
+      "quartile_25": -1.0,
+      "quartile_75": 1.0
+    },
+    "PointHome": {
+      "media": 1.45,
+      "mediana": 1.0,
+      "deviazione_standard": 1.29,
+      "minimo": "0",
+      "massimo": "3",
+      "quartile_25": 0.0,
+      "quartile_75": 3.0
+    },
+    "PointAway": {
+      "media": 1.25,
+      "mediana": 1.0,
+      "deviazione_standard": 1.27,
+      "minimo": "0",
+      "massimo": "3",
+      "quartile_25": 0.0,
+      "quartile_75": 3.0
+    },
+    "GamesPlayed": {
+      "media": 6.0,
+      "mediana": 6.0,
+      "deviazione_standard": 0.0,
+      "minimo": "6",
+      "massimo": "6",
+      "quartile_25": 6.0,
+      "quartile_75": 6.0
+    },
+    "HomeGoal_1_match_Ago": {
+      "media": 1.3,
+      "mediana": 1.0,
+      "deviazione_standard": 1.31,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_2_match_Ago": {
+      "media": 1.3,
+      "mediana": 1.0,
+      "deviazione_standard": 1.31,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_3_match_Ago": {
+      "media": 1.27,
+      "mediana": 1.0,
+      "deviazione_standard": 1.31,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_4_match_Ago": {
+      "media": 1.25,
+      "mediana": 1.0,
+      "deviazione_standard": 1.32,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_5_match_Ago": {
+      "media": 1.18,
+      "mediana": 1.0,
+      "deviazione_standard": 1.28,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_1_match_Ago_InHome": {
+      "media": 1.3,
+      "mediana": 1.0,
+      "deviazione_standard": 1.31,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_2_match_Ago_InHome": {
+      "media": 1.3,
+      "mediana": 1.0,
+      "deviazione_standard": 1.31,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_3_match_Ago_InHome": {
+      "media": 1.27,
+      "mediana": 1.0,
+      "deviazione_standard": 1.31,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_4_match_Ago_InHome": {
+      "media": 1.25,
+      "mediana": 1.0,
+      "deviazione_standard": 1.32,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "HomeGoal_5_match_Ago_InHome": {
+      "media": 1.18,
+      "mediana": 1.0,
+      "deviazione_standard": 1.28,
+      "minimo": 0.0,
+      "massimo": 5.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_1_match_Ago": {
+      "media": 1.08,
+      "mediana": 1.0,
+      "deviazione_standard": 0.94,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_2_match_Ago": {
+      "media": 1.08,
+      "mediana": 1.0,
+      "deviazione_standard": 0.94,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_3_match_Ago": {
+      "media": 1.07,
+      "mediana": 1.0,
+      "deviazione_standard": 0.95,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_4_match_Ago": {
+      "media": 1.03,
+      "mediana": 1.0,
+      "deviazione_standard": 0.96,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_5_match_Ago": {
+      "media": 1.03,
+      "mediana": 1.0,
+      "deviazione_standard": 0.96,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_1_match_Ago_InAway": {
+      "media": 1.08,
+      "mediana": 1.0,
+      "deviazione_standard": 0.94,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_2_match_Ago_InAway": {
+      "media": 1.08,
+      "mediana": 1.0,
+      "deviazione_standard": 0.94,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_3_match_Ago_InAway": {
+      "media": 1.07,
+      "mediana": 1.0,
+      "deviazione_standard": 0.95,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_4_match_Ago_InAway": {
+      "media": 1.03,
+      "mediana": 1.0,
+      "deviazione_standard": 0.96,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    },
+    "AwayGoal_5_match_Ago_InAway": {
+      "media": 1.03,
+      "mediana": 1.0,
+      "deviazione_standard": 0.96,
+      "minimo": 0.0,
+      "massimo": 3.0,
+      "quartile_25": 0.0,
+      "quartile_75": 2.0
+    }
+  },
+  "statistiche_categoriche": {
+    "Championship": {
+      "valori_piu_frequenti": {
+        "2024/25": 60
+      },
+      "numero_categorie": 1
+    },
+    "DayWeek": {
+      "valori_piu_frequenti": {
+        "Domenica": 29,
+        "Sabato": 20,
+        "Lunedì": 7,
+        "Venerdì": 4
+      },
+      "numero_categorie": 4
+    },
+    "Month": {
+      "valori_piu_frequenti": {
+        "Settembre": 30,
+        "Agosto": 20,
+        "Ottobre": 10
+      },
+      "numero_categorie": 3
+    },
+    "Home": {
+      "valori_piu_frequenti": {
+        "Inter": 4,
+        "Juventus": 4,
+        "Genoa": 3,
+        "Sassuolo": 3,
+        "Roma": 3
+      },
+      "numero_categorie": 20
+    },
+    "Away": {
+      "valori_piu_frequenti": {
+        "Cremonese": 4,
+        "Torino": 4,
+        "Napoli": 3,
+        "Lecce": 3,
+        "Bologna": 3
+      },
+      "numero_categorie": 20
+    },
+    "Result": {
+      "valori_piu_frequenti": {
+        "1": 23,
+        "2": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "SignResultHome": {
+      "valori_piu_frequenti": {
+        "1": 23,
+        "2": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "SignResultAway": {
+      "valori_piu_frequenti": {
+        "2": 23,
+        "1": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "HomeMatch_1_Ago": {
+      "valori_piu_frequenti": {
+        "1": 23,
+        "2": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "HomeMatch_2_Ago": {
+      "valori_piu_frequenti": {
+        "1": 23,
+        "2": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "HomeMatch_3_Ago": {
+      "valori_piu_frequenti": {
+        "1": 22,
+        "X": 19,
+        "2": 19
+      },
+      "numero_categorie": 3
+    },
+    "HomeMatch_4_Ago": {
+      "valori_piu_frequenti": {
+        "1": 22,
+        "X": 20,
+        "2": 18
+      },
+      "numero_categorie": 3
+    },
+    "HomeMatch_5_Ago": {
+      "valori_piu_frequenti": {
+        "X": 21,
+        "1": 21,
+        "2": 18
+      },
+      "numero_categorie": 3
+    },
+    "HomeMatch_1_Ago_InHome": {
+      "valori_piu_frequenti": {
+        "1": 23,
+        "2": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "HomeMatch_2_Ago_InHome": {
+      "valori_piu_frequenti": {
+        "X": 60
+      },
+      "numero_categorie": 1
+    },
+    "HomeMatch_3_Ago_InHome": {
+      "valori_piu_frequenti": {
+        "X": 60
+      },
+      "numero_categorie": 1
+    },
+    "HomeMatch_4_Ago_InHome": {
+      "valori_piu_frequenti": {
+        "X": 60
+      },
+      "numero_categorie": 1
+    },
+    "HomeMatch_5_Ago_InHome": {
+      "valori_piu_frequenti": {
+        "X": 59,
+        "1": 1
+      },
+      "numero_categorie": 2
+    },
+    "AwayMatch_1_Ago": {
+      "valori_piu_frequenti": {
+        "2": 23,
+        "1": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "AwayMatch_2_Ago": {
+      "valori_piu_frequenti": {
+        "2": 23,
+        "1": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "AwayMatch_3_Ago": {
+      "valori_piu_frequenti": {
+        "2": 22,
+        "X": 19,
+        "1": 19
+      },
+      "numero_categorie": 3
+    },
+    "AwayMatch_4_Ago": {
+      "valori_piu_frequenti": {
+        "2": 22,
+        "X": 20,
+        "1": 18
+      },
+      "numero_categorie": 3
+    },
+    "AwayMatch_5_Ago": {
+      "valori_piu_frequenti": {
+        "X": 21,
+        "2": 21,
+        "1": 18
+      },
+      "numero_categorie": 3
+    },
+    "AwayMatch_1_Ago_InAway": {
+      "valori_piu_frequenti": {
+        "2": 23,
+        "1": 19,
+        "X": 18
+      },
+      "numero_categorie": 3
+    },
+    "AwayMatch_2_Ago_InAway": {
+      "valori_piu_frequenti": {
+        "X": 60
+      },
+      "numero_categorie": 1
+    },
+    "AwayMatch_3_Ago_InAway": {
+      "valori_piu_frequenti": {
+        "X": 60
+      },
+      "numero_categorie": 1
+    },
+    "AwayMatch_4_Ago_InAway": {
+      "valori_piu_frequenti": {
+        "X": 59,
+        "2": 1
+      },
+      "numero_categorie": 2
+    },
+    "AwayMatch_5_Ago_InAway": {
+      "valori_piu_frequenti": {
+        "X": 59,
+        "1": 1
+      },
+      "numero_categorie": 2
+    }
+  }
+}

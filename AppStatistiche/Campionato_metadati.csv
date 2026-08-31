@@ -1,0 +1,248 @@
+Informazione,Valore
+STRUTTURA DEL DATASET,
+Numero righe,60
+Numero colonne,59
+Dimensioni totali,3540
+Memoria totale (MB),0.1
+,
+QUALITÀ DEI DATI,
+Righe duplicate,0
+% Righe duplicate,0.0%
+,
+INFORMAZIONI PER COLONNA,
+Colonna: Championship,
+  Tipo dato,object
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: DayWeek,
+  Tipo dato,object
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: DayMonth,
+  Tipo dato,int64
+  Valori unici,18
+  Valori mancanti,0 (0.0%)
+Colonna: Month,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: Home,
+  Tipo dato,object
+  Valori unici,20
+  Valori mancanti,0 (0.0%)
+Colonna: Away,
+  Tipo dato,object
+  Valori unici,20
+  Valori mancanti,0 (0.0%)
+Colonna: GoalHome,
+  Tipo dato,int64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: GoalAway,
+  Tipo dato,int64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: Win,
+  Tipo dato,bool
+  Valori unici,2
+  Valori mancanti,0 (0.0%)
+Colonna: Draw,
+  Tipo dato,bool
+  Valori unici,2
+  Valori mancanti,0 (0.0%)
+Colonna: Lose,
+  Tipo dato,bool
+  Valori unici,2
+  Valori mancanti,0 (0.0%)
+Colonna: ResultHome,
+  Tipo dato,int64
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: ResultAway,
+  Tipo dato,int64
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: Result,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: PointHome,
+  Tipo dato,int64
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: PointAway,
+  Tipo dato,int64
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: GamesPlayed,
+  Tipo dato,int64
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: SignResultHome,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: SignResultAway,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_1_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_2_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_3_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_4_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_5_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_1_Ago_InHome,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_2_Ago_InHome,
+  Tipo dato,object
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_3_Ago_InHome,
+  Tipo dato,object
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_4_Ago_InHome,
+  Tipo dato,object
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: HomeMatch_5_Ago_InHome,
+  Tipo dato,object
+  Valori unici,2
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_1_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_2_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_3_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_4_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_5_Ago,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_1_Ago_InAway,
+  Tipo dato,object
+  Valori unici,3
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_2_Ago_InAway,
+  Tipo dato,object
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_3_Ago_InAway,
+  Tipo dato,object
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_4_Ago_InAway,
+  Tipo dato,object
+  Valori unici,2
+  Valori mancanti,0 (0.0%)
+Colonna: AwayMatch_5_Ago_InAway,
+  Tipo dato,object
+  Valori unici,2
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_1_match_Ago,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_2_match_Ago,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_3_match_Ago,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_4_match_Ago,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_5_match_Ago,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_1_match_Ago_InHome,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_2_match_Ago_InHome,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_3_match_Ago_InHome,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_4_match_Ago_InHome,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: HomeGoal_5_match_Ago_InHome,
+  Tipo dato,float64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_1_match_Ago,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_2_match_Ago,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_3_match_Ago,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_4_match_Ago,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_5_match_Ago,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_1_match_Ago_InAway,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_2_match_Ago_InAway,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_3_match_Ago_InAway,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_4_match_Ago_InAway,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: AwayGoal_5_match_Ago_InAway,
+  Tipo dato,float64
+  Valori unici,4
+  Valori mancanti,0 (0.0%)

@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C++ build artifacts
+*.obj
+*.o
+provaCpp.exe
+provaCpp_debug.exe
+provaCpp_new.exe
+
+# Executables & distribution builds (PyInstaller)
+*.exe
+build/
+dist/
+
+# Virtual Environments
+venv*/
+env*/
+ENV/
+.env
+
+# Media & Screen recordings
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Logs & temporary files
+*.log
+log.txt
+Trash/
+Git/
+struttura_progetto_Campionato.txt
+
+# VS Code personal workspace state (keeps settings/launch if wanted)
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json

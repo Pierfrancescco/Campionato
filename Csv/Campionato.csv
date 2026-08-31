@@ -1,0 +1,19 @@
+Giornata;Data;Casa;GoalCasa;GoalTrasferta;Trasferta;Esiti
+1;Sat 22 Aug;Inter;4;1;Monza;1
+1;Sat 22 Aug;Udinese;1;1;Como;X
+1;Sat 22 Aug;Genoa;0;2;Napoli;2
+1;Sat 22 Aug;Parma;0;1;Cagliari;2
+1;Sun 23 Aug;Frosinone;0;1;Juventus;2
+1;Sun 23 Aug;Venezia;0;2;Lecce;2
+1;Sun 23 Aug;Atalanta;2;1;Sassuolo;1
+1;Sun 23 Aug;Torino;1;2;Milan;2
+1;Mon 24 Aug;Bologna;0;1;Lazio;2
+1;Mon 24 Aug;Roma;4;0;Fiorentina;1
+2;Fri 28 Aug;Milan;2;0;Venezia;1
+2;Sat 29 Aug;Fiorentina;0;3;Frosinone;2
+2;Sat 29 Aug;Monza;2;3;Udinese;2
+2;Sat 29 Aug;Sassuolo;2;1;Torino;1
+2;Sat 29 Aug;Juventus;2;0;Parma;1
+2;Sun 30 Aug;Napoli;1;2;Como;2
+2;Sun 30 Aug;Cagliari;0;1;Inter;2
+2;Sun 30 Aug;Lazio;1;0;Genoa;1

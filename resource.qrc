@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="immagini">
+    <file>Immagini/Sfondo per App/From Copilot 1920 x 1080.png</file>
+    <file>Immagini/Sfondo per App/sfondo per app 4K.jpg</file>
+    <file>Immagini/Scudetti/Pisa.png</file>
+    <file>Immagini/Scudetti/Sassuolo.png</file>
+    <file>Immagini/Scudetti/Cremonese.png</file>
+    <file>Immagini/Sfondo per App/Sfondo per app.png</file>
+    <file>Immagini/Scudetti/Atalanta.png</file>
+    <file>Immagini/Scudetti/Bologna.png</file>
+    <file>Immagini/Scudetti/Cagliari.png</file>
+    <file>Immagini/Scudetti/Como.png</file>
+    <file>Immagini/Scudetti/Empoli.png</file>
+    <file>Immagini/Scudetti/Fiorentina.png</file>
+    <file>Immagini/Scudetti/Genoa.png</file>
+    <file>Immagini/Scudetti/Hellas Verona.png</file>
+    <file>Immagini/Scudetti/Inter.png</file>
+    <file>Immagini/Scudetti/Juventus.png</file>
+    <file>Immagini/Scudetti/Lazio.png</file>
+    <file>Immagini/Scudetti/Lecce.png</file>
+    <file>Immagini/Scudetti/Milan.png</file>
+    <file>Immagini/Scudetti/Monza.png</file>
+    <file>Immagini/Scudetti/Napoli.png</file>
+    <file>Immagini/Scudetti/Parma.png</file>
+    <file>Immagini/Scudetti/Roma.png</file>
+    <file>Immagini/Scudetti/Torino.png</file>
+    <file>Immagini/Scudetti/Udinese.png</file>
+    <file>Immagini/Scudetti/Venezia.png</file>
+  </qresource>
+  <qresource prefix="Icone">
+    <file>Immagini/Icone/iconaApp.ico</file>
+  </qresource>
+</RCC>

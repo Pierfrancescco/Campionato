@@ -1,0 +1,2281 @@
+Campionato;GiornoSettimana;GiornoMese;Mese;Casa;Trasferta;GoalCasa;GoalTrasferta
+2019/20;Sab;24;Ago;Parma;Juventus;0;1
+2019/20;Sab;24;Ago;Fiorentina;Napoli;3;4
+2019/20;Dom;25;Ago;Udinese;Milan;1;0
+2019/20;Dom;25;Ago;Roma;Genoa;3;3
+2019/20;Dom;25;Ago;Cagliari;Brescia;0;1
+2019/20;Dom;25;Ago;Hellas Verona;Bologna;1;1
+2019/20;Dom;25;Ago;Sampdoria;Lazio;0;3
+2019/20;Dom;25;Ago;SPAL;Atalanta;2;3
+2019/20;Dom;25;Ago;Torino;Sassuolo;2;1
+2019/20;Lun;26;Ago;Inter;Lecce;4;0
+2019/20;Ven;30;Ago;Bologna;SPAL;1;0
+2019/20;Sab;31;Ago;Milan;Brescia;1;0
+2019/20;Sab;31;Ago;Juventus;Napoli;4;3
+2019/20;Dom;1;Set;Lazio;Roma;1;1
+2019/20;Dom;1;Set;Atalanta;Torino;2;3
+2019/20;Dom;1;Set;Cagliari;Inter;1;2
+2019/20;Dom;1;Set;Genoa;Fiorentina;2;1
+2019/20;Dom;1;Set;Lecce;Hellas Verona;0;1
+2019/20;Dom;1;Set;Sassuolo;Sampdoria;4;1
+2019/20;Dom;1;Set;Udinese;Parma;1;3
+2019/20;Sab;14;Set;Fiorentina;Juventus;0;0
+2019/20;Sab;14;Set;Napoli;Sampdoria;2;0
+2019/20;Sab;14;Set;Inter;Udinese;1;0
+2019/20;Dom;15;Set;Genoa;Atalanta;1;2
+2019/20;Dom;15;Set;Brescia;Bologna;3;4
+2019/20;Dom;15;Set;Parma;Cagliari;1;3
+2019/20;Dom;15;Set;SPAL;Lazio;2;1
+2019/20;Dom;15;Set;Roma;Sassuolo;4;2
+2019/20;Dom;15;Set;Hellas Verona;Milan;0;1
+2019/20;Lun;16;Set;Torino;Lecce;1;2
+2019/20;Ven;20;Set;Cagliari;Genoa;3;1
+2019/20;Sab;21;Set;Udinese;Brescia;0;1
+2019/20;Sab;21;Set;Juventus;Hellas Verona;2;1
+2019/20;Sab;21;Set;Milan;Inter;0;2
+2019/20;Dom;22;Set;Sassuolo;SPAL;3;0
+2019/20;Dom;22;Set;Bologna;Roma;1;2
+2019/20;Dom;22;Set;Lecce;Napoli;1;4
+2019/20;Dom;22;Set;Sampdoria;Torino;1;0
+2019/20;Dom;22;Set;Atalanta;Fiorentina;2;2
+2019/20;Dom;22;Set;Lazio;Parma;2;0
+2019/20;Mar;24;Set;Hellas Verona;Udinese;0;0
+2019/20;Mar;24;Set;Brescia;Juventus;1;2
+2019/20;Mer;25;Set;Roma;Atalanta;0;2
+2019/20;Mer;25;Set;Fiorentina;Sampdoria;2;1
+2019/20;Mer;25;Set;Genoa;Bologna;0;0
+2019/20;Mer;25;Set;Inter;Lazio;1;0
+2019/20;Mer;25;Set;Napoli;Cagliari;0;1
+2019/20;Mer;25;Set;Parma;Sassuolo;1;0
+2019/20;Mer;25;Set;SPAL;Lecce;1;3
+2019/20;Gio;26;Set;Torino;Milan;2;1
+2019/20;Sab;28;Set;Juventus;SPAL;2;0
+2019/20;Sab;28;Set;Sampdoria;Inter;1;3
+2019/20;Sab;28;Set;Sassuolo;Atalanta;1;4
+2019/20;Dom;29;Set;Napoli;Brescia;2;1
+2019/20;Dom;29;Set;Lazio;Genoa;4;0
+2019/20;Dom;29;Set;Lecce;Roma;0;1
+2019/20;Dom;29;Set;Udinese;Bologna;1;0
+2019/20;Dom;29;Set;Cagliari;Hellas Verona;1;1
+2019/20;Dom;29;Set;Milan;Fiorentina;1;3
+2019/20;Lun;30;Set;Parma;Torino;3;2
+2019/20;Sab;5;Ott;SPAL;Parma;1;0
+2019/20;Sab;5;Ott;Hellas Verona;Sampdoria;2;0
+2019/20;Sab;5;Ott;Genoa;Milan;1;2
+2019/20;Dom;6;Ott;Fiorentina;Udinese;1;0
+2019/20;Dom;6;Ott;Roma;Cagliari;1;1
+2019/20;Dom;6;Ott;Atalanta;Lecce;3;1
+2019/20;Dom;6;Ott;Bologna;Lazio;2;2
+2019/20;Dom;6;Ott;Torino;Napoli;0;0
+2019/20;Dom;6;Ott;Inter;Juventus;1;2
+2019/20;Sab;19;Ott;Lazio;Atalanta;3;3
+2019/20;Sab;19;Ott;Napoli;Hellas Verona;2;0
+2019/20;Sab;19;Ott;Juventus;Bologna;2;1
+2019/20;Dom;20;Ott;Sassuolo;Inter;3;4
+2019/20;Dom;20;Ott;Cagliari;SPAL;2;0
+2019/20;Dom;20;Ott;Sampdoria;Roma;0;0
+2019/20;Dom;20;Ott;Udinese;Torino;1;0
+2019/20;Dom;20;Ott;Parma;Genoa;5;1
+2019/20;Dom;20;Ott;Milan;Lecce;2;2
+2019/20;Lun;21;Ott;Brescia;Fiorentina;0;0
+2019/20;Ven;25;Ott;Hellas Verona;Sassuolo;0;1
+2019/20;Sab;26;Ott;Lecce;Juventus;1;1
+2019/20;Sab;26;Ott;Inter;Parma;2;2
+2019/20;Sab;26;Ott;Genoa;Brescia;3;1
+2019/20;Dom;27;Ott;Bologna;Sampdoria;2;1
+2019/20;Dom;27;Ott;Atalanta;Udinese;7;1
+2019/20;Dom;27;Ott;SPAL;Napoli;1;1
+2019/20;Dom;27;Ott;Torino;Cagliari;1;1
+2019/20;Dom;27;Ott;Roma;Milan;2;1
+2019/20;Dom;27;Ott;Fiorentina;Lazio;1;2
+2019/20;Mar;29;Ott;Parma;Hellas Verona;0;1
+2019/20;Mar;29;Ott;Brescia;Inter;1;2
+2019/20;Mer;30;Ott;Napoli;Atalanta;2;2
+2019/20;Mer;30;Ott;Cagliari;Bologna;3;2
+2019/20;Mer;30;Ott;Juventus;Genoa;2;1
+2019/20;Mer;30;Ott;Lazio;Torino;4;0
+2019/20;Mer;30;Ott;Sampdoria;Lecce;1;1
+2019/20;Mer;30;Ott;Sassuolo;Fiorentina;1;2
+2019/20;Mer;30;Ott;Udinese;Roma;0;4
+2019/20;Gio;31;Ott;Milan;SPAL;1;0
+2019/20;Sab;2;Nov;Roma;Napoli;2;1
+2019/20;Sab;2;Nov;Bologna;Inter;1;2
+2019/20;Sab;2;Nov;Torino;Juventus;0;1
+2019/20;Dom;3;Nov;Atalanta;Cagliari;0;2
+2019/20;Dom;3;Nov;Genoa;Udinese;1;3
+2019/20;Dom;3;Nov;Hellas Verona;Brescia;2;1
+2019/20;Dom;3;Nov;Lecce;Sassuolo;2;2
+2019/20;Dom;3;Nov;Fiorentina;Parma;1;1
+2019/20;Dom;3;Nov;Milan;Lazio;1;2
+2019/20;Lun;4;Nov;SPAL;Sampdoria;0;1
+2019/20;Ven;8;Nov;Sassuolo;Bologna;3;1
+2019/20;Sab;9;Nov;Brescia;Torino;0;4
+2019/20;Sab;9;Nov;Inter;Hellas Verona;2;1
+2019/20;Sab;9;Nov;Napoli;Genoa;0;0
+2019/20;Dom;10;Nov;Cagliari;Fiorentina;5;2
+2019/20;Dom;10;Nov;Lazio;Lecce;4;2
+2019/20;Dom;10;Nov;Sampdoria;Atalanta;0;0
+2019/20;Dom;10;Nov;Udinese;SPAL;0;0
+2019/20;Dom;10;Nov;Parma;Roma;2;0
+2019/20;Dom;10;Nov;Juventus;Milan;1;0
+2019/20;Sab;23;Nov;Atalanta;Juventus;1;3
+2019/20;Sab;23;Nov;Milan;Napoli;1;1
+2019/20;Sab;23;Nov;Torino;Inter;0;3
+2019/20;Dom;24;Nov;Bologna;Parma;2;2
+2019/20;Dom;24;Nov;Roma;Brescia;3;0
+2019/20;Dom;24;Nov;Hellas Verona;Fiorentina;1;0
+2019/20;Dom;24;Nov;Sassuolo;Lazio;1;2
+2019/20;Dom;24;Nov;Sampdoria;Udinese;2;1
+2019/20;Lun;25;Nov;Lecce;Cagliari;2;2
+2019/20;Lun;25;Nov;SPAL;Genoa;1;1
+2019/20;Sab;30;Nov;Brescia;Atalanta;0;3
+2019/20;Sab;30;Nov;Genoa;Torino;0;1
+2019/20;Sab;30;Nov;Fiorentina;Lecce;0;1
+2019/20;Dom;1;Dic;Juventus;Sassuolo;2;2
+2019/20;Dom;1;Dic;Inter;SPAL;2;1
+2019/20;Dom;1;Dic;Lazio;Udinese;3;0
+2019/20;Dom;1;Dic;Parma;Milan;0;1
+2019/20;Dom;1;Dic;Napoli;Bologna;1;2
+2019/20;Dom;1;Dic;Hellas Verona;Roma;1;3
+2019/20;Lun;2;Dic;Cagliari;Sampdoria;4;3
+2019/20;Ven;6;Dic;Inter;Roma;0;0
+2019/20;Sab;7;Dic;Atalanta;Hellas Verona;3;2
+2019/20;Sab;7;Dic;Udinese;Napoli;1;1
+2019/20;Sab;7;Dic;Lazio;Juventus;3;1
+2019/20;Dom;8;Dic;Lecce;Genoa;2;2
+2019/20;Dom;8;Dic;Sassuolo;Cagliari;2;2
+2019/20;Dom;8;Dic;SPAL;Brescia;0;1
+2019/20;Dom;8;Dic;Torino;Fiorentina;2;1
+2019/20;Dom;8;Dic;Sampdoria;Parma;0;1
+2019/20;Dom;8;Dic;Bologna;Milan;2;3
+2019/20;Sab;14;Dic;Brescia;Lecce;3;0
+2019/20;Sab;14;Dic;Napoli;Parma;1;2
+2019/20;Sab;14;Dic;Genoa;Sampdoria;0;1
+2019/20;Dom;15;Dic;Hellas Verona;Torino;3;3
+2019/20;Dom;15;Dic;Milan;Sassuolo;0;0
+2019/20;Dom;15;Dic;Bologna;Atalanta;2;1
+2019/20;Dom;15;Dic;Juventus;Udinese;3;1
+2019/20;Dom;15;Dic;Roma;SPAL;3;1
+2019/20;Dom;15;Dic;Fiorentina;Inter;1;1
+2019/20;Lun;16;Dic;Cagliari;Lazio;1;2
+2019/20;Mer;18;Dic;Sampdoria;Juventus;1;2
+2019/20;Mer;18;Dic;Brescia;Sassuolo;0;2
+2019/20;Ven;20;Dic;Fiorentina;Roma;1;4
+2019/20;Sab;21;Dic;Udinese;Cagliari;2;1
+2019/20;Sab;21;Dic;Inter;Genoa;4;0
+2019/20;Sab;21;Dic;Torino;SPAL;1;2
+2019/20;Dom;22;Dic;Atalanta;Milan;5;0
+2019/20;Dom;22;Dic;Lecce;Bologna;2;3
+2019/20;Dom;22;Dic;Parma;Brescia;1;1
+2019/20;Dom;22;Dic;Sassuolo;Napoli;1;2
+2019/20;Dom;5;Gen;Brescia;Lazio;1;2
+2019/20;Dom;5;Gen;SPAL;Hellas Verona;0;2
+2019/20;Dom;5;Gen;Genoa;Sassuolo;2;1
+2019/20;Dom;5;Gen;Roma;Torino;0;2
+2019/20;Lun;6;Gen;Bologna;Fiorentina;1;1
+2019/20;Lun;6;Gen;Milan;Sampdoria;0;0
+2019/20;Lun;6;Gen;Atalanta;Parma;5;0
+2019/20;Lun;6;Gen;Juventus;Cagliari;4;0
+2019/20;Lun;6;Gen;Lecce;Udinese;0;1
+2019/20;Lun;6;Gen;Napoli;Inter;1;3
+2019/20;Sab;11;Gen;Cagliari;Milan;0;2
+2019/20;Sab;11;Gen;Lazio;Napoli;1;0
+2019/20;Sab;11;Gen;Inter;Atalanta;1;1
+2019/20;Dom;12;Gen;Udinese;Sassuolo;3;0
+2019/20;Dom;12;Gen;Fiorentina;SPAL;1;0
+2019/20;Dom;12;Gen;Sampdoria;Brescia;5;1
+2019/20;Dom;12;Gen;Torino;Bologna;1;0
+2019/20;Dom;12;Gen;Hellas Verona;Genoa;2;1
+2019/20;Dom;12;Gen;Roma;Juventus;1;2
+2019/20;Lun;13;Gen;Parma;Lecce;2;0
+2019/20;Sab;18;Gen;Lazio;Sampdoria;5;1
+2019/20;Sab;18;Gen;Sassuolo;Torino;2;1
+2019/20;Sab;18;Gen;Napoli;Fiorentina;0;2
+2019/20;Dom;19;Gen;Milan;Udinese;3;2
+2019/20;Dom;19;Gen;Bologna;Hellas Verona;1;1
+2019/20;Dom;19;Gen;Brescia;Cagliari;2;2
+2019/20;Dom;19;Gen;Lecce;Inter;1;1
+2019/20;Dom;19;Gen;Genoa;Roma;1;3
+2019/20;Dom;19;Gen;Juventus;Parma;2;1
+2019/20;Lun;20;Gen;Atalanta;SPAL;1;2
+2019/20;Ven;24;Gen;Brescia;Milan;0;1
+2019/20;Sab;25;Gen;SPAL;Bologna;1;3
+2019/20;Sab;25;Gen;Fiorentina;Genoa;0;0
+2019/20;Sab;25;Gen;Torino;Atalanta;0;7
+2019/20;Dom;26;Gen;Inter;Cagliari;1;1
+2019/20;Dom;26;Gen;Hellas Verona;Lecce;3;0
+2019/20;Dom;26;Gen;Parma;Udinese;2;0
+2019/20;Dom;26;Gen;Sampdoria;Sassuolo;0;0
+2019/20;Dom;26;Gen;Roma;Lazio;1;1
+2019/20;Dom;26;Gen;Napoli;Juventus;2;1
+2019/20;Sab;1;Feb;Bologna;Brescia;2;1
+2019/20;Sab;1;Feb;Cagliari;Parma;2;2
+2019/20;Sab;1;Feb;Sassuolo;Roma;4;2
+2019/20;Dom;2;Feb;Juventus;Fiorentina;3;0
+2019/20;Dom;2;Feb;Milan;Hellas Verona;1;1
+2019/20;Dom;2;Feb;Atalanta;Genoa;2;2
+2019/20;Dom;2;Feb;Lazio;SPAL;5;1
+2019/20;Dom;2;Feb;Lecce;Torino;4;0
+2019/20;Dom;2;Feb;Udinese;Inter;0;2
+2019/20;Lun;3;Feb;Sampdoria;Napoli;2;4
+2019/20;Mer;5;Feb;Lazio;Hellas Verona;0;0
+2019/20;Ven;7;Feb;Roma;Bologna;2;3
+2019/20;Sab;8;Feb;Fiorentina;Atalanta;1;2
+2019/20;Sab;8;Feb;Torino;Sampdoria;1;3
+2019/20;Sab;8;Feb;Hellas Verona;Juventus;2;1
+2019/20;Dom;9;Feb;SPAL;Sassuolo;1;2
+2019/20;Dom;9;Feb;Brescia;Udinese;1;1
+2019/20;Dom;9;Feb;Genoa;Cagliari;1;0
+2019/20;Dom;9;Feb;Napoli;Lecce;2;3
+2019/20;Dom;9;Feb;Parma;Lazio;0;1
+2019/20;Dom;9;Feb;Inter;Milan;4;2
+2019/20;Sab;15;Feb;Lecce;SPAL;2;1
+2019/20;Sab;15;Feb;Bologna;Genoa;0;3
+2019/20;Sab;15;Feb;Atalanta;Roma;2;1
+2019/20;Dom;16;Feb;Udinese;Hellas Verona;0;0
+2019/20;Dom;16;Feb;Juventus;Brescia;2;0
+2019/20;Dom;16;Feb;Sampdoria;Fiorentina;1;5
+2019/20;Dom;16;Feb;Sassuolo;Parma;0;1
+2019/20;Dom;16;Feb;Cagliari;Napoli;0;1
+2019/20;Dom;16;Feb;Lazio;Inter;2;1
+2019/20;Lun;17;Feb;Milan;Torino;1;0
+2019/20;Ven;21;Feb;Brescia;Napoli;1;2
+2019/20;Sab;22;Feb;Bologna;Udinese;1;1
+2019/20;Sab;22;Feb;SPAL;Juventus;1;2
+2019/20;Sab;22;Feb;Fiorentina;Milan;1;1
+2019/20;Dom;23;Feb;Genoa;Lazio;2;3
+2019/20;Dom;23;Feb;Roma;Lecce;4;0
+2019/20;Sab;29;Feb;Lazio;Bologna;2;0
+2019/20;Sab;29;Feb;Napoli;Torino;2;1
+2019/20;Dom;1;Mar;Lecce;Atalanta;2;7
+2019/20;Dom;1;Mar;Cagliari;Roma;3;4
+2019/20;Dom;8;Mar;Parma;SPAL;0;1
+2019/20;Dom;8;Mar;Milan;Genoa;1;2
+2019/20;Dom;8;Mar;Sampdoria;Hellas Verona;2;1
+2019/20;Dom;8;Mar;Udinese;Fiorentina;0;0
+2019/20;Dom;8;Mar;Juventus;Inter;2;0
+2019/20;Lun;9;Mar;Sassuolo;Brescia;3;0
+2019/20;Sab;20;Giu;Torino;Parma;1;1
+2019/20;Sab;20;Giu;Hellas Verona;Cagliari;2;1
+2019/20;Dom;21;Giu;Atalanta;Sassuolo;4;1
+2019/20;Dom;21;Giu;Inter;Sampdoria;2;1
+2019/20;Lun;22;Giu;Fiorentina;Brescia;1;1
+2019/20;Lun;22;Giu;Lecce;Milan;1;4
+2019/20;Lun;22;Giu;Bologna;Juventus;0;2
+2019/20;Mar;23;Giu;Hellas Verona;Napoli;0;2
+2019/20;Mar;23;Giu;SPAL;Cagliari;0;1
+2019/20;Mar;23;Giu;Genoa;Parma;1;4
+2019/20;Mar;23;Giu;Torino;Udinese;1;0
+2019/20;Mer;24;Giu;Inter;Sassuolo;3;3
+2019/20;Mer;24;Giu;Roma;Sampdoria;2;1
+2019/20;Mer;24;Giu;Atalanta;Lazio;3;2
+2019/20;Ven;26;Giu;Juventus;Lecce;4;0
+2019/20;Sab;27;Giu;Brescia;Genoa;2;2
+2019/20;Sab;27;Giu;Cagliari;Torino;4;2
+2019/20;Sab;27;Giu;Lazio;Fiorentina;2;1
+2019/20;Dom;28;Giu;Milan;Roma;2;0
+2019/20;Dom;28;Giu;Napoli;SPAL;3;1
+2019/20;Dom;28;Giu;Sampdoria;Bologna;1;2
+2019/20;Dom;28;Giu;Sassuolo;Hellas Verona;3;3
+2019/20;Dom;28;Giu;Udinese;Atalanta;2;3
+2019/20;Dom;28;Giu;Parma;Inter;1;2
+2019/20;Mar;30;Giu;Torino;Lazio;1;2
+2019/20;Mar;30;Giu;Genoa;Juventus;1;3
+2019/20;Mer;1;Lug;Bologna;Cagliari;1;1
+2019/20;Mer;1;Lug;Inter;Brescia;6;0
+2019/20;Mer;1;Lug;Fiorentina;Sassuolo;1;3
+2019/20;Mer;1;Lug;Hellas Verona;Parma;3;2
+2019/20;Mer;1;Lug;Lecce;Sampdoria;1;2
+2019/20;Mer;1;Lug;SPAL;Milan;2;2
+2019/20;Gio;2;Lug;Atalanta;Napoli;2;0
+2019/20;Gio;2;Lug;Roma;Udinese;0;2
+2019/20;Sab;4;Lug;Juventus;Torino;4;1
+2019/20;Sab;4;Lug;Sassuolo;Lecce;4;2
+2019/20;Sab;4;Lug;Lazio;Milan;0;3
+2019/20;Dom;5;Lug;Inter;Bologna;1;2
+2019/20;Dom;5;Lug;Brescia;Hellas Verona;2;0
+2019/20;Dom;5;Lug;Cagliari;Atalanta;0;1
+2019/20;Dom;5;Lug;Parma;Fiorentina;1;2
+2019/20;Dom;5;Lug;Sampdoria;SPAL;3;0
+2019/20;Dom;5;Lug;Udinese;Genoa;2;2
+2019/20;Dom;5;Lug;Napoli;Roma;2;1
+2019/20;Mar;7;Lug;Lecce;Lazio;2;1
+2019/20;Mar;7;Lug;Milan;Juventus;4;2
+2019/20;Mer;8;Lug;Fiorentina;Cagliari;0;0
+2019/20;Mer;8;Lug;Genoa;Napoli;1;2
+2019/20;Mer;8;Lug;Roma;Parma;2;1
+2019/20;Mer;8;Lug;Atalanta;Sampdoria;2;0
+2019/20;Mer;8;Lug;Bologna;Sassuolo;1;2
+2019/20;Mer;8;Lug;Torino;Brescia;3;1
+2019/20;Gio;9;Lug;SPAL;Udinese;0;3
+2019/20;Gio;9;Lug;Hellas Verona;Inter;2;2
+2019/20;Sab;11;Lug;Lazio;Sassuolo;1;2
+2019/20;Sab;11;Lug;Brescia;Roma;0;3
+2019/20;Sab;11;Lug;Juventus;Atalanta;2;2
+2019/20;Dom;12;Lug;Genoa;SPAL;2;0
+2019/20;Dom;12;Lug;Cagliari;Lecce;0;0
+2019/20;Dom;12;Lug;Fiorentina;Hellas Verona;1;1
+2019/20;Dom;12;Lug;Parma;Bologna;2;2
+2019/20;Dom;12;Lug;Udinese;Sampdoria;1;3
+2019/20;Dom;12;Lug;Napoli;Milan;2;2
+2019/20;Lun;13;Lug;Inter;Torino;3;1
+2019/20;Mar;14;Lug;Atalanta;Brescia;6;2
+2019/20;Mer;15;Lug;Milan;Parma;3;1
+2019/20;Mer;15;Lug;Bologna;Napoli;1;1
+2019/20;Mer;15;Lug;Sampdoria;Cagliari;3;0
+2019/20;Mer;15;Lug;Roma;Hellas Verona;2;1
+2019/20;Mer;15;Lug;Lecce;Fiorentina;1;3
+2019/20;Mer;15;Lug;Sassuolo;Juventus;3;3
+2019/20;Mer;15;Lug;Udinese;Lazio;0;0
+2019/20;Gio;16;Lug;Torino;Genoa;3;0
+2019/20;Gio;16;Lug;SPAL;Inter;0;4
+2019/20;Sab;18;Lug;Hellas Verona;Atalanta;1;1
+2019/20;Sab;18;Lug;Cagliari;Sassuolo;1;1
+2019/20;Sab;18;Lug;Milan;Bologna;5;1
+2019/20;Dom;19;Lug;Parma;Sampdoria;2;3
+2019/20;Dom;19;Lug;Brescia;SPAL;2;1
+2019/20;Dom;19;Lug;Fiorentina;Torino;2;0
+2019/20;Dom;19;Lug;Genoa;Lecce;2;1
+2019/20;Dom;19;Lug;Napoli;Udinese;2;1
+2019/20;Dom;19;Lug;Roma;Inter;2;2
+2019/20;Lun;20;Lug;Juventus;Lazio;2;1
+2019/20;Mar;21;Lug;Atalanta;Bologna;1;0
+2019/20;Mar;21;Lug;Sassuolo;Milan;1;2
+2019/20;Mer;22;Lug;Parma;Napoli;2;1
+2019/20;Mer;22;Lug;Inter;Fiorentina;0;0
+2019/20;Mer;22;Lug;Lecce;Brescia;3;1
+2019/20;Mer;22;Lug;Sampdoria;Genoa;1;2
+2019/20;Mer;22;Lug;SPAL;Roma;1;6
+2019/20;Mer;22;Lug;Torino;Hellas Verona;1;1
+2019/20;Gio;23;Lug;Udinese;Juventus;2;1
+2019/20;Gio;23;Lug;Lazio;Cagliari;2;1
+2019/20;Ven;24;Lug;Milan;Atalanta;1;1
+2019/20;Sab;25;Lug;Brescia;Parma;1;2
+2019/20;Sab;25;Lug;Genoa;Inter;0;3
+2019/20;Sab;25;Lug;Napoli;Sassuolo;2;0
+2019/20;Dom;26;Lug;Bologna;Lecce;3;2
+2019/20;Dom;26;Lug;Roma;Fiorentina;2;1
+2019/20;Dom;26;Lug;Cagliari;Udinese;0;1
+2019/20;Dom;26;Lug;Hellas Verona;Lazio;1;5
+2019/20;Dom;26;Lug;SPAL;Torino;1;1
+2019/20;Dom;26;Lug;Juventus;Sampdoria;2;0
+2019/20;Mar;28;Lug;Parma;Atalanta;1;2
+2019/20;Mar;28;Lug;Inter;Napoli;2;0
+2019/20;Mer;29;Lug;Hellas Verona;SPAL;3;0
+2019/20;Mer;29;Lug;Lazio;Brescia;2;0
+2019/20;Mer;29;Lug;Sampdoria;Milan;1;4
+2019/20;Mer;29;Lug;Sassuolo;Genoa;5;0
+2019/20;Mer;29;Lug;Udinese;Lecce;1;2
+2019/20;Mer;29;Lug;Cagliari;Juventus;2;0
+2019/20;Mer;29;Lug;Fiorentina;Bologna;4;0
+2019/20;Mer;29;Lug;Torino;Roma;2;3
+2019/20;Sab;1;Ago;Brescia;Sampdoria;1;1
+2019/20;Sab;1;Ago;Milan;Cagliari;3;0
+2019/20;Sab;1;Ago;Atalanta;Inter;0;2
+2019/20;Sab;1;Ago;Juventus;Roma;1;3
+2019/20;Sab;1;Ago;Napoli;Lazio;3;1
+2019/20;Dom;2;Ago;SPAL;Fiorentina;1;3
+2019/20;Dom;2;Ago;Bologna;Torino;1;1
+2019/20;Dom;2;Ago;Genoa;Hellas Verona;3;0
+2019/20;Dom;2;Ago;Lecce;Parma;3;4
+2019/20;Dom;2;Ago;Sassuolo;Udinese;0;1
+2020/21;Sab;19;Set;Fiorentina;Torino;1;0
+2020/21;Sab;19;Set;Hellas Verona;Roma;3;0
+2020/21;Dom;20;Set;Parma;Napoli;0;2
+2020/21;Dom;20;Set;Genoa;Crotone;4;1
+2020/21;Dom;20;Set;Sassuolo;Cagliari;1;1
+2020/21;Dom;20;Set;Juventus;Sampdoria;3;0
+2020/21;Lun;21;Set;Milan;Bologna;2;0
+2020/21;Sab;26;Set;Torino;Atalanta;2;4
+2020/21;Sab;26;Set;Cagliari;Lazio;0;2
+2020/21;Sab;26;Set;Sampdoria;Benevento;2;3
+2020/21;Sab;26;Set;Inter;Fiorentina;4;3
+2020/21;Dom;27;Set;Spezia;Sassuolo;1;4
+2020/21;Dom;27;Set;Hellas Verona;Udinese;1;0
+2020/21;Dom;27;Set;Crotone;Milan;0;2
+2020/21;Dom;27;Set;Napoli;Genoa;6;0
+2020/21;Dom;27;Set;Roma;Juventus;2;2
+2020/21;Lun;28;Set;Bologna;Parma;4;1
+2020/21;Mer;30;Set;Benevento;Inter;2;5
+2020/21;Mer;30;Set;Udinese;Spezia;0;2
+2020/21;Mer;30;Set;Lazio;Atalanta;1;4
+2020/21;Ven;2;Ott;Fiorentina;Sampdoria;1;2
+2020/21;Sab;3;Ott;Sassuolo;Crotone;4;1
+2020/21;Sab;3;Ott;Udinese;Roma;0;1
+2020/21;Dom;4;Ott;Atalanta;Cagliari;5;2
+2020/21;Dom;4;Ott;Benevento;Bologna;1;0
+2020/21;Dom;4;Ott;Lazio;Inter;1;1
+2020/21;Dom;4;Ott;Parma;Hellas Verona;1;0
+2020/21;Dom;4;Ott;Milan;Spezia;3;0
+2020/21;Sab;17;Ott;Napoli;Atalanta;4;1
+2020/21;Sab;17;Ott;Inter;Milan;1;2
+2020/21;Sab;17;Ott;Sampdoria;Lazio;3;0
+2020/21;Sab;17;Ott;Crotone;Juventus;1;1
+2020/21;Dom;18;Ott;Bologna;Sassuolo;3;4
+2020/21;Dom;18;Ott;Spezia;Fiorentina;2;2
+2020/21;Dom;18;Ott;Torino;Cagliari;2;3
+2020/21;Dom;18;Ott;Udinese;Parma;3;2
+2020/21;Dom;18;Ott;Roma;Benevento;5;2
+2020/21;Lun;19;Ott;Hellas Verona;Genoa;0;0
+2020/21;Ven;23;Ott;Sassuolo;Torino;3;3
+2020/21;Sab;24;Ott;Atalanta;Sampdoria;1;3
+2020/21;Sab;24;Ott;Genoa;Inter;0;2
+2020/21;Sab;24;Ott;Lazio;Bologna;2;1
+2020/21;Dom;25;Ott;Cagliari;Crotone;4;2
+2020/21;Dom;25;Ott;Benevento;Napoli;1;2
+2020/21;Dom;25;Ott;Parma;Spezia;2;2
+2020/21;Dom;25;Ott;Fiorentina;Udinese;3;2
+2020/21;Dom;25;Ott;Juventus;Hellas Verona;1;1
+2020/21;Lun;26;Ott;Milan;Roma;3;3
+2020/21;Sab;31;Ott;Crotone;Atalanta;1;2
+2020/21;Sab;31;Ott;Inter;Parma;2;2
+2020/21;Sab;31;Ott;Bologna;Cagliari;3;2
+2020/21;Dom;1;Nov;Udinese;Milan;1;2
+2020/21;Dom;1;Nov;Spezia;Juventus;1;4
+2020/21;Dom;1;Nov;Torino;Lazio;3;4
+2020/21;Dom;1;Nov;Roma;Fiorentina;2;0
+2020/21;Dom;1;Nov;Napoli;Sassuolo;0;2
+2020/21;Dom;1;Nov;Sampdoria;Genoa;1;1
+2020/21;Lun;2;Nov;Hellas Verona;Benevento;3;1
+2020/21;Mer;4;Nov;Genoa;Torino;1;2
+2020/21;Ven;6;Nov;Sassuolo;Udinese;0;0
+2020/21;Sab;7;Nov;Cagliari;Sampdoria;2;0
+2020/21;Sab;7;Nov;Benevento;Spezia;0;3
+2020/21;Sab;7;Nov;Parma;Fiorentina;0;0
+2020/21;Dom;8;Nov;Lazio;Juventus;1;1
+2020/21;Dom;8;Nov;Atalanta;Inter;1;1
+2020/21;Dom;8;Nov;Genoa;Roma;1;3
+2020/21;Dom;8;Nov;Torino;Crotone;0;0
+2020/21;Dom;8;Nov;Bologna;Napoli;0;1
+2020/21;Dom;8;Nov;Milan;Hellas Verona;2;2
+2020/21;Sab;21;Nov;Crotone;Lazio;0;2
+2020/21;Sab;21;Nov;Spezia;Atalanta;0;0
+2020/21;Sab;21;Nov;Juventus;Cagliari;2;0
+2020/21;Dom;22;Nov;Fiorentina;Benevento;0;1
+2020/21;Dom;22;Nov;Roma;Parma;3;0
+2020/21;Dom;22;Nov;Hellas Verona;Sassuolo;0;2
+2020/21;Dom;22;Nov;Inter;Torino;4;2
+2020/21;Dom;22;Nov;Sampdoria;Bologna;1;2
+2020/21;Dom;22;Nov;Udinese;Genoa;1;0
+2020/21;Dom;22;Nov;Napoli;Milan;1;3
+2020/21;Sab;28;Nov;Sassuolo;Inter;0;3
+2020/21;Sab;28;Nov;Benevento;Juventus;1;1
+2020/21;Sab;28;Nov;Atalanta;Hellas Verona;0;2
+2020/21;Dom;29;Nov;Lazio;Udinese;1;3
+2020/21;Dom;29;Nov;Milan;Fiorentina;2;0
+2020/21;Dom;29;Nov;Bologna;Crotone;1;0
+2020/21;Dom;29;Nov;Cagliari;Spezia;2;2
+2020/21;Dom;29;Nov;Napoli;Roma;4;0
+2020/21;Lun;30;Nov;Torino;Sampdoria;2;2
+2020/21;Lun;30;Nov;Genoa;Parma;1;2
+2020/21;Sab;5;Dic;Spezia;Lazio;1;2
+2020/21;Sab;5;Dic;Juventus;Torino;2;1
+2020/21;Sab;5;Dic;Inter;Bologna;3;1
+2020/21;Dom;6;Dic;Hellas Verona;Cagliari;1;1
+2020/21;Dom;6;Dic;Roma;Sassuolo;0;0
+2020/21;Dom;6;Dic;Parma;Benevento;0;0
+2020/21;Dom;6;Dic;Crotone;Napoli;0;4
+2020/21;Dom;6;Dic;Sampdoria;Milan;1;2
+2020/21;Lun;7;Dic;Fiorentina;Genoa;1;1
+2020/21;Ven;11;Dic;Sassuolo;Benevento;1;0
+2020/21;Sab;12;Dic;Crotone;Spezia;4;1
+2020/21;Sab;12;Dic;Torino;Udinese;2;3
+2020/21;Sab;12;Dic;Lazio;Hellas Verona;1;2
+2020/21;Dom;13;Dic;Cagliari;Inter;1;3
+2020/21;Dom;13;Dic;Atalanta;Fiorentina;3;0
+2020/21;Dom;13;Dic;Bologna;Roma;1;5
+2020/21;Dom;13;Dic;Napoli;Sampdoria;2;1
+2020/21;Dom;13;Dic;Genoa;Juventus;1;3
+2020/21;Dom;13;Dic;Milan;Parma;2;2
+2020/21;Mar;15;Dic;Udinese;Crotone;0;0
+2020/21;Mar;15;Dic;Benevento;Lazio;1;1
+2020/21;Mer;16;Dic;Juventus;Atalanta;1;1
+2020/21;Mer;16;Dic;Fiorentina;Sassuolo;1;1
+2020/21;Mer;16;Dic;Genoa;Milan;2;2
+2020/21;Mer;16;Dic;Hellas Verona;Sampdoria;1;2
+2020/21;Mer;16;Dic;Inter;Napoli;1;0
+2020/21;Mer;16;Dic;Parma;Cagliari;0;0
+2020/21;Mer;16;Dic;Spezia;Bologna;2;2
+2020/21;Gio;17;Dic;Roma;Torino;3;1
+2020/21;Sab;19;Dic;Fiorentina;Hellas Verona;1;1
+2020/21;Sab;19;Dic;Sampdoria;Crotone;3;1
+2020/21;Sab;19;Dic;Parma;Juventus;0;4
+2020/21;Dom;20;Dic;Torino;Bologna;1;1
+2020/21;Dom;20;Dic;Benevento;Genoa;2;0
+2020/21;Dom;20;Dic;Cagliari;Udinese;1;1
+2020/21;Dom;20;Dic;Inter;Spezia;2;1
+2020/21;Dom;20;Dic;Sassuolo;Milan;1;2
+2020/21;Dom;20;Dic;Atalanta;Roma;4;1
+2020/21;Dom;20;Dic;Lazio;Napoli;2;0
+2020/21;Mar;22;Dic;Crotone;Parma;2;1
+2020/21;Mar;22;Dic;Juventus;Fiorentina;0;3
+2020/21;Mer;23;Dic;Hellas Verona;Inter;1;2
+2020/21;Mer;23;Dic;Milan;Lazio;3;2
+2020/21;Mer;23;Dic;Roma;Cagliari;3;2
+2020/21;Mer;23;Dic;Bologna;Atalanta;2;2
+2020/21;Mer;23;Dic;Napoli;Torino;1;1
+2020/21;Mer;23;Dic;Sampdoria;Sassuolo;2;3
+2020/21;Mer;23;Dic;Spezia;Genoa;1;2
+2020/21;Mer;23;Dic;Udinese;Benevento;0;2
+2020/21;Dom;3;Gen;Inter;Crotone;6;2
+2020/21;Dom;3;Gen;Roma;Sampdoria;1;0
+2020/21;Dom;3;Gen;Atalanta;Sassuolo;5;1
+2020/21;Dom;3;Gen;Cagliari;Napoli;1;4
+2020/21;Dom;3;Gen;Fiorentina;Bologna;0;0
+2020/21;Dom;3;Gen;Genoa;Lazio;1;1
+2020/21;Dom;3;Gen;Parma;Torino;0;3
+2020/21;Dom;3;Gen;Spezia;Hellas Verona;0;1
+2020/21;Dom;3;Gen;Benevento;Milan;0;2
+2020/21;Dom;3;Gen;Juventus;Udinese;4;1
+2020/21;Mer;6;Gen;Cagliari;Benevento;1;2
+2020/21;Mer;6;Gen;Atalanta;Parma;3;0
+2020/21;Mer;6;Gen;Bologna;Udinese;2;2
+2020/21;Mer;6;Gen;Crotone;Roma;1;3
+2020/21;Mer;6;Gen;Lazio;Fiorentina;2;1
+2020/21;Mer;6;Gen;Sampdoria;Inter;2;1
+2020/21;Mer;6;Gen;Sassuolo;Genoa;2;1
+2020/21;Mer;6;Gen;Torino;Hellas Verona;1;1
+2020/21;Mer;6;Gen;Napoli;Spezia;1;2
+2020/21;Mer;6;Gen;Milan;Juventus;1;3
+2020/21;Sab;9;Gen;Benevento;Atalanta;1;4
+2020/21;Sab;9;Gen;Genoa;Bologna;2;0
+2020/21;Sab;9;Gen;Milan;Torino;2;0
+2020/21;Dom;10;Gen;Roma;Inter;2;2
+2020/21;Dom;10;Gen;Hellas Verona;Crotone;2;1
+2020/21;Dom;10;Gen;Parma;Lazio;0;2
+2020/21;Dom;10;Gen;Udinese;Napoli;1;2
+2020/21;Dom;10;Gen;Fiorentina;Cagliari;1;0
+2020/21;Dom;10;Gen;Juventus;Sassuolo;3;1
+2020/21;Lun;11;Gen;Spezia;Sampdoria;2;1
+2020/21;Ven;15;Gen;Lazio;Roma;3;0
+2020/21;Sab;16;Gen;Bologna;Hellas Verona;1;0
+2020/21;Sab;16;Gen;Torino;Spezia;0;0
+2020/21;Sab;16;Gen;Sampdoria;Udinese;2;1
+2020/21;Dom;17;Gen;Napoli;Fiorentina;6;0
+2020/21;Dom;17;Gen;Crotone;Benevento;4;1
+2020/21;Dom;17;Gen;Sassuolo;Parma;1;1
+2020/21;Dom;17;Gen;Atalanta;Genoa;0;0
+2020/21;Dom;17;Gen;Inter;Juventus;2;0
+2020/21;Lun;18;Gen;Cagliari;Milan;0;2
+2020/21;Mer;20;Gen;Udinese;Atalanta;1;1
+2020/21;Ven;22;Gen;Benevento;Torino;2;2
+2020/21;Sab;23;Gen;Roma;Spezia;4;3
+2020/21;Sab;23;Gen;Milan;Atalanta;0;3
+2020/21;Sab;23;Gen;Udinese;Inter;0;0
+2020/21;Sab;23;Gen;Fiorentina;Crotone;2;1
+2020/21;Dom;24;Gen;Juventus;Bologna;2;0
+2020/21;Dom;24;Gen;Genoa;Cagliari;1;0
+2020/21;Dom;24;Gen;Hellas Verona;Napoli;3;1
+2020/21;Dom;24;Gen;Lazio;Sassuolo;2;1
+2020/21;Dom;24;Gen;Parma;Sampdoria;0;2
+2020/21;Ven;29;Gen;Torino;Fiorentina;1;1
+2020/21;Sab;30;Gen;Bologna;Milan;1;2
+2020/21;Sab;30;Gen;Sampdoria;Juventus;0;2
+2020/21;Sab;30;Gen;Inter;Benevento;4;0
+2020/21;Dom;31;Gen;Spezia;Udinese;0;1
+2020/21;Dom;31;Gen;Atalanta;Lazio;1;3
+2020/21;Dom;31;Gen;Cagliari;Sassuolo;1;1
+2020/21;Dom;31;Gen;Crotone;Genoa;0;3
+2020/21;Dom;31;Gen;Napoli;Parma;2;0
+2020/21;Dom;31;Gen;Roma;Hellas Verona;3;1
+2020/21;Ven;5;Feb;Fiorentina;Inter;0;2
+2020/21;Sab;6;Feb;Atalanta;Torino;3;3
+2020/21;Sab;6;Feb;Sassuolo;Spezia;1;2
+2020/21;Sab;6;Feb;Juventus;Roma;2;0
+2020/21;Sab;6;Feb;Genoa;Napoli;2;1
+2020/21;Dom;7;Feb;Benevento;Sampdoria;1;1
+2020/21;Dom;7;Feb;Milan;Crotone;4;0
+2020/21;Dom;7;Feb;Udinese;Hellas Verona;2;0
+2020/21;Dom;7;Feb;Parma;Bologna;0;3
+2020/21;Dom;7;Feb;Lazio;Cagliari;1;0
+2020/21;Ven;12;Feb;Bologna;Benevento;1;1
+2020/21;Sab;13;Feb;Torino;Genoa;0;0
+2020/21;Sab;13;Feb;Napoli;Juventus;1;0
+2020/21;Sab;13;Feb;Spezia;Milan;2;0
+2020/21;Dom;14;Feb;Roma;Udinese;3;0
+2020/21;Dom;14;Feb;Cagliari;Atalanta;0;1
+2020/21;Dom;14;Feb;Sampdoria;Fiorentina;2;1
+2020/21;Dom;14;Feb;Crotone;Sassuolo;1;2
+2020/21;Dom;14;Feb;Inter;Lazio;3;1
+2020/21;Lun;15;Feb;Hellas Verona;Parma;2;1
+2020/21;Ven;19;Feb;Fiorentina;Spezia;3;0
+2020/21;Ven;19;Feb;Cagliari;Torino;0;1
+2020/21;Sab;20;Feb;Lazio;Sampdoria;1;0
+2020/21;Sab;20;Feb;Genoa;Hellas Verona;2;2
+2020/21;Sab;20;Feb;Sassuolo;Bologna;1;1
+2020/21;Dom;21;Feb;Parma;Udinese;2;2
+2020/21;Dom;21;Feb;Milan;Inter;0;3
+2020/21;Dom;21;Feb;Atalanta;Napoli;4;2
+2020/21;Dom;21;Feb;Benevento;Roma;0;0
+2020/21;Lun;22;Feb;Juventus;Crotone;3;0
+2020/21;Sab;27;Feb;Spezia;Parma;2;2
+2020/21;Sab;27;Feb;Bologna;Lazio;2;0
+2020/21;Sab;27;Feb;Hellas Verona;Juventus;1;1
+2020/21;Dom;28;Feb;Sampdoria;Atalanta;0;2
+2020/21;Dom;28;Feb;Crotone;Cagliari;0;2
+2020/21;Dom;28;Feb;Inter;Genoa;3;0
+2020/21;Dom;28;Feb;Udinese;Fiorentina;1;0
+2020/21;Dom;28;Feb;Napoli;Benevento;2;0
+2020/21;Dom;28;Feb;Roma;Milan;1;2
+2020/21;Mar;2;Mar;Juventus;Spezia;3;0
+2020/21;Mer;3;Mar;Sassuolo;Napoli;3;3
+2020/21;Mer;3;Mar;Milan;Udinese;1;1
+2020/21;Mer;3;Mar;Atalanta;Crotone;5;1
+2020/21;Mer;3;Mar;Benevento;Hellas Verona;0;3
+2020/21;Mer;3;Mar;Cagliari;Bologna;1;0
+2020/21;Mer;3;Mar;Fiorentina;Roma;1;2
+2020/21;Mer;3;Mar;Genoa;Sampdoria;1;1
+2020/21;Gio;4;Mar;Parma;Inter;1;2
+2020/21;Sab;6;Mar;Spezia;Benevento;1;1
+2020/21;Sab;6;Mar;Udinese;Sassuolo;2;0
+2020/21;Sab;6;Mar;Juventus;Lazio;3;1
+2020/21;Dom;7;Mar;Roma;Genoa;1;0
+2020/21;Dom;7;Mar;Crotone;Torino;4;2
+2020/21;Dom;7;Mar;Fiorentina;Parma;3;3
+2020/21;Dom;7;Mar;Hellas Verona;Milan;0;2
+2020/21;Dom;7;Mar;Sampdoria;Cagliari;2;2
+2020/21;Dom;7;Mar;Napoli;Bologna;3;1
+2020/21;Lun;8;Mar;Inter;Atalanta;1;0
+2020/21;Ven;12;Mar;Lazio;Crotone;3;2
+2020/21;Ven;12;Mar;Atalanta;Spezia;3;1
+2020/21;Sab;13;Mar;Sassuolo;Hellas Verona;3;2
+2020/21;Sab;13;Mar;Benevento;Fiorentina;1;4
+2020/21;Sab;13;Mar;Genoa;Udinese;1;1
+2020/21;Dom;14;Mar;Bologna;Sampdoria;3;1
+2020/21;Dom;14;Mar;Parma;Roma;2;0
+2020/21;Dom;14;Mar;Torino;Inter;1;2
+2020/21;Dom;14;Mar;Cagliari;Juventus;1;3
+2020/21;Dom;14;Mar;Milan;Napoli;0;1
+2020/21;Mer;17;Mar;Torino;Sassuolo;3;2
+2020/21;Ven;19;Mar;Parma;Genoa;1;2
+2020/21;Sab;20;Mar;Crotone;Bologna;2;3
+2020/21;Sab;20;Mar;Spezia;Cagliari;2;1
+2020/21;Dom;21;Mar;Hellas Verona;Atalanta;0;2
+2020/21;Dom;21;Mar;Juventus;Benevento;0;1
+2020/21;Dom;21;Mar;Sampdoria;Torino;1;0
+2020/21;Dom;21;Mar;Udinese;Lazio;0;1
+2020/21;Dom;21;Mar;Fiorentina;Milan;2;3
+2020/21;Dom;21;Mar;Roma;Napoli;0;2
+2020/21;Sab;3;Apr;Milan;Sampdoria;1;1
+2020/21;Sab;3;Apr;Atalanta;Udinese;3;2
+2020/21;Sab;3;Apr;Benevento;Parma;2;2
+2020/21;Sab;3;Apr;Cagliari;Hellas Verona;0;2
+2020/21;Sab;3;Apr;Genoa;Fiorentina;1;1
+2020/21;Sab;3;Apr;Lazio;Spezia;2;1
+2020/21;Sab;3;Apr;Napoli;Crotone;4;3
+2020/21;Sab;3;Apr;Sassuolo;Roma;2;2
+2020/21;Sab;3;Apr;Torino;Juventus;2;2
+2020/21;Sab;3;Apr;Bologna;Inter;0;1
+2020/21;Mer;7;Apr;Inter;Sassuolo;2;1
+2020/21;Mer;7;Apr;Juventus;Napoli;2;1
+2020/21;Sab;10;Apr;Spezia;Crotone;3;2
+2020/21;Sab;10;Apr;Parma;Milan;1;3
+2020/21;Sab;10;Apr;Udinese;Torino;0;1
+2020/21;Dom;11;Apr;Inter;Cagliari;1;0
+2020/21;Dom;11;Apr;Hellas Verona;Lazio;0;1
+2020/21;Dom;11;Apr;Juventus;Genoa;3;1
+2020/21;Dom;11;Apr;Sampdoria;Napoli;0;2
+2020/21;Dom;11;Apr;Roma;Bologna;1;0
+2020/21;Dom;11;Apr;Fiorentina;Atalanta;2;3
+2020/21;Lun;12;Apr;Benevento;Sassuolo;0;1
+2020/21;Sab;17;Apr;Crotone;Udinese;1;2
+2020/21;Sab;17;Apr;Sampdoria;Hellas Verona;3;1
+2020/21;Sab;17;Apr;Sassuolo;Fiorentina;3;1
+2020/21;Sab;17;Apr;Cagliari;Parma;4;3
+2020/21;Dom;18;Apr;Milan;Genoa;2;1
+2020/21;Dom;18;Apr;Atalanta;Juventus;1;0
+2020/21;Dom;18;Apr;Bologna;Spezia;4;1
+2020/21;Dom;18;Apr;Lazio;Benevento;5;3
+2020/21;Dom;18;Apr;Torino;Roma;3;1
+2020/21;Dom;18;Apr;Napoli;Inter;1;1
+2020/21;Mar;20;Apr;Hellas Verona;Fiorentina;1;2
+2020/21;Mer;21;Apr;Milan;Sassuolo;1;2
+2020/21;Mer;21;Apr;Bologna;Torino;1;1
+2020/21;Mer;21;Apr;Crotone;Sampdoria;0;1
+2020/21;Mer;21;Apr;Genoa;Benevento;2;2
+2020/21;Mer;21;Apr;Juventus;Parma;3;1
+2020/21;Mer;21;Apr;Spezia;Inter;1;1
+2020/21;Mer;21;Apr;Udinese;Cagliari;0;1
+2020/21;Gio;22;Apr;Roma;Atalanta;1;1
+2020/21;Gio;22;Apr;Napoli;Lazio;5;2
+2020/21;Sab;24;Apr;Genoa;Spezia;2;0
+2020/21;Sab;24;Apr;Parma;Crotone;3;4
+2020/21;Sab;24;Apr;Sassuolo;Sampdoria;1;0
+2020/21;Dom;25;Apr;Benevento;Udinese;2;4
+2020/21;Dom;25;Apr;Fiorentina;Juventus;1;1
+2020/21;Dom;25;Apr;Inter;Hellas Verona;1;0
+2020/21;Dom;25;Apr;Cagliari;Roma;3;2
+2020/21;Dom;25;Apr;Atalanta;Bologna;5;0
+2020/21;Lun;26;Apr;Torino;Napoli;0;2
+2020/21;Lun;26;Apr;Lazio;Milan;3;0
+2020/21;Sab;1;Mag;Hellas Verona;Spezia;1;1
+2020/21;Sab;1;Mag;Crotone;Inter;0;2
+2020/21;Sab;1;Mag;Milan;Benevento;2;0
+2020/21;Dom;2;Mag;Lazio;Genoa;4;3
+2020/21;Dom;2;Mag;Bologna;Fiorentina;3;3
+2020/21;Dom;2;Mag;Napoli;Cagliari;1;1
+2020/21;Dom;2;Mag;Sassuolo;Atalanta;1;1
+2020/21;Dom;2;Mag;Udinese;Juventus;1;2
+2020/21;Dom;2;Mag;Sampdoria;Roma;2;0
+2020/21;Lun;3;Mag;Torino;Parma;1;0
+2020/21;Sab;8;Mag;Spezia;Napoli;1;4
+2020/21;Sab;8;Mag;Udinese;Bologna;1;1
+2020/21;Sab;8;Mag;Inter;Sampdoria;5;1
+2020/21;Sab;8;Mag;Fiorentina;Lazio;2;0
+2020/21;Dom;9;Mag;Genoa;Sassuolo;1;2
+2020/21;Dom;9;Mag;Benevento;Cagliari;1;3
+2020/21;Dom;9;Mag;Hellas Verona;Torino;1;1
+2020/21;Dom;9;Mag;Parma;Atalanta;2;5
+2020/21;Dom;9;Mag;Roma;Crotone;5;0
+2020/21;Dom;9;Mag;Juventus;Milan;0;3
+2020/21;Mar;11;Mag;Napoli;Udinese;5;1
+2020/21;Mer;12;Mag;Cagliari;Fiorentina;0;0
+2020/21;Mer;12;Mag;Atalanta;Benevento;2;0
+2020/21;Mer;12;Mag;Bologna;Genoa;0;2
+2020/21;Mer;12;Mag;Inter;Roma;3;1
+2020/21;Mer;12;Mag;Lazio;Parma;1;0
+2020/21;Mer;12;Mag;Sampdoria;Spezia;2;2
+2020/21;Mer;12;Mag;Sassuolo;Juventus;1;3
+2020/21;Mer;12;Mag;Torino;Milan;0;7
+2020/21;Gio;13;Mag;Crotone;Hellas Verona;2;1
+2020/21;Sab;15;Mag;Genoa;Atalanta;3;4
+2020/21;Sab;15;Mag;Spezia;Torino;4;1
+2020/21;Sab;15;Mag;Juventus;Inter;3;2
+2020/21;Sab;15;Mag;Roma;Lazio;2;0
+2020/21;Dom;16;Mag;Fiorentina;Napoli;0;2
+2020/21;Dom;16;Mag;Benevento;Crotone;1;1
+2020/21;Dom;16;Mag;Udinese;Sampdoria;0;1
+2020/21;Dom;16;Mag;Parma;Sassuolo;1;3
+2020/21;Dom;16;Mag;Milan;Cagliari;0;0
+2020/21;Lun;17;Mag;Hellas Verona;Bologna;2;2
+2020/21;Mar;18;Mag;Lazio;Torino;0;0
+2020/21;Sab;22;Mag;Cagliari;Genoa;0;1
+2020/21;Sab;22;Mag;Crotone;Fiorentina;0;0
+2020/21;Sab;22;Mag;Sampdoria;Parma;3;0
+2020/21;Dom;23;Mag;Inter;Udinese;5;1
+2020/21;Dom;23;Mag;Atalanta;Milan;0;2
+2020/21;Dom;23;Mag;Bologna;Juventus;1;4
+2020/21;Dom;23;Mag;Napoli;Hellas Verona;1;1
+2020/21;Dom;23;Mag;Sassuolo;Lazio;2;0
+2020/21;Dom;23;Mag;Spezia;Roma;2;2
+2020/21;Dom;23;Mag;Torino;Benevento;1;1
+2021/22;Sab;21;Ago;Hellas Verona;Sassuolo;2;3
+2021/22;Sab;21;Ago;Inter;Genoa;4;0
+2021/22;Sab;21;Ago;Empoli;Lazio;1;3
+2021/22;Sab;21;Ago;Torino;Atalanta;1;2
+2021/22;Dom;22;Ago;Bologna;Salernitana;3;2
+2021/22;Dom;22;Ago;Udinese;Juventus;2;2
+2021/22;Dom;22;Ago;Roma;Fiorentina;3;1
+2021/22;Dom;22;Ago;Napoli;Venezia;2;0
+2021/22;Lun;23;Ago;Cagliari;Spezia;2;2
+2021/22;Lun;23;Ago;Sampdoria;Milan;0;1
+2021/22;Ven;27;Ago;Udinese;Venezia;3;0
+2021/22;Ven;27;Ago;Hellas Verona;Inter;1;3
+2021/22;Sab;28;Ago;Atalanta;Bologna;0;0
+2021/22;Sab;28;Ago;Lazio;Spezia;6;1
+2021/22;Sab;28;Ago;Fiorentina;Torino;2;1
+2021/22;Sab;28;Ago;Juventus;Empoli;0;1
+2021/22;Dom;29;Ago;Genoa;Napoli;1;2
+2021/22;Dom;29;Ago;Sassuolo;Sampdoria;0;0
+2021/22;Dom;29;Ago;Milan;Cagliari;4;1
+2021/22;Dom;29;Ago;Salernitana;Roma;0;4
+2021/22;Sab;11;Set;Empoli;Venezia;1;2
+2021/22;Sab;11;Set;Napoli;Juventus;2;1
+2021/22;Sab;11;Set;Atalanta;Fiorentina;1;2
+2021/22;Dom;12;Set;Sampdoria;Inter;2;2
+2021/22;Dom;12;Set;Cagliari;Genoa;2;3
+2021/22;Dom;12;Set;Spezia;Udinese;0;1
+2021/22;Dom;12;Set;Torino;Salernitana;4;0
+2021/22;Dom;12;Set;Milan;Lazio;2;0
+2021/22;Dom;12;Set;Roma;Sassuolo;2;1
+2021/22;Lun;13;Set;Bologna;Hellas Verona;1;0
+2021/22;Ven;17;Set;Sassuolo;Torino;0;1
+2021/22;Sab;18;Set;Genoa;Fiorentina;1;2
+2021/22;Sab;18;Set;Inter;Bologna;6;1
+2021/22;Sab;18;Set;Salernitana;Atalanta;0;1
+2021/22;Dom;19;Set;Empoli;Sampdoria;0;3
+2021/22;Dom;19;Set;Venezia;Spezia;1;2
+2021/22;Dom;19;Set;Hellas Verona;Roma;3;2
+2021/22;Dom;19;Set;Lazio;Cagliari;2;2
+2021/22;Dom;19;Set;Juventus;Milan;1;1
+2021/22;Lun;20;Set;Udinese;Napoli;0;4
+2021/22;Mar;21;Set;Bologna;Genoa;2;2
+2021/22;Mar;21;Set;Atalanta;Sassuolo;2;1
+2021/22;Mar;21;Set;Fiorentina;Inter;1;3
+2021/22;Mer;22;Set;Salernitana;Hellas Verona;2;2
+2021/22;Mer;22;Set;Spezia;Juventus;2;3
+2021/22;Mer;22;Set;Milan;Venezia;2;0
+2021/22;Mer;22;Set;Cagliari;Empoli;0;2
+2021/22;Gio;23;Set;Sampdoria;Napoli;0;4
+2021/22;Gio;23;Set;Torino;Lazio;1;1
+2021/22;Gio;23;Set;Roma;Udinese;1;0
+2021/22;Sab;25;Set;Spezia;Milan;1;2
+2021/22;Sab;25;Set;Inter;Atalanta;2;2
+2021/22;Sab;25;Set;Genoa;Hellas Verona;3;3
+2021/22;Dom;26;Set;Juventus;Sampdoria;3;2
+2021/22;Dom;26;Set;Empoli;Bologna;4;2
+2021/22;Dom;26;Set;Sassuolo;Salernitana;1;0
+2021/22;Dom;26;Set;Udinese;Fiorentina;0;1
+2021/22;Dom;26;Set;Lazio;Roma;3;2
+2021/22;Dom;26;Set;Napoli;Cagliari;2;0
+2021/22;Lun;27;Set;Venezia;Torino;1;1
+2021/22;Ven;1;Ott;Cagliari;Venezia;1;1
+2021/22;Sab;2;Ott;Salernitana;Genoa;1;0
+2021/22;Sab;2;Ott;Torino;Juventus;0;1
+2021/22;Sab;2;Ott;Sassuolo;Inter;1;2
+2021/22;Dom;3;Ott;Bologna;Lazio;3;0
+2021/22;Dom;3;Ott;Hellas Verona;Spezia;4;0
+2021/22;Dom;3;Ott;Sampdoria;Udinese;3;3
+2021/22;Dom;3;Ott;Roma;Empoli;2;0
+2021/22;Dom;3;Ott;Fiorentina;Napoli;1;2
+2021/22;Dom;3;Ott;Atalanta;Milan;2;3
+2021/22;Sab;16;Ott;Spezia;Salernitana;2;1
+2021/22;Sab;16;Ott;Lazio;Inter;3;1
+2021/22;Sab;16;Ott;Milan;Hellas Verona;3;2
+2021/22;Dom;17;Ott;Cagliari;Sampdoria;3;1
+2021/22;Dom;17;Ott;Empoli;Atalanta;1;4
+2021/22;Dom;17;Ott;Genoa;Sassuolo;2;2
+2021/22;Dom;17;Ott;Udinese;Bologna;1;1
+2021/22;Dom;17;Ott;Napoli;Torino;1;0
+2021/22;Dom;17;Ott;Juventus;Roma;1;0
+2021/22;Lun;18;Ott;Venezia;Fiorentina;1;0
+2021/22;Ven;22;Ott;Torino;Genoa;3;2
+2021/22;Ven;22;Ott;Sampdoria;Spezia;2;1
+2021/22;Sab;23;Ott;Salernitana;Empoli;2;4
+2021/22;Sab;23;Ott;Sassuolo;Venezia;3;1
+2021/22;Sab;23;Ott;Bologna;Milan;2;4
+2021/22;Dom;24;Ott;Atalanta;Udinese;1;1
+2021/22;Dom;24;Ott;Fiorentina;Cagliari;3;0
+2021/22;Dom;24;Ott;Hellas Verona;Lazio;4;1
+2021/22;Dom;24;Ott;Roma;Napoli;0;0
+2021/22;Dom;24;Ott;Inter;Juventus;1;1
+2021/22;Mar;26;Ott;Spezia;Genoa;1;1
+2021/22;Mar;26;Ott;Venezia;Salernitana;1;2
+2021/22;Mar;26;Ott;Milan;Torino;1;0
+2021/22;Mer;27;Ott;Juventus;Sassuolo;1;2
+2021/22;Mer;27;Ott;Sampdoria;Atalanta;1;3
+2021/22;Mer;27;Ott;Udinese;Hellas Verona;1;1
+2021/22;Mer;27;Ott;Cagliari;Roma;1;2
+2021/22;Mer;27;Ott;Empoli;Inter;0;2
+2021/22;Mer;27;Ott;Lazio;Fiorentina;1;0
+2021/22;Gio;28;Ott;Napoli;Bologna;3;0
+2021/22;Sab;30;Ott;Atalanta;Lazio;2;2
+2021/22;Sab;30;Ott;Hellas Verona;Juventus;2;1
+2021/22;Sab;30;Ott;Torino;Sampdoria;3;0
+2021/22;Dom;31;Ott;Inter;Udinese;2;0
+2021/22;Dom;31;Ott;Fiorentina;Spezia;3;0
+2021/22;Dom;31;Ott;Genoa;Venezia;0;0
+2021/22;Dom;31;Ott;Sassuolo;Empoli;1;2
+2021/22;Dom;31;Ott;Salernitana;Napoli;0;1
+2021/22;Dom;31;Ott;Roma;Milan;1;2
+2021/22;Lun;1;Nov;Bologna;Cagliari;2;0
+2021/22;Ven;5;Nov;Empoli;Genoa;2;2
+2021/22;Sab;6;Nov;Spezia;Torino;1;0
+2021/22;Sab;6;Nov;Juventus;Fiorentina;1;0
+2021/22;Sab;6;Nov;Cagliari;Atalanta;1;2
+2021/22;Dom;7;Nov;Venezia;Roma;3;2
+2021/22;Dom;7;Nov;Sampdoria;Bologna;1;2
+2021/22;Dom;7;Nov;Udinese;Sassuolo;3;2
+2021/22;Dom;7;Nov;Lazio;Salernitana;3;0
+2021/22;Dom;7;Nov;Napoli;Hellas Verona;1;1
+2021/22;Dom;7;Nov;Milan;Inter;1;1
+2021/22;Sab;20;Nov;Atalanta;Spezia;5;2
+2021/22;Sab;20;Nov;Lazio;Juventus;0;2
+2021/22;Sab;20;Nov;Fiorentina;Milan;4;3
+2021/22;Dom;21;Nov;Sassuolo;Cagliari;2;2
+2021/22;Dom;21;Nov;Bologna;Venezia;0;1
+2021/22;Dom;21;Nov;Salernitana;Sampdoria;0;2
+2021/22;Dom;21;Nov;Inter;Napoli;3;2
+2021/22;Dom;21;Nov;Genoa;Roma;0;2
+2021/22;Lun;22;Nov;Hellas Verona;Empoli;2;1
+2021/22;Lun;22;Nov;Torino;Udinese;2;1
+2021/22;Ven;26;Nov;Cagliari;Salernitana;1;1
+2021/22;Sab;27;Nov;Empoli;Fiorentina;2;1
+2021/22;Sab;27;Nov;Sampdoria;Hellas Verona;3;1
+2021/22;Sab;27;Nov;Juventus;Atalanta;0;1
+2021/22;Sab;27;Nov;Venezia;Inter;0;2
+2021/22;Dom;28;Nov;Udinese;Genoa;0;0
+2021/22;Dom;28;Nov;Milan;Sassuolo;1;3
+2021/22;Dom;28;Nov;Spezia;Bologna;0;1
+2021/22;Dom;28;Nov;Roma;Torino;1;0
+2021/22;Dom;28;Nov;Napoli;Lazio;4;0
+2021/22;Mar;30;Nov;Atalanta;Venezia;4;0
+2021/22;Mar;30;Nov;Fiorentina;Sampdoria;3;1
+2021/22;Mar;30;Nov;Hellas Verona;Cagliari;0;0
+2021/22;Mar;30;Nov;Salernitana;Juventus;0;2
+2021/22;Mer;1;Dic;Bologna;Roma;1;0
+2021/22;Mer;1;Dic;Inter;Spezia;2;0
+2021/22;Mer;1;Dic;Genoa;Milan;0;3
+2021/22;Mer;1;Dic;Sassuolo;Napoli;2;2
+2021/22;Gio;2;Dic;Torino;Empoli;2;2
+2021/22;Gio;2;Dic;Lazio;Udinese;4;4
+2021/22;Sab;4;Dic;Milan;Salernitana;2;0
+2021/22;Sab;4;Dic;Roma;Inter;0;3
+2021/22;Sab;4;Dic;Napoli;Atalanta;2;3
+2021/22;Dom;5;Dic;Bologna;Fiorentina;2;3
+2021/22;Dom;5;Dic;Spezia;Sassuolo;2;2
+2021/22;Dom;5;Dic;Venezia;Hellas Verona;3;4
+2021/22;Dom;5;Dic;Sampdoria;Lazio;1;3
+2021/22;Dom;5;Dic;Juventus;Genoa;2;0
+2021/22;Lun;6;Dic;Empoli;Udinese;3;1
+2021/22;Lun;6;Dic;Cagliari;Torino;1;1
+2021/22;Ven;10;Dic;Genoa;Sampdoria;1;3
+2021/22;Sab;11;Dic;Fiorentina;Salernitana;4;0
+2021/22;Sab;11;Dic;Venezia;Juventus;1;1
+2021/22;Sab;11;Dic;Udinese;Milan;1;1
+2021/22;Dom;12;Dic;Torino;Bologna;2;1
+2021/22;Dom;12;Dic;Hellas Verona;Atalanta;1;2
+2021/22;Dom;12;Dic;Napoli;Empoli;0;1
+2021/22;Dom;12;Dic;Sassuolo;Lazio;2;1
+2021/22;Dom;12;Dic;Inter;Cagliari;4;0
+2021/22;Lun;13;Dic;Roma;Spezia;2;0
+2021/22;Ven;17;Dic;Lazio;Genoa;3;1
+2021/22;Ven;17;Dic;Salernitana;Inter;0;5
+2021/22;Sab;18;Dic;Atalanta;Roma;1;4
+2021/22;Sab;18;Dic;Bologna;Juventus;0;2
+2021/22;Sab;18;Dic;Cagliari;Udinese;0;4
+2021/22;Dom;19;Dic;Fiorentina;Sassuolo;2;2
+2021/22;Dom;19;Dic;Spezia;Empoli;1;1
+2021/22;Dom;19;Dic;Sampdoria;Venezia;1;1
+2021/22;Dom;19;Dic;Torino;Hellas Verona;1;0
+2021/22;Dom;19;Dic;Milan;Napoli;0;1
+2021/22;Mar;21;Dic;Genoa;Atalanta;0;0
+2021/22;Mar;21;Dic;Juventus;Cagliari;2;0
+2021/22;Mer;22;Dic;Sassuolo;Bologna;0;3
+2021/22;Mer;22;Dic;Venezia;Lazio;1;3
+2021/22;Mer;22;Dic;Roma;Sampdoria;1;1
+2021/22;Mer;22;Dic;Hellas Verona;Fiorentina;1;1
+2021/22;Mer;22;Dic;Inter;Torino;1;0
+2021/22;Mer;22;Dic;Empoli;Milan;2;4
+2021/22;Mer;22;Dic;Napoli;Spezia;0;1
+2021/22;Gio;6;Gen;Sampdoria;Cagliari;1;2
+2021/22;Gio;6;Gen;Lazio;Empoli;3;3
+2021/22;Gio;6;Gen;Spezia;Hellas Verona;1;2
+2021/22;Gio;6;Gen;Sassuolo;Genoa;1;1
+2021/22;Gio;6;Gen;Milan;Roma;3;1
+2021/22;Gio;6;Gen;Juventus;Napoli;1;1
+2021/22;Dom;9;Gen;Venezia;Milan;0;3
+2021/22;Dom;9;Gen;Empoli;Sassuolo;1;5
+2021/22;Dom;9;Gen;Napoli;Sampdoria;1;0
+2021/22;Dom;9;Gen;Udinese;Atalanta;2;6
+2021/22;Dom;9;Gen;Roma;Juventus;3;4
+2021/22;Dom;9;Gen;Genoa;Spezia;0;1
+2021/22;Dom;9;Gen;Hellas Verona;Salernitana;1;2
+2021/22;Dom;9;Gen;Inter;Lazio;2;1
+2021/22;Lun;10;Gen;Torino;Fiorentina;4;0
+2021/22;Mar;11;Gen;Cagliari;Bologna;2;1
+2021/22;Sab;15;Gen;Sampdoria;Torino;1;2
+2021/22;Sab;15;Gen;Salernitana;Lazio;0;3
+2021/22;Sab;15;Gen;Juventus;Udinese;2;0
+2021/22;Dom;16;Gen;Sassuolo;Hellas Verona;2;4
+2021/22;Dom;16;Gen;Venezia;Empoli;1;1
+2021/22;Dom;16;Gen;Roma;Cagliari;1;0
+2021/22;Dom;16;Gen;Atalanta;Inter;0;0
+2021/22;Lun;17;Gen;Milan;Spezia;1;2
+2021/22;Lun;17;Gen;Bologna;Napoli;0;2
+2021/22;Lun;17;Gen;Fiorentina;Genoa;6;0
+2021/22;Ven;21;Gen;Hellas Verona;Bologna;2;1
+2021/22;Sab;22;Gen;Genoa;Udinese;0;0
+2021/22;Sab;22;Gen;Inter;Venezia;2;1
+2021/22;Sab;22;Gen;Lazio;Atalanta;0;0
+2021/22;Dom;23;Gen;Cagliari;Fiorentina;1;1
+2021/22;Dom;23;Gen;Napoli;Salernitana;4;1
+2021/22;Dom;23;Gen;Spezia;Sampdoria;1;0
+2021/22;Dom;23;Gen;Torino;Sassuolo;1;1
+2021/22;Dom;23;Gen;Empoli;Roma;2;4
+2021/22;Dom;23;Gen;Milan;Juventus;0;0
+2021/22;Sab;5;Feb;Roma;Genoa;0;0
+2021/22;Sab;5;Feb;Inter;Milan;1;2
+2021/22;Sab;5;Feb;Fiorentina;Lazio;0;3
+2021/22;Dom;6;Feb;Atalanta;Cagliari;1;2
+2021/22;Dom;6;Feb;Bologna;Empoli;0;0
+2021/22;Dom;6;Feb;Sampdoria;Sassuolo;4;0
+2021/22;Dom;6;Feb;Venezia;Napoli;0;2
+2021/22;Dom;6;Feb;Udinese;Torino;2;0
+2021/22;Dom;6;Feb;Juventus;Hellas Verona;2;0
+2021/22;Lun;7;Feb;Salernitana;Spezia;2;2
+2021/22;Sab;12;Feb;Lazio;Bologna;3;0
+2021/22;Sab;12;Feb;Napoli;Inter;1;1
+2021/22;Sab;12;Feb;Torino;Venezia;1;2
+2021/22;Dom;13;Feb;Milan;Sampdoria;1;0
+2021/22;Dom;13;Feb;Empoli;Cagliari;1;1
+2021/22;Dom;13;Feb;Genoa;Salernitana;1;1
+2021/22;Dom;13;Feb;Hellas Verona;Udinese;4;0
+2021/22;Dom;13;Feb;Sassuolo;Roma;2;2
+2021/22;Dom;13;Feb;Atalanta;Juventus;1;1
+2021/22;Lun;14;Feb;Spezia;Fiorentina;1;2
+2021/22;Ven;18;Feb;Juventus;Torino;1;1
+2021/22;Sab;19;Feb;Sampdoria;Empoli;2;0
+2021/22;Sab;19;Feb;Roma;Hellas Verona;2;2
+2021/22;Sab;19;Feb;Salernitana;Milan;2;2
+2021/22;Dom;20;Feb;Fiorentina;Atalanta;1;0
+2021/22;Dom;20;Feb;Venezia;Genoa;1;1
+2021/22;Dom;20;Feb;Inter;Sassuolo;0;2
+2021/22;Dom;20;Feb;Udinese;Lazio;1;1
+2021/22;Lun;21;Feb;Cagliari;Napoli;1;1
+2021/22;Lun;21;Feb;Bologna;Spezia;2;1
+2021/22;Ven;25;Feb;Milan;Udinese;1;1
+2021/22;Ven;25;Feb;Genoa;Inter;0;0
+2021/22;Sab;26;Feb;Salernitana;Bologna;1;1
+2021/22;Sab;26;Feb;Empoli;Juventus;2;3
+2021/22;Sab;26;Feb;Sassuolo;Fiorentina;2;1
+2021/22;Dom;27;Feb;Torino;Cagliari;1;2
+2021/22;Dom;27;Feb;Hellas Verona;Venezia;3;1
+2021/22;Dom;27;Feb;Spezia;Roma;0;1
+2021/22;Dom;27;Feb;Lazio;Napoli;1;2
+2021/22;Lun;28;Feb;Atalanta;Sampdoria;4;0
+2021/22;Ven;4;Mar;Inter;Salernitana;5;0
+2021/22;Sab;5;Mar;Udinese;Sampdoria;2;1
+2021/22;Sab;5;Mar;Roma;Atalanta;1;0
+2021/22;Sab;5;Mar;Cagliari;Lazio;0;3
+2021/22;Dom;6;Mar;Genoa;Empoli;0;0
+2021/22;Dom;6;Mar;Bologna;Torino;0;0
+2021/22;Dom;6;Mar;Fiorentina;Hellas Verona;1;1
+2021/22;Dom;6;Mar;Venezia;Sassuolo;1;4
+2021/22;Dom;6;Mar;Juventus;Spezia;1;0
+2021/22;Dom;6;Mar;Napoli;Milan;0;1
+2021/22;Sab;12;Mar;Salernitana;Sassuolo;2;2
+2021/22;Sab;12;Mar;Spezia;Cagliari;2;0
+2021/22;Sab;12;Mar;Sampdoria;Juventus;1;3
+2021/22;Sab;12;Mar;Milan;Empoli;1;0
+2021/22;Dom;13;Mar;Fiorentina;Bologna;1;0
+2021/22;Dom;13;Mar;Hellas Verona;Napoli;1;2
+2021/22;Dom;13;Mar;Atalanta;Genoa;0;0
+2021/22;Dom;13;Mar;Udinese;Roma;1;1
+2021/22;Dom;13;Mar;Torino;Inter;1;1
+2021/22;Lun;14;Mar;Lazio;Venezia;1;0
+2021/22;Ven;18;Mar;Sassuolo;Spezia;4;1
+2021/22;Ven;18;Mar;Genoa;Torino;1;0
+2021/22;Sab;19;Mar;Napoli;Udinese;2;1
+2021/22;Sab;19;Mar;Inter;Fiorentina;1;1
+2021/22;Sab;19;Mar;Cagliari;Milan;0;1
+2021/22;Dom;20;Mar;Venezia;Sampdoria;0;2
+2021/22;Dom;20;Mar;Empoli;Hellas Verona;1;1
+2021/22;Dom;20;Mar;Juventus;Salernitana;2;0
+2021/22;Dom;20;Mar;Roma;Lazio;3;0
+2021/22;Dom;20;Mar;Bologna;Atalanta;0;1
+2021/22;Sab;2;Apr;Spezia;Venezia;1;0
+2021/22;Sab;2;Apr;Lazio;Sassuolo;2;1
+2021/22;Sab;2;Apr;Salernitana;Torino;0;1
+2021/22;Dom;3;Apr;Fiorentina;Empoli;1;0
+2021/22;Dom;3;Apr;Atalanta;Napoli;1;3
+2021/22;Dom;3;Apr;Udinese;Cagliari;5;1
+2021/22;Dom;3;Apr;Sampdoria;Roma;0;1
+2021/22;Dom;3;Apr;Juventus;Inter;0;1
+2021/22;Lun;4;Apr;Hellas Verona;Genoa;1;0
+2021/22;Lun;4;Apr;Milan;Bologna;0;0
+2021/22;Sab;9;Apr;Empoli;Spezia;0;0
+2021/22;Sab;9;Apr;Inter;Hellas Verona;2;0
+2021/22;Sab;9;Apr;Cagliari;Juventus;1;2
+2021/22;Dom;10;Apr;Genoa;Lazio;1;4
+2021/22;Dom;10;Apr;Napoli;Fiorentina;2;3
+2021/22;Dom;10;Apr;Sassuolo;Atalanta;2;1
+2021/22;Dom;10;Apr;Venezia;Udinese;1;2
+2021/22;Dom;10;Apr;Roma;Salernitana;2;1
+2021/22;Dom;10;Apr;Torino;Milan;0;0
+2021/22;Lun;11;Apr;Bologna;Sampdoria;2;0
+2021/22;Ven;15;Apr;Spezia;Inter;1;3
+2021/22;Ven;15;Apr;Milan;Genoa;2;0
+2021/22;Sab;16;Apr;Cagliari;Sassuolo;1;0
+2021/22;Sab;16;Apr;Sampdoria;Salernitana;1;2
+2021/22;Sab;16;Apr;Udinese;Empoli;4;1
+2021/22;Sab;16;Apr;Fiorentina;Venezia;1;0
+2021/22;Sab;16;Apr;Juventus;Bologna;1;1
+2021/22;Sab;16;Apr;Lazio;Torino;1;1
+2021/22;Lun;18;Apr;Napoli;Roma;1;1
+2021/22;Lun;18;Apr;Atalanta;Hellas Verona;1;2
+2021/22;Mer;20;Apr;Udinese;Salernitana;0;1
+2021/22;Sab;23;Apr;Torino;Spezia;2;1
+2021/22;Sab;23;Apr;Venezia;Atalanta;1;3
+2021/22;Sab;23;Apr;Inter;Roma;3;1
+2021/22;Sab;23;Apr;Hellas Verona;Sampdoria;1;1
+2021/22;Dom;24;Apr;Salernitana;Fiorentina;2;1
+2021/22;Dom;24;Apr;Bologna;Udinese;2;2
+2021/22;Dom;24;Apr;Empoli;Napoli;3;2
+2021/22;Dom;24;Apr;Genoa;Cagliari;1;0
+2021/22;Dom;24;Apr;Lazio;Milan;1;2
+2021/22;Lun;25;Apr;Sassuolo;Juventus;1;2
+2021/22;Mer;27;Apr;Fiorentina;Udinese;0;4
+2021/22;Mer;27;Apr;Atalanta;Torino;4;4
+2021/22;Mer;27;Apr;Bologna;Inter;2;1
+2021/22;Sab;30;Apr;Cagliari;Hellas Verona;1;2
+2021/22;Sab;30;Apr;Napoli;Sassuolo;6;1
+2021/22;Sab;30;Apr;Sampdoria;Genoa;1;0
+2021/22;Sab;30;Apr;Spezia;Lazio;3;4
+2021/22;Dom;1;Mag;Juventus;Venezia;2;1
+2021/22;Dom;1;Mag;Milan;Fiorentina;1;0
+2021/22;Dom;1;Mag;Empoli;Torino;1;3
+2021/22;Dom;1;Mag;Udinese;Inter;1;2
+2021/22;Dom;1;Mag;Roma;Bologna;0;0
+2021/22;Lun;2;Mag;Atalanta;Salernitana;1;1
+2021/22;Gio;5;Mag;Salernitana;Venezia;2;1
+2021/22;Ven;6;Mag;Inter;Empoli;4;2
+2021/22;Ven;6;Mag;Genoa;Juventus;2;1
+2021/22;Sab;7;Mag;Torino;Napoli;0;1
+2021/22;Sab;7;Mag;Sassuolo;Udinese;1;1
+2021/22;Sab;7;Mag;Lazio;Sampdoria;2;0
+2021/22;Dom;8;Mag;Spezia;Atalanta;1;3
+2021/22;Dom;8;Mag;Venezia;Bologna;4;3
+2021/22;Dom;8;Mag;Salernitana;Cagliari;1;1
+2021/22;Dom;8;Mag;Hellas Verona;Milan;1;3
+2021/22;Lun;9;Mag;Fiorentina;Roma;2;0
+2021/22;Sab;14;Mag;Empoli;Salernitana;1;1
+2021/22;Sab;14;Mag;Hellas Verona;Torino;0;1
+2021/22;Sab;14;Mag;Udinese;Spezia;2;3
+2021/22;Sab;14;Mag;Roma;Venezia;1;1
+2021/22;Dom;15;Mag;Bologna;Sassuolo;1;3
+2021/22;Dom;15;Mag;Napoli;Genoa;3;0
+2021/22;Dom;15;Mag;Milan;Atalanta;2;0
+2021/22;Dom;15;Mag;Cagliari;Inter;1;3
+2021/22;Lun;16;Mag;Sampdoria;Fiorentina;4;1
+2021/22;Lun;16;Mag;Juventus;Lazio;2;2
+2021/22;Ven;20;Mag;Torino;Roma;0;3
+2021/22;Sab;21;Mag;Genoa;Bologna;0;1
+2021/22;Sab;21;Mag;Atalanta;Empoli;0;1
+2021/22;Sab;21;Mag;Fiorentina;Juventus;2;0
+2021/22;Sab;21;Mag;Lazio;Hellas Verona;3;3
+2021/22;Dom;22;Mag;Spezia;Napoli;0;3
+2021/22;Dom;22;Mag;Inter;Sampdoria;3;0
+2021/22;Dom;22;Mag;Sassuolo;Milan;0;3
+2021/22;Dom;22;Mag;Salernitana;Udinese;0;4
+2021/22;Dom;22;Mag;Venezia;Cagliari;0;0
+2022/23;Sab;13;Ago;Milan;Udinese;4;2
+2022/23;Sab;13;Ago;Sampdoria;Atalanta;0;2
+2022/23;Sab;13;Ago;Lecce;Inter;1;2
+2022/23;Sab;13;Ago;Monza;Torino;1;2
+2022/23;Dom;14;Ago;Fiorentina;Cremonese;3;2
+2022/23;Dom;14;Ago;Lazio;Bologna;2;1
+2022/23;Dom;14;Ago;Salernitana;Roma;0;1
+2022/23;Dom;14;Ago;Spezia;Empoli;1;0
+2022/23;Lun;15;Ago;Hellas Verona;Napoli;2;5
+2022/23;Lun;15;Ago;Juventus;Sassuolo;3;0
+2022/23;Sab;20;Ago;Torino;Lazio;0;0
+2022/23;Sab;20;Ago;Udinese;Salernitana;0;0
+2022/23;Sab;20;Ago;Inter;Spezia;3;0
+2022/23;Sab;20;Ago;Sassuolo;Lecce;1;0
+2022/23;Dom;21;Ago;Empoli;Fiorentina;0;0
+2022/23;Dom;21;Ago;Napoli;Monza;4;0
+2022/23;Dom;21;Ago;Atalanta;Milan;1;1
+2022/23;Dom;21;Ago;Bologna;Hellas Verona;1;1
+2022/23;Lun;22;Ago;Roma;Cremonese;1;0
+2022/23;Lun;22;Ago;Sampdoria;Juventus;0;0
+2022/23;Ven;26;Ago;Monza;Udinese;1;2
+2022/23;Ven;26;Ago;Lazio;Inter;3;1
+2022/23;Sab;27;Ago;Cremonese;Torino;1;2
+2022/23;Sab;27;Ago;Juventus;Roma;1;1
+2022/23;Sab;27;Ago;Milan;Bologna;2;0
+2022/23;Sab;27;Ago;Spezia;Sassuolo;2;2
+2022/23;Dom;28;Ago;Hellas Verona;Atalanta;0;1
+2022/23;Dom;28;Ago;Salernitana;Sampdoria;4;0
+2022/23;Dom;28;Ago;Fiorentina;Napoli;0;0
+2022/23;Dom;28;Ago;Lecce;Empoli;1;1
+2022/23;Mar;30;Ago;Sassuolo;Milan;0;0
+2022/23;Mar;30;Ago;Roma;Monza;3;0
+2022/23;Mar;30;Ago;Inter;Cremonese;3;1
+2022/23;Mer;31;Ago;Empoli;Hellas Verona;1;1
+2022/23;Mer;31;Ago;Sampdoria;Lazio;1;1
+2022/23;Mer;31;Ago;Udinese;Fiorentina;1;0
+2022/23;Mer;31;Ago;Juventus;Spezia;2;0
+2022/23;Mer;31;Ago;Napoli;Lecce;1;1
+2022/23;Gio;1;Set;Atalanta;Torino;3;1
+2022/23;Gio;1;Set;Bologna;Salernitana;1;1
+2022/23;Sab;3;Set;Fiorentina;Juventus;1;1
+2022/23;Sab;3;Set;Milan;Inter;3;2
+2022/23;Sab;3;Set;Lazio;Napoli;1;2
+2022/23;Dom;4;Set;Cremonese;Sassuolo;0;0
+2022/23;Dom;4;Set;Spezia;Bologna;2;2
+2022/23;Dom;4;Set;Hellas Verona;Sampdoria;2;1
+2022/23;Dom;4;Set;Udinese;Roma;4;0
+2022/23;Lun;5;Set;Monza;Atalanta;0;2
+2022/23;Lun;5;Set;Salernitana;Empoli;2;2
+2022/23;Lun;5;Set;Torino;Lecce;1;0
+2022/23;Sab;10;Set;Napoli;Spezia;1;0
+2022/23;Sab;10;Set;Inter;Torino;1;0
+2022/23;Sab;10;Set;Sampdoria;Milan;1;2
+2022/23;Dom;11;Set;Atalanta;Cremonese;1;1
+2022/23;Dom;11;Set;Bologna;Fiorentina;2;1
+2022/23;Dom;11;Set;Lecce;Monza;1;1
+2022/23;Dom;11;Set;Sassuolo;Udinese;1;3
+2022/23;Dom;11;Set;Lazio;Hellas Verona;2;0
+2022/23;Dom;11;Set;Juventus;Salernitana;2;2
+2022/23;Lun;12;Set;Empoli;Roma;1;2
+2022/23;Ven;16;Set;Salernitana;Lecce;1;2
+2022/23;Sab;17;Set;Bologna;Empoli;0;1
+2022/23;Sab;17;Set;Spezia;Sampdoria;2;1
+2022/23;Sab;17;Set;Torino;Sassuolo;0;1
+2022/23;Dom;18;Set;Udinese;Inter;3;1
+2022/23;Dom;18;Set;Cremonese;Lazio;0;4
+2022/23;Dom;18;Set;Fiorentina;Hellas Verona;2;0
+2022/23;Dom;18;Set;Monza;Juventus;1;0
+2022/23;Dom;18;Set;Roma;Atalanta;0;1
+2022/23;Dom;18;Set;Milan;Napoli;1;2
+2022/23;Sab;1;Ott;Napoli;Torino;3;1
+2022/23;Sab;1;Ott;Inter;Roma;1;2
+2022/23;Sab;1;Ott;Empoli;Milan;1;3
+2022/23;Dom;2;Ott;Lazio;Spezia;4;0
+2022/23;Dom;2;Ott;Lecce;Cremonese;1;1
+2022/23;Dom;2;Ott;Sampdoria;Monza;0;3
+2022/23;Dom;2;Ott;Sassuolo;Salernitana;5;0
+2022/23;Dom;2;Ott;Atalanta;Fiorentina;1;0
+2022/23;Dom;2;Ott;Juventus;Bologna;3;0
+2022/23;Lun;3;Ott;Hellas Verona;Udinese;1;2
+2022/23;Sab;8;Ott;Sassuolo;Inter;1;2
+2022/23;Sab;8;Ott;Milan;Juventus;2;0
+2022/23;Sab;8;Ott;Bologna;Sampdoria;1;1
+2022/23;Dom;9;Ott;Torino;Empoli;1;1
+2022/23;Dom;9;Ott;Monza;Spezia;2;0
+2022/23;Dom;9;Ott;Salernitana;Hellas Verona;2;1
+2022/23;Dom;9;Ott;Udinese;Atalanta;2;2
+2022/23;Dom;9;Ott;Cremonese;Napoli;1;4
+2022/23;Dom;9;Ott;Roma;Lecce;2;1
+2022/23;Lun;10;Ott;Fiorentina;Lazio;0;4
+2022/23;Sab;15;Ott;Empoli;Monza;1;0
+2022/23;Sab;15;Ott;Torino;Juventus;0;1
+2022/23;Sab;15;Ott;Atalanta;Sassuolo;2;1
+2022/23;Dom;16;Ott;Inter;Salernitana;2;0
+2022/23;Dom;16;Ott;Lazio;Udinese;0;0
+2022/23;Dom;16;Ott;Spezia;Cremonese;2;2
+2022/23;Dom;16;Ott;Napoli;Bologna;3;2
+2022/23;Dom;16;Ott;Hellas Verona;Milan;1;2
+2022/23;Lun;17;Ott;Sampdoria;Roma;0;1
+2022/23;Lun;17;Ott;Lecce;Fiorentina;1;1
+2022/23;Ven;21;Ott;Juventus;Empoli;4;0
+2022/23;Sab;22;Ott;Salernitana;Spezia;1;0
+2022/23;Sab;22;Ott;Milan;Monza;4;1
+2022/23;Sab;22;Ott;Fiorentina;Inter;3;4
+2022/23;Dom;23;Ott;Udinese;Torino;1;2
+2022/23;Dom;23;Ott;Bologna;Lecce;2;0
+2022/23;Dom;23;Ott;Atalanta;Lazio;0;2
+2022/23;Dom;23;Ott;Roma;Napoli;0;1
+2022/23;Lun;24;Ott;Cremonese;Sampdoria;0;1
+2022/23;Lun;24;Ott;Sassuolo;Hellas Verona;2;1
+2022/23;Sab;29;Ott;Napoli;Sassuolo;4;0
+2022/23;Sab;29;Ott;Lecce;Juventus;0;1
+2022/23;Sab;29;Ott;Inter;Sampdoria;3;0
+2022/23;Dom;30;Ott;Empoli;Atalanta;0;2
+2022/23;Dom;30;Ott;Cremonese;Udinese;0;0
+2022/23;Dom;30;Ott;Spezia;Fiorentina;1;2
+2022/23;Dom;30;Ott;Lazio;Salernitana;1;3
+2022/23;Dom;30;Ott;Torino;Milan;2;1
+2022/23;Lun;31;Ott;Hellas Verona;Roma;1;3
+2022/23;Lun;31;Ott;Monza;Bologna;1;2
+2022/23;Ven;4;Nov;Udinese;Lecce;1;1
+2022/23;Sab;5;Nov;Empoli;Sassuolo;1;0
+2022/23;Sab;5;Nov;Salernitana;Cremonese;2;2
+2022/23;Sab;5;Nov;Atalanta;Napoli;1;2
+2022/23;Sab;5;Nov;Milan;Spezia;2;1
+2022/23;Dom;6;Nov;Bologna;Torino;2;1
+2022/23;Dom;6;Nov;Monza;Hellas Verona;2;0
+2022/23;Dom;6;Nov;Sampdoria;Fiorentina;0;2
+2022/23;Dom;6;Nov;Roma;Lazio;0;1
+2022/23;Dom;6;Nov;Juventus;Inter;2;0
+2022/23;Mar;8;Nov;Napoli;Empoli;2;0
+2022/23;Mar;8;Nov;Spezia;Udinese;1;1
+2022/23;Mar;8;Nov;Cremonese;Milan;0;0
+2022/23;Mer;9;Nov;Lecce;Atalanta;2;1
+2022/23;Mer;9;Nov;Sassuolo;Roma;1;1
+2022/23;Mer;9;Nov;Fiorentina;Salernitana;2;1
+2022/23;Mer;9;Nov;Inter;Bologna;6;1
+2022/23;Mer;9;Nov;Torino;Sampdoria;2;0
+2022/23;Gio;10;Nov;Hellas Verona;Juventus;0;1
+2022/23;Gio;10;Nov;Lazio;Monza;1;0
+2022/23;Ven;11;Nov;Empoli;Cremonese;2;0
+2022/23;Sab;12;Nov;Napoli;Udinese;3;2
+2022/23;Sab;12;Nov;Sampdoria;Lecce;0;2
+2022/23;Sab;12;Nov;Bologna;Sassuolo;3;0
+2022/23;Dom;13;Nov;Atalanta;Inter;2;3
+2022/23;Dom;13;Nov;Roma;Torino;1;1
+2022/23;Dom;13;Nov;Hellas Verona;Spezia;1;2
+2022/23;Dom;13;Nov;Monza;Salernitana;3;0
+2022/23;Dom;13;Nov;Milan;Fiorentina;2;1
+2022/23;Dom;13;Nov;Juventus;Lazio;3;0
+2022/23;Mer;4;Gen;Salernitana;Milan;1;2
+2022/23;Mer;4;Gen;Sassuolo;Sampdoria;1;2
+2022/23;Mer;4;Gen;Spezia;Atalanta;2;2
+2022/23;Mer;4;Gen;Torino;Hellas Verona;1;1
+2022/23;Mer;4;Gen;Roma;Bologna;1;0
+2022/23;Mer;4;Gen;Lecce;Lazio;2;1
+2022/23;Mer;4;Gen;Cremonese;Juventus;0;1
+2022/23;Mer;4;Gen;Fiorentina;Monza;1;1
+2022/23;Mer;4;Gen;Inter;Napoli;1;0
+2022/23;Mer;4;Gen;Udinese;Empoli;1;1
+2022/23;Sab;7;Gen;Fiorentina;Sassuolo;2;1
+2022/23;Sab;7;Gen;Juventus;Udinese;1;0
+2022/23;Sab;7;Gen;Monza;Inter;2;2
+2022/23;Dom;8;Gen;Salernitana;Torino;1;1
+2022/23;Dom;8;Gen;Lazio;Empoli;2;2
+2022/23;Dom;8;Gen;Spezia;Lecce;0;0
+2022/23;Dom;8;Gen;Sampdoria;Napoli;0;2
+2022/23;Dom;8;Gen;Milan;Roma;2;2
+2022/23;Lun;9;Gen;Hellas Verona;Cremonese;2;0
+2022/23;Lun;9;Gen;Bologna;Atalanta;1;2
+2022/23;Ven;13;Gen;Napoli;Juventus;5;1
+2022/23;Sab;14;Gen;Cremonese;Monza;2;3
+2022/23;Sab;14;Gen;Lecce;Milan;2;2
+2022/23;Sab;14;Gen;Inter;Hellas Verona;1;0
+2022/23;Dom;15;Gen;Sassuolo;Lazio;0;2
+2022/23;Dom;15;Gen;Torino;Spezia;0;1
+2022/23;Dom;15;Gen;Udinese;Bologna;1;2
+2022/23;Dom;15;Gen;Atalanta;Salernitana;8;2
+2022/23;Dom;15;Gen;Roma;Fiorentina;2;0
+2022/23;Lun;16;Gen;Empoli;Sampdoria;1;0
+2022/23;Sab;21;Gen;Hellas Verona;Lecce;2;0
+2022/23;Sab;21;Gen;Salernitana;Napoli;0;2
+2022/23;Sab;21;Gen;Fiorentina;Torino;0;1
+2022/23;Dom;22;Gen;Sampdoria;Udinese;0;1
+2022/23;Dom;22;Gen;Monza;Sassuolo;1;1
+2022/23;Dom;22;Gen;Spezia;Roma;0;2
+2022/23;Dom;22;Gen;Juventus;Atalanta;3;3
+2022/23;Lun;23;Gen;Bologna;Cremonese;1;1
+2022/23;Lun;23;Gen;Inter;Empoli;0;1
+2022/23;Mar;24;Gen;Lazio;Milan;4;0
+2022/23;Ven;27;Gen;Bologna;Spezia;2;0
+2022/23;Ven;27;Gen;Lecce;Salernitana;1;2
+2022/23;Sab;28;Gen;Empoli;Torino;2;2
+2022/23;Sab;28;Gen;Cremonese;Inter;1;2
+2022/23;Sab;28;Gen;Atalanta;Sampdoria;2;0
+2022/23;Dom;29;Gen;Milan;Sassuolo;2;5
+2022/23;Dom;29;Gen;Juventus;Monza;0;2
+2022/23;Dom;29;Gen;Lazio;Fiorentina;1;1
+2022/23;Dom;29;Gen;Napoli;Roma;2;1
+2022/23;Lun;30;Gen;Udinese;Hellas Verona;1;1
+2022/23;Sab;4;Feb;Cremonese;Lecce;0;2
+2022/23;Sab;4;Feb;Roma;Empoli;2;0
+2022/23;Sab;4;Feb;Sassuolo;Atalanta;1;0
+2022/23;Dom;5;Feb;Spezia;Napoli;0;3
+2022/23;Dom;5;Feb;Torino;Udinese;1;0
+2022/23;Dom;5;Feb;Fiorentina;Bologna;1;2
+2022/23;Dom;5;Feb;Inter;Milan;1;0
+2022/23;Lun;6;Feb;Hellas Verona;Lazio;1;1
+2022/23;Lun;6;Feb;Monza;Sampdoria;2;2
+2022/23;Mar;7;Feb;Salernitana;Juventus;0;3
+2022/23;Ven;10;Feb;Milan;Torino;1;0
+2022/23;Sab;11;Feb;Empoli;Spezia;2;2
+2022/23;Sab;11;Feb;Lecce;Roma;1;1
+2022/23;Sab;11;Feb;Lazio;Atalanta;0;2
+2022/23;Dom;12;Feb;Udinese;Sassuolo;2;2
+2022/23;Dom;12;Feb;Bologna;Monza;0;1
+2022/23;Dom;12;Feb;Juventus;Fiorentina;1;0
+2022/23;Dom;12;Feb;Napoli;Cremonese;3;0
+2022/23;Lun;13;Feb;Hellas Verona;Salernitana;1;0
+2022/23;Lun;13;Feb;Sampdoria;Inter;0;0
+2022/23;Ven;17;Feb;Sassuolo;Napoli;0;2
+2022/23;Sab;18;Feb;Sampdoria;Bologna;1;2
+2022/23;Sab;18;Feb;Monza;Milan;0;1
+2022/23;Sab;18;Feb;Inter;Udinese;3;1
+2022/23;Dom;19;Feb;Atalanta;Lecce;1;2
+2022/23;Dom;19;Feb;Fiorentina;Empoli;1;1
+2022/23;Dom;19;Feb;Salernitana;Lazio;0;2
+2022/23;Dom;19;Feb;Spezia;Juventus;0;2
+2022/23;Dom;19;Feb;Roma;Hellas Verona;1;0
+2022/23;Lun;20;Feb;Torino;Cremonese;2;2
+2022/23;Sab;25;Feb;Empoli;Napoli;0;2
+2022/23;Sab;25;Feb;Lecce;Sassuolo;0;1
+2022/23;Dom;26;Feb;Bologna;Inter;1;0
+2022/23;Dom;26;Feb;Salernitana;Monza;3;0
+2022/23;Dom;26;Feb;Udinese;Spezia;2;2
+2022/23;Dom;26;Feb;Milan;Atalanta;2;0
+2022/23;Lun;27;Feb;Hellas Verona;Fiorentina;0;3
+2022/23;Lun;27;Feb;Lazio;Sampdoria;1;0
+2022/23;Mar;28;Feb;Cremonese;Roma;2;1
+2022/23;Mar;28;Feb;Juventus;Torino;4;2
+2022/23;Ven;3;Mar;Napoli;Lazio;0;1
+2022/23;Sab;4;Mar;Monza;Empoli;2;1
+2022/23;Sab;4;Mar;Atalanta;Udinese;0;0
+2022/23;Sab;4;Mar;Fiorentina;Milan;2;1
+2022/23;Dom;5;Mar;Spezia;Hellas Verona;0;0
+2022/23;Dom;5;Mar;Sampdoria;Salernitana;0;0
+2022/23;Dom;5;Mar;Inter;Lecce;2;0
+2022/23;Dom;5;Mar;Roma;Juventus;1;0
+2022/23;Lun;6;Mar;Sassuolo;Cremonese;3;2
+2022/23;Lun;6;Mar;Torino;Bologna;1;0
+2022/23;Ven;10;Mar;Spezia;Inter;2;1
+2022/23;Sab;11;Mar;Empoli;Udinese;0;1
+2022/23;Sab;11;Mar;Napoli;Atalanta;2;0
+2022/23;Sab;11;Mar;Bologna;Lazio;0;0
+2022/23;Dom;12;Mar;Lecce;Torino;0;2
+2022/23;Dom;12;Mar;Cremonese;Fiorentina;0;2
+2022/23;Dom;12;Mar;Hellas Verona;Monza;1;1
+2022/23;Dom;12;Mar;Roma;Sassuolo;3;4
+2022/23;Dom;12;Mar;Juventus;Sampdoria;4;2
+2022/23;Lun;13;Mar;Milan;Salernitana;1;1
+2022/23;Ven;17;Mar;Sassuolo;Spezia;1;0
+2022/23;Ven;17;Mar;Atalanta;Empoli;2;1
+2022/23;Sab;18;Mar;Monza;Cremonese;1;1
+2022/23;Sab;18;Mar;Salernitana;Bologna;2;2
+2022/23;Sab;18;Mar;Udinese;Milan;3;1
+2022/23;Dom;19;Mar;Sampdoria;Hellas Verona;3;1
+2022/23;Dom;19;Mar;Fiorentina;Lecce;1;0
+2022/23;Dom;19;Mar;Torino;Napoli;0;4
+2022/23;Dom;19;Mar;Lazio;Roma;1;0
+2022/23;Dom;19;Mar;Inter;Juventus;0;1
+2022/23;Sab;1;Apr;Cremonese;Atalanta;1;3
+2022/23;Sab;1;Apr;Inter;Fiorentina;0;1
+2022/23;Sab;1;Apr;Juventus;Hellas Verona;1;0
+2022/23;Dom;2;Apr;Bologna;Udinese;3;0
+2022/23;Dom;2;Apr;Monza;Lazio;0;2
+2022/23;Dom;2;Apr;Spezia;Salernitana;1;1
+2022/23;Dom;2;Apr;Roma;Sampdoria;3;0
+2022/23;Dom;2;Apr;Napoli;Milan;0;4
+2022/23;Lun;3;Apr;Empoli;Lecce;1;0
+2022/23;Lun;3;Apr;Sassuolo;Torino;1;1
+2022/23;Ven;7;Apr;Salernitana;Inter;1;1
+2022/23;Ven;7;Apr;Lecce;Napoli;1;2
+2022/23;Ven;7;Apr;Milan;Empoli;0;0
+2022/23;Sab;8;Apr;Udinese;Monza;2;2
+2022/23;Sab;8;Apr;Fiorentina;Spezia;1;1
+2022/23;Sab;8;Apr;Atalanta;Bologna;0;2
+2022/23;Sab;8;Apr;Sampdoria;Cremonese;2;3
+2022/23;Sab;8;Apr;Hellas Verona;Sassuolo;2;1
+2022/23;Sab;8;Apr;Torino;Roma;0;1
+2022/23;Sab;8;Apr;Lazio;Juventus;2;1
+2022/23;Ven;14;Apr;Cremonese;Empoli;1;0
+2022/23;Ven;14;Apr;Spezia;Lazio;0;3
+2022/23;Sab;15;Apr;Bologna;Milan;1;1
+2022/23;Sab;15;Apr;Napoli;Hellas Verona;0;0
+2022/23;Sab;15;Apr;Inter;Monza;0;1
+2022/23;Dom;16;Apr;Lecce;Sampdoria;1;1
+2022/23;Dom;16;Apr;Torino;Salernitana;1;1
+2022/23;Dom;16;Apr;Sassuolo;Juventus;1;0
+2022/23;Dom;16;Apr;Roma;Udinese;3;0
+2022/23;Lun;17;Apr;Fiorentina;Atalanta;1;1
+2022/23;Ven;21;Apr;Hellas Verona;Bologna;2;1
+2022/23;Sab;22;Apr;Salernitana;Sassuolo;3;0
+2022/23;Sab;22;Apr;Lazio;Torino;0;1
+2022/23;Sab;22;Apr;Sampdoria;Spezia;1;1
+2022/23;Dom;23;Apr;Empoli;Inter;0;3
+2022/23;Dom;23;Apr;Monza;Fiorentina;3;2
+2022/23;Dom;23;Apr;Udinese;Cremonese;3;0
+2022/23;Dom;23;Apr;Milan;Lecce;2;0
+2022/23;Dom;23;Apr;Juventus;Napoli;0;1
+2022/23;Lun;24;Apr;Atalanta;Roma;3;1
+2022/23;Ven;28;Apr;Lecce;Udinese;1;0
+2022/23;Ven;28;Apr;Spezia;Monza;0;2
+2022/23;Sab;29;Apr;Roma;Milan;1;1
+2022/23;Sab;29;Apr;Torino;Atalanta;1;2
+2022/23;Dom;30;Apr;Inter;Lazio;3;1
+2022/23;Dom;30;Apr;Cremonese;Hellas Verona;1;1
+2022/23;Dom;30;Apr;Napoli;Salernitana;1;1
+2022/23;Dom;30;Apr;Sassuolo;Empoli;2;1
+2022/23;Dom;30;Apr;Fiorentina;Sampdoria;5;0
+2022/23;Dom;30;Apr;Bologna;Juventus;1;1
+2022/23;Mer;3;Mag;Atalanta;Spezia;3;2
+2022/23;Mer;3;Mag;Juventus;Lecce;2;1
+2022/23;Mer;3;Mag;Salernitana;Fiorentina;3;3
+2022/23;Mer;3;Mag;Sampdoria;Torino;0;2
+2022/23;Mer;3;Mag;Milan;Cremonese;1;1
+2022/23;Mer;3;Mag;Hellas Verona;Inter;0;6
+2022/23;Mer;3;Mag;Lazio;Sassuolo;2;0
+2022/23;Mer;3;Mag;Monza;Roma;1;1
+2022/23;Gio;4;Mag;Empoli;Bologna;3;1
+2022/23;Gio;4;Mag;Udinese;Napoli;1;1
+2022/23;Sab;6;Mag;Milan;Lazio;2;0
+2022/23;Sab;6;Mag;Roma;Inter;0;2
+2022/23;Sab;6;Mag;Cremonese;Spezia;2;0
+2022/23;Dom;7;Mag;Atalanta;Juventus;0;2
+2022/23;Dom;7;Mag;Torino;Monza;1;1
+2022/23;Dom;7;Mag;Napoli;Fiorentina;1;0
+2022/23;Dom;7;Mag;Lecce;Hellas Verona;0;1
+2022/23;Lun;8;Mag;Empoli;Salernitana;2;1
+2022/23;Lun;8;Mag;Udinese;Sampdoria;2;0
+2022/23;Lun;8;Mag;Sassuolo;Bologna;1;1
+2022/23;Ven;12;Mag;Lazio;Lecce;2;2
+2022/23;Sab;13;Mag;Salernitana;Atalanta;1;0
+2022/23;Sab;13;Mag;Spezia;Milan;2;0
+2022/23;Sab;13;Mag;Inter;Sassuolo;4;2
+2022/23;Dom;14;Mag;Hellas Verona;Torino;0;1
+2022/23;Dom;14;Mag;Fiorentina;Udinese;2;0
+2022/23;Dom;14;Mag;Monza;Napoli;2;0
+2022/23;Dom;14;Mag;Bologna;Roma;0;0
+2022/23;Dom;14;Mag;Juventus;Cremonese;2;0
+2022/23;Lun;15;Mag;Sampdoria;Empoli;1;1
+2022/23;Ven;19;Mag;Sassuolo;Monza;1;2
+2022/23;Sab;20;Mag;Cremonese;Bologna;1;5
+2022/23;Sab;20;Mag;Atalanta;Hellas Verona;3;1
+2022/23;Sab;20;Mag;Milan;Sampdoria;5;1
+2022/23;Dom;21;Mag;Lecce;Spezia;0;0
+2022/23;Dom;21;Mag;Torino;Fiorentina;1;1
+2022/23;Dom;21;Mag;Napoli;Inter;3;1
+2022/23;Dom;21;Mag;Udinese;Lazio;0;1
+2022/23;Lun;22;Mag;Roma;Salernitana;2;2
+2022/23;Lun;22;Mag;Empoli;Juventus;4;1
+2022/23;Ven;26;Mag;Sampdoria;Sassuolo;2;2
+2022/23;Sab;27;Mag;Salernitana;Udinese;3;2
+2022/23;Sab;27;Mag;Spezia;Torino;0;4
+2022/23;Sab;27;Mag;Fiorentina;Roma;2;1
+2022/23;Sab;27;Mag;Inter;Atalanta;3;2
+2022/23;Dom;28;Mag;Hellas Verona;Empoli;1;1
+2022/23;Dom;28;Mag;Bologna;Napoli;2;2
+2022/23;Dom;28;Mag;Monza;Lecce;0;1
+2022/23;Dom;28;Mag;Lazio;Cremonese;3;2
+2022/23;Dom;28;Mag;Juventus;Milan;0;1
+2022/23;Ven;2;Giu;Sassuolo;Fiorentina;1;3
+2022/23;Sab;3;Giu;Torino;Inter;0;1
+2022/23;Sab;3;Giu;Cremonese;Salernitana;2;0
+2022/23;Sab;3;Giu;Empoli;Lazio;0;2
+2022/23;Dom;4;Giu;Napoli;Sampdoria;2;0
+2022/23;Dom;4;Giu;Milan;Hellas Verona;3;1
+2022/23;Dom;4;Giu;Roma;Spezia;2;1
+2022/23;Dom;4;Giu;Atalanta;Monza;5;2
+2022/23;Dom;4;Giu;Lecce;Bologna;2;3
+2022/23;Dom;4;Giu;Udinese;Juventus;0;1
+2023/24;Sab;19;Ago;Empoli;Hellas Verona;0;1
+2023/24;Sab;19;Ago;Frosinone;Napoli;1;3
+2023/24;Sab;19;Ago;Genoa;Fiorentina;1;4
+2023/24;Sab;19;Ago;Inter;Monza;2;0
+2023/24;Dom;20;Ago;Roma;Salernitana;2;2
+2023/24;Dom;20;Ago;Sassuolo;Atalanta;0;2
+2023/24;Dom;20;Ago;Lecce;Lazio;2;1
+2023/24;Dom;20;Ago;Udinese;Juventus;0;3
+2023/24;Lun;21;Ago;Torino;Cagliari;0;0
+2023/24;Lun;21;Ago;Bologna;Milan;0;2
+2023/24;Sab;26;Ago;Frosinone;Atalanta;2;1
+2023/24;Sab;26;Ago;Monza;Empoli;2;0
+2023/24;Sab;26;Ago;Milan;Torino;4;1
+2023/24;Sab;26;Ago;Hellas Verona;Roma;2;1
+2023/24;Dom;27;Ago;Fiorentina;Lecce;2;2
+2023/24;Dom;27;Ago;Juventus;Bologna;1;1
+2023/24;Dom;27;Ago;Lazio;Genoa;0;1
+2023/24;Dom;27;Ago;Napoli;Sassuolo;2;0
+2023/24;Lun;28;Ago;Salernitana;Udinese;1;1
+2023/24;Lun;28;Ago;Cagliari;Inter;0;2
+2023/24;Ven;1;Set;Sassuolo;Hellas Verona;3;1
+2023/24;Ven;1;Set;Roma;Milan;1;2
+2023/24;Sab;2;Set;Bologna;Cagliari;2;1
+2023/24;Sab;2;Set;Udinese;Frosinone;0;0
+2023/24;Sab;2;Set;Atalanta;Monza;3;0
+2023/24;Sab;2;Set;Napoli;Lazio;1;2
+2023/24;Dom;3;Set;Inter;Fiorentina;4;0
+2023/24;Dom;3;Set;Torino;Genoa;1;0
+2023/24;Dom;3;Set;Empoli;Juventus;0;2
+2023/24;Dom;3;Set;Lecce;Salernitana;2;0
+2023/24;Sab;16;Set;Juventus;Lazio;3;1
+2023/24;Sab;16;Set;Inter;Milan;5;1
+2023/24;Sab;16;Set;Genoa;Napoli;2;2
+2023/24;Dom;17;Set;Cagliari;Udinese;0;0
+2023/24;Dom;17;Set;Frosinone;Sassuolo;4;2
+2023/24;Dom;17;Set;Monza;Lecce;1;1
+2023/24;Dom;17;Set;Fiorentina;Atalanta;3;2
+2023/24;Dom;17;Set;Roma;Empoli;7;0
+2023/24;Lun;18;Set;Salernitana;Torino;0;3
+2023/24;Lun;18;Set;Hellas Verona;Bologna;0;0
+2023/24;Ven;22;Set;Salernitana;Frosinone;1;1
+2023/24;Ven;22;Set;Lecce;Genoa;1;0
+2023/24;Sab;23;Set;Milan;Hellas Verona;1;0
+2023/24;Sab;23;Set;Sassuolo;Juventus;4;2
+2023/24;Sab;23;Set;Lazio;Monza;1;1
+2023/24;Dom;24;Set;Empoli;Inter;0;1
+2023/24;Dom;24;Set;Atalanta;Cagliari;2;0
+2023/24;Dom;24;Set;Udinese;Fiorentina;0;2
+2023/24;Dom;24;Set;Bologna;Napoli;0;0
+2023/24;Dom;24;Set;Torino;Roma;1;1
+2023/24;Mar;26;Set;Juventus;Lecce;1;0
+2023/24;Mer;27;Set;Cagliari;Milan;1;3
+2023/24;Mer;27;Set;Empoli;Salernitana;1;0
+2023/24;Mer;27;Set;Hellas Verona;Atalanta;0;1
+2023/24;Mer;27;Set;Inter;Sassuolo;1;2
+2023/24;Mer;27;Set;Lazio;Torino;2;0
+2023/24;Mer;27;Set;Napoli;Udinese;4;1
+2023/24;Gio;28;Set;Frosinone;Fiorentina;1;1
+2023/24;Gio;28;Set;Monza;Bologna;0;0
+2023/24;Gio;28;Set;Genoa;Roma;4;1
+2023/24;Sab;30;Set;Lecce;Napoli;0;4
+2023/24;Sab;30;Set;Milan;Lazio;2;0
+2023/24;Sab;30;Set;Salernitana;Inter;0;4
+2023/24;Dom;1;Ott;Bologna;Empoli;3;0
+2023/24;Dom;1;Ott;Udinese;Genoa;2;2
+2023/24;Dom;1;Ott;Atalanta;Juventus;0;0
+2023/24;Dom;1;Ott;Roma;Frosinone;2;0
+2023/24;Lun;2;Ott;Sassuolo;Monza;0;1
+2023/24;Lun;2;Ott;Torino;Hellas Verona;0;0
+2023/24;Lun;2;Ott;Fiorentina;Cagliari;3;0
+2023/24;Ven;6;Ott;Empoli;Udinese;0;0
+2023/24;Ven;6;Ott;Lecce;Sassuolo;1;1
+2023/24;Sab;7;Ott;Inter;Bologna;2;2
+2023/24;Sab;7;Ott;Juventus;Torino;2;0
+2023/24;Sab;7;Ott;Genoa;Milan;0;1
+2023/24;Dom;8;Ott;Monza;Salernitana;3;0
+2023/24;Dom;8;Ott;Frosinone;Hellas Verona;2;1
+2023/24;Dom;8;Ott;Lazio;Atalanta;3;2
+2023/24;Dom;8;Ott;Cagliari;Roma;1;4
+2023/24;Dom;8;Ott;Napoli;Fiorentina;1;3
+2023/24;Sab;21;Ott;Hellas Verona;Napoli;1;3
+2023/24;Sab;21;Ott;Torino;Inter;0;3
+2023/24;Sab;21;Ott;Sassuolo;Lazio;0;2
+2023/24;Dom;22;Ott;Roma;Monza;1;0
+2023/24;Dom;22;Ott;Bologna;Frosinone;2;1
+2023/24;Dom;22;Ott;Salernitana;Cagliari;2;2
+2023/24;Dom;22;Ott;Atalanta;Genoa;2;0
+2023/24;Dom;22;Ott;Milan;Juventus;0;1
+2023/24;Lun;23;Ott;Udinese;Lecce;1;1
+2023/24;Lun;23;Ott;Fiorentina;Empoli;0;2
+2023/24;Ven;27;Ott;Genoa;Salernitana;1;0
+2023/24;Sab;28;Ott;Sassuolo;Bologna;1;1
+2023/24;Sab;28;Ott;Lecce;Torino;0;1
+2023/24;Sab;28;Ott;Juventus;Hellas Verona;1;0
+2023/24;Dom;29;Ott;Cagliari;Frosinone;4;3
+2023/24;Dom;29;Ott;Monza;Udinese;1;1
+2023/24;Dom;29;Ott;Inter;Roma;1;0
+2023/24;Dom;29;Ott;Napoli;Milan;2;2
+2023/24;Lun;30;Ott;Empoli;Atalanta;0;3
+2023/24;Lun;30;Ott;Lazio;Fiorentina;1;0
+2023/24;Ven;3;Nov;Bologna;Lazio;1;0
+2023/24;Sab;4;Nov;Salernitana;Napoli;0;2
+2023/24;Sab;4;Nov;Atalanta;Inter;1;2
+2023/24;Sab;4;Nov;Milan;Udinese;0;1
+2023/24;Dom;5;Nov;Hellas Verona;Monza;1;3
+2023/24;Dom;5;Nov;Cagliari;Genoa;2;1
+2023/24;Dom;5;Nov;Roma;Lecce;2;1
+2023/24;Dom;5;Nov;Fiorentina;Juventus;0;1
+2023/24;Lun;6;Nov;Frosinone;Empoli;2;1
+2023/24;Lun;6;Nov;Torino;Sassuolo;2;1
+2023/24;Ven;10;Nov;Sassuolo;Salernitana;2;2
+2023/24;Ven;10;Nov;Genoa;Hellas Verona;1;0
+2023/24;Sab;11;Nov;Lecce;Milan;2;2
+2023/24;Sab;11;Nov;Juventus;Cagliari;2;1
+2023/24;Sab;11;Nov;Monza;Torino;1;1
+2023/24;Dom;12;Nov;Napoli;Empoli;0;1
+2023/24;Dom;12;Nov;Fiorentina;Bologna;2;1
+2023/24;Dom;12;Nov;Udinese;Atalanta;1;1
+2023/24;Dom;12;Nov;Lazio;Roma;0;0
+2023/24;Dom;12;Nov;Inter;Frosinone;2;0
+2023/24;Sab;25;Nov;Salernitana;Lazio;2;1
+2023/24;Sab;25;Nov;Atalanta;Napoli;1;2
+2023/24;Sab;25;Nov;Milan;Fiorentina;1;0
+2023/24;Dom;26;Nov;Cagliari;Monza;1;1
+2023/24;Dom;26;Nov;Empoli;Sassuolo;3;4
+2023/24;Dom;26;Nov;Frosinone;Genoa;2;1
+2023/24;Dom;26;Nov;Roma;Udinese;3;1
+2023/24;Dom;26;Nov;Juventus;Inter;1;1
+2023/24;Lun;27;Nov;Hellas Verona;Lecce;2;2
+2023/24;Lun;27;Nov;Bologna;Torino;2;0
+2023/24;Ven;1;Dic;Monza;Juventus;1;2
+2023/24;Sab;2;Dic;Genoa;Empoli;1;1
+2023/24;Sab;2;Dic;Lazio;Cagliari;1;0
+2023/24;Sab;2;Dic;Milan;Frosinone;3;1
+2023/24;Dom;3;Dic;Lecce;Bologna;1;1
+2023/24;Dom;3;Dic;Fiorentina;Salernitana;3;0
+2023/24;Dom;3;Dic;Udinese;Hellas Verona;3;3
+2023/24;Dom;3;Dic;Sassuolo;Roma;1;2
+2023/24;Dom;3;Dic;Napoli;Inter;0;3
+2023/24;Lun;4;Dic;Torino;Atalanta;3;0
+2023/24;Ven;8;Dic;Juventus;Napoli;1;0
+2023/24;Sab;9;Dic;Hellas Verona;Lazio;1;1
+2023/24;Sab;9;Dic;Atalanta;Milan;3;2
+2023/24;Sab;9;Dic;Inter;Udinese;4;0
+2023/24;Dom;10;Dic;Frosinone;Torino;0;0
+2023/24;Dom;10;Dic;Monza;Genoa;1;0
+2023/24;Dom;10;Dic;Salernitana;Bologna;1;2
+2023/24;Dom;10;Dic;Roma;Fiorentina;1;1
+2023/24;Lun;11;Dic;Empoli;Lecce;1;1
+2023/24;Lun;11;Dic;Cagliari;Sassuolo;2;1
+2023/24;Ven;15;Dic;Genoa;Juventus;1;1
+2023/24;Sab;16;Dic;Lecce;Frosinone;2;1
+2023/24;Sab;16;Dic;Napoli;Cagliari;2;1
+2023/24;Sab;16;Dic;Torino;Empoli;1;0
+2023/24;Dom;17;Dic;Milan;Monza;3;0
+2023/24;Dom;17;Dic;Fiorentina;Hellas Verona;1;0
+2023/24;Dom;17;Dic;Udinese;Sassuolo;2;2
+2023/24;Dom;17;Dic;Bologna;Roma;2;0
+2023/24;Dom;17;Dic;Lazio;Inter;0;2
+2023/24;Lun;18;Dic;Atalanta;Salernitana;4;1
+2023/24;Ven;22;Dic;Empoli;Lazio;0;2
+2023/24;Ven;22;Dic;Sassuolo;Genoa;1;2
+2023/24;Ven;22;Dic;Monza;Fiorentina;0;1
+2023/24;Ven;22;Dic;Salernitana;Milan;2;2
+2023/24;Sab;23;Dic;Frosinone;Juventus;1;2
+2023/24;Sab;23;Dic;Bologna;Atalanta;1;0
+2023/24;Sab;23;Dic;Torino;Udinese;1;1
+2023/24;Sab;23;Dic;Hellas Verona;Cagliari;2;0
+2023/24;Sab;23;Dic;Inter;Lecce;2;0
+2023/24;Sab;23;Dic;Roma;Napoli;2;0
+2023/24;Ven;29;Dic;Fiorentina;Torino;1;0
+2023/24;Ven;29;Dic;Napoli;Monza;0;0
+2023/24;Ven;29;Dic;Genoa;Inter;1;1
+2023/24;Ven;29;Dic;Lazio;Frosinone;3;1
+2023/24;Sab;30;Dic;Atalanta;Lecce;1;0
+2023/24;Sab;30;Dic;Cagliari;Empoli;0;0
+2023/24;Sab;30;Dic;Udinese;Bologna;3;0
+2023/24;Sab;30;Dic;Milan;Sassuolo;1;0
+2023/24;Sab;30;Dic;Hellas Verona;Salernitana;0;1
+2023/24;Sab;30;Dic;Juventus;Roma;1;0
+2023/24;Ven;5;Gen;Bologna;Genoa;1;1
+2023/24;Sab;6;Gen;Inter;Hellas Verona;2;1
+2023/24;Sab;6;Gen;Frosinone;Monza;2;3
+2023/24;Sab;6;Gen;Lecce;Cagliari;1;1
+2023/24;Sab;6;Gen;Sassuolo;Fiorentina;1;0
+2023/24;Dom;7;Gen;Empoli;Milan;0;3
+2023/24;Dom;7;Gen;Torino;Napoli;3;0
+2023/24;Dom;7;Gen;Udinese;Lazio;1;2
+2023/24;Dom;7;Gen;Salernitana;Juventus;1;2
+2023/24;Dom;7;Gen;Roma;Atalanta;1;1
+2023/24;Sab;13;Gen;Genoa;Torino;0;0
+2023/24;Sab;13;Gen;Napoli;Salernitana;2;1
+2023/24;Sab;13;Gen;Hellas Verona;Empoli;2;1
+2023/24;Sab;13;Gen;Monza;Inter;1;5
+2023/24;Dom;14;Gen;Lazio;Lecce;1;0
+2023/24;Dom;14;Gen;Cagliari;Bologna;2;1
+2023/24;Dom;14;Gen;Fiorentina;Udinese;2;2
+2023/24;Dom;14;Gen;Milan;Roma;3;1
+2023/24;Lun;15;Gen;Atalanta;Frosinone;5;0
+2023/24;Mar;16;Gen;Juventus;Sassuolo;3;0
+2023/24;Sab;20;Gen;Roma;Hellas Verona;2;1
+2023/24;Sab;20;Gen;Udinese;Milan;2;3
+2023/24;Dom;21;Gen;Frosinone;Cagliari;3;1
+2023/24;Dom;21;Gen;Empoli;Monza;3;0
+2023/24;Dom;21;Gen;Salernitana;Genoa;1;2
+2023/24;Dom;21;Gen;Lecce;Juventus;0;3
+2023/24;Ven;26;Gen;Cagliari;Torino;1;2
+2023/24;Sab;27;Gen;Atalanta;Udinese;2;0
+2023/24;Sab;27;Gen;Juventus;Empoli;1;1
+2023/24;Sab;27;Gen;Milan;Bologna;2;2
+2023/24;Dom;28;Gen;Genoa;Lecce;2;1
+2023/24;Dom;28;Gen;Hellas Verona;Frosinone;1;1
+2023/24;Dom;28;Gen;Monza;Sassuolo;1;0
+2023/24;Dom;28;Gen;Lazio;Napoli;0;0
+2023/24;Dom;28;Gen;Fiorentina;Inter;0;1
+2023/24;Lun;29;Gen;Salernitana;Roma;1;2
+2023/24;Ven;2;Feb;Lecce;Fiorentina;3;2
+2023/24;Sab;3;Feb;Empoli;Genoa;0;0
+2023/24;Sab;3;Feb;Udinese;Monza;0;0
+2023/24;Sab;3;Feb;Frosinone;Milan;2;3
+2023/24;Sab;3;Feb;Bologna;Sassuolo;4;2
+2023/24;Dom;4;Feb;Torino;Salernitana;0;0
+2023/24;Dom;4;Feb;Napoli;Hellas Verona;2;1
+2023/24;Dom;4;Feb;Atalanta;Lazio;3;1
+2023/24;Dom;4;Feb;Inter;Juventus;1;0
+2023/24;Lun;5;Feb;Roma;Cagliari;4;0
+2023/24;Ven;9;Feb;Salernitana;Empoli;1;3
+2023/24;Sab;10;Feb;Cagliari;Lazio;1;3
+2023/24;Sab;10;Feb;Roma;Inter;2;4
+2023/24;Sab;10;Feb;Sassuolo;Torino;1;1
+2023/24;Dom;11;Feb;Fiorentina;Frosinone;5;1
+2023/24;Dom;11;Feb;Bologna;Lecce;4;0
+2023/24;Dom;11;Feb;Monza;Hellas Verona;0;0
+2023/24;Dom;11;Feb;Genoa;Atalanta;1;4
+2023/24;Dom;11;Feb;Milan;Napoli;1;0
+2023/24;Lun;12;Feb;Juventus;Udinese;0;1
+2023/24;Mer;14;Feb;Bologna;Fiorentina;2;0
+2023/24;Ven;16;Feb;Torino;Lecce;2;0
+2023/24;Ven;16;Feb;Inter;Salernitana;4;0
+2023/24;Sab;17;Feb;Napoli;Genoa;1;1
+2023/24;Sab;17;Feb;Hellas Verona;Juventus;2;2
+2023/24;Sab;17;Feb;Atalanta;Sassuolo;3;0
+2023/24;Dom;18;Feb;Lazio;Bologna;1;2
+2023/24;Dom;18;Feb;Empoli;Fiorentina;1;1
+2023/24;Dom;18;Feb;Udinese;Cagliari;1;1
+2023/24;Dom;18;Feb;Frosinone;Roma;0;3
+2023/24;Dom;18;Feb;Monza;Milan;4;2
+2023/24;Gio;22;Feb;Torino;Lazio;0;2
+2023/24;Ven;23;Feb;Bologna;Hellas Verona;2;0
+2023/24;Sab;24;Feb;Sassuolo;Empoli;2;3
+2023/24;Sab;24;Feb;Salernitana;Monza;0;2
+2023/24;Sab;24;Feb;Genoa;Udinese;2;0
+2023/24;Dom;25;Feb;Juventus;Frosinone;3;2
+2023/24;Dom;25;Feb;Cagliari;Napoli;1;1
+2023/24;Dom;25;Feb;Lecce;Inter;0;4
+2023/24;Dom;25;Feb;Milan;Atalanta;1;1
+2023/24;Lun;26;Feb;Roma;Torino;3;2
+2023/24;Lun;26;Feb;Fiorentina;Lazio;2;1
+2023/24;Mer;28;Feb;Sassuolo;Napoli;1;6
+2023/24;Mer;28;Feb;Inter;Atalanta;4;0
+2023/24;Ven;1;Mar;Lazio;Milan;0;1
+2023/24;Sab;2;Mar;Udinese;Salernitana;1;1
+2023/24;Sab;2;Mar;Monza;Roma;1;4
+2023/24;Sab;2;Mar;Torino;Fiorentina;0;0
+2023/24;Dom;3;Mar;Hellas Verona;Sassuolo;1;0
+2023/24;Dom;3;Mar;Empoli;Cagliari;0;1
+2023/24;Dom;3;Mar;Frosinone;Lecce;1;1
+2023/24;Dom;3;Mar;Atalanta;Bologna;1;2
+2023/24;Dom;3;Mar;Napoli;Juventus;2;1
+2023/24;Lun;4;Mar;Inter;Genoa;2;1
+2023/24;Ven;8;Mar;Napoli;Torino;1;1
+2023/24;Sab;9;Mar;Cagliari;Salernitana;4;2
+2023/24;Sab;9;Mar;Sassuolo;Frosinone;1;0
+2023/24;Sab;9;Mar;Bologna;Inter;0;1
+2023/24;Sab;9;Mar;Genoa;Monza;2;3
+2023/24;Dom;10;Mar;Lecce;Hellas Verona;0;1
+2023/24;Dom;10;Mar;Milan;Empoli;1;0
+2023/24;Dom;10;Mar;Juventus;Atalanta;2;2
+2023/24;Dom;10;Mar;Fiorentina;Roma;2;2
+2023/24;Lun;11;Mar;Lazio;Udinese;1;2
+2023/24;Ven;15;Mar;Empoli;Bologna;0;1
+2023/24;Sab;16;Mar;Monza;Cagliari;1;0
+2023/24;Sab;16;Mar;Udinese;Torino;0;2
+2023/24;Sab;16;Mar;Salernitana;Lecce;0;1
+2023/24;Sab;16;Mar;Frosinone;Lazio;2;3
+2023/24;Dom;17;Mar;Juventus;Genoa;0;0
+2023/24;Dom;17;Mar;Hellas Verona;Milan;1;3
+2023/24;Dom;17;Mar;Roma;Sassuolo;1;0
+2023/24;Dom;17;Mar;Inter;Napoli;1;1
+2023/24;Sab;30;Mar;Napoli;Atalanta;0;3
+2023/24;Sab;30;Mar;Genoa;Frosinone;1;1
+2023/24;Sab;30;Mar;Torino;Monza;1;0
+2023/24;Sab;30;Mar;Lazio;Juventus;1;0
+2023/24;Sab;30;Mar;Fiorentina;Milan;1;2
+2023/24;Lun;1;Apr;Bologna;Salernitana;3;0
+2023/24;Lun;1;Apr;Cagliari;Hellas Verona;1;1
+2023/24;Lun;1;Apr;Sassuolo;Udinese;1;1
+2023/24;Lun;1;Apr;Lecce;Roma;0;0
+2023/24;Lun;1;Apr;Inter;Empoli;2;0
+2023/24;Ven;5;Apr;Salernitana;Sassuolo;2;2
+2023/24;Sab;6;Apr;Milan;Lecce;3;0
+2023/24;Sab;6;Apr;Roma;Lazio;1;0
+2023/24;Sab;6;Apr;Empoli;Torino;3;2
+2023/24;Dom;7;Apr;Frosinone;Bologna;0;0
+2023/24;Dom;7;Apr;Monza;Napoli;2;4
+2023/24;Dom;7;Apr;Cagliari;Atalanta;2;1
+2023/24;Dom;7;Apr;Hellas Verona;Genoa;1;2
+2023/24;Dom;7;Apr;Juventus;Fiorentina;1;0
+2023/24;Lun;8;Apr;Udinese;Inter;1;2
+2023/24;Ven;12;Apr;Lazio;Salernitana;4;1
+2023/24;Sab;13;Apr;Lecce;Empoli;1;0
+2023/24;Sab;13;Apr;Torino;Juventus;0;0
+2023/24;Sab;13;Apr;Bologna;Monza;0;0
+2023/24;Dom;14;Apr;Napoli;Frosinone;2;2
+2023/24;Dom;14;Apr;Sassuolo;Milan;3;3
+2023/24;Dom;14;Apr;Inter;Cagliari;2;2
+2023/24;Lun;15;Apr;Fiorentina;Genoa;1;1
+2023/24;Lun;15;Apr;Atalanta;Hellas Verona;2;2
+2023/24;Ven;19;Apr;Genoa;Lazio;0;1
+2023/24;Ven;19;Apr;Cagliari;Juventus;2;2
+2023/24;Sab;20;Apr;Empoli;Napoli;1;0
+2023/24;Sab;20;Apr;Hellas Verona;Udinese;1;0
+2023/24;Dom;21;Apr;Sassuolo;Lecce;0;3
+2023/24;Dom;21;Apr;Torino;Frosinone;0;0
+2023/24;Dom;21;Apr;Salernitana;Fiorentina;0;2
+2023/24;Dom;21;Apr;Monza;Atalanta;1;2
+2023/24;Lun;22;Apr;Roma;Bologna;1;3
+2023/24;Lun;22;Apr;Milan;Inter;1;2
+2023/24;Gio;25;Apr;Udinese;Roma;1;2
+2023/24;Ven;26;Apr;Frosinone;Salernitana;3;0
+2023/24;Sab;27;Apr;Lecce;Monza;1;1
+2023/24;Sab;27;Apr;Juventus;Milan;0;0
+2023/24;Sab;27;Apr;Lazio;Hellas Verona;1;0
+2023/24;Dom;28;Apr;Inter;Torino;2;0
+2023/24;Dom;28;Apr;Bologna;Udinese;1;1
+2023/24;Dom;28;Apr;Atalanta;Empoli;2;0
+2023/24;Dom;28;Apr;Napoli;Roma;2;2
+2023/24;Dom;28;Apr;Fiorentina;Sassuolo;5;1
+2023/24;Lun;29;Apr;Genoa;Cagliari;3;0
+2023/24;Ven;3;Mag;Torino;Bologna;0;0
+2023/24;Sab;4;Mag;Monza;Lazio;2;2
+2023/24;Sab;4;Mag;Sassuolo;Inter;1;0
+2023/24;Dom;5;Mag;Cagliari;Lecce;1;1
+2023/24;Dom;5;Mag;Empoli;Frosinone;0;0
+2023/24;Dom;5;Mag;Hellas Verona;Fiorentina;2;1
+2023/24;Dom;5;Mag;Milan;Genoa;3;3
+2023/24;Dom;5;Mag;Roma;Juventus;1;1
+2023/24;Lun;6;Mag;Salernitana;Atalanta;1;2
+2023/24;Lun;6;Mag;Udinese;Napoli;1;1
+2023/24;Ven;10;Mag;Frosinone;Inter;0;5
+2023/24;Sab;11;Mag;Napoli;Bologna;0;2
+2023/24;Sab;11;Mag;Milan;Cagliari;5;1
+2023/24;Dom;12;Mag;Lazio;Empoli;2;0
+2023/24;Dom;12;Mag;Genoa;Sassuolo;2;1
+2023/24;Dom;12;Mag;Hellas Verona;Torino;1;2
+2023/24;Dom;12;Mag;Juventus;Salernitana;1;1
+2023/24;Dom;12;Mag;Atalanta;Roma;2;1
+2023/24;Lun;13;Mag;Lecce;Udinese;0;2
+2023/24;Lun;13;Mag;Fiorentina;Monza;2;1
+2023/24;Ven;17;Mag;Fiorentina;Napoli;2;2
+2023/24;Sab;18;Mag;Lecce;Atalanta;0;2
+2023/24;Sab;18;Mag;Torino;Milan;3;1
+2023/24;Dom;19;Mag;Sassuolo;Cagliari;0;2
+2023/24;Dom;19;Mag;Monza;Frosinone;0;1
+2023/24;Dom;19;Mag;Udinese;Empoli;1;1
+2023/24;Dom;19;Mag;Inter;Lazio;1;1
+2023/24;Dom;19;Mag;Roma;Genoa;1;0
+2023/24;Lun;20;Mag;Salernitana;Hellas Verona;1;2
+2023/24;Lun;20;Mag;Bologna;Juventus;3;3
+2023/24;Gio;23;Mag;Cagliari;Fiorentina;2;3
+2023/24;Ven;24;Mag;Genoa;Bologna;2;0
+2023/24;Sab;25;Mag;Juventus;Monza;2;0
+2023/24;Sab;25;Mag;Milan;Salernitana;3;3
+2023/24;Dom;26;Mag;Atalanta;Torino;3;0
+2023/24;Dom;26;Mag;Napoli;Lecce;0;0
+2023/24;Dom;26;Mag;Empoli;Roma;2;1
+2023/24;Dom;26;Mag;Frosinone;Udinese;0;1
+2023/24;Dom;26;Mag;Hellas Verona;Inter;2;2
+2023/24;Dom;26;Mag;Lazio;Sassuolo;1;1
+2023/24;Dom;2;Giu;Atalanta;Fiorentina;2;3
+2024/25;Sab;17;Ago;Genoa;Inter;2;2
+2024/25;Sab;17;Ago;Parma;Fiorentina;1;1
+2024/25;Sab;17;Ago;Milan;Torino;2;2
+2024/25;Sab;17;Ago;Empoli;Monza;0;0
+2024/25;Dom;18;Ago;Bologna;Udinese;1;1
+2024/25;Dom;18;Ago;Hellas Verona;Napoli;3;0
+2024/25;Dom;18;Ago;Cagliari;Roma;0;0
+2024/25;Dom;18;Ago;Lazio;Venezia;3;1
+2024/25;Lun;19;Ago;Lecce;Atalanta;0;4
+2024/25;Lun;19;Ago;Juventus;Como;3;0
+2024/25;Sab;24;Ago;Parma;Milan;2;1
+2024/25;Sab;24;Ago;Udinese;Lazio;2;1
+2024/25;Sab;24;Ago;Inter;Lecce;2;0
+2024/25;Sab;24;Ago;Monza;Genoa;0;1
+2024/25;Dom;25;Ago;Fiorentina;Venezia;0;0
+2024/25;Dom;25;Ago;Torino;Atalanta;2;1
+2024/25;Dom;25;Ago;Roma;Empoli;1;2
+2024/25;Dom;25;Ago;Napoli;Bologna;3;0
+2024/25;Lun;26;Ago;Cagliari;Como;1;1
+2024/25;Lun;26;Ago;Hellas Verona;Juventus;0;3
+2024/25;Ven;30;Ago;Venezia;Torino;0;1
+2024/25;Ven;30;Ago;Inter;Atalanta;4;0
+2024/25;Sab;31;Ago;Bologna;Empoli;1;1
+2024/25;Sab;31;Ago;Lecce;Cagliari;1;0
+2024/25;Sab;31;Ago;Lazio;Milan;2;2
+2024/25;Sab;31;Ago;Napoli;Parma;2;1
+2024/25;Dom;1;Set;Fiorentina;Monza;2;2
+2024/25;Dom;1;Set;Genoa;Hellas Verona;0;2
+2024/25;Dom;1;Set;Juventus;Roma;0;0
+2024/25;Dom;1;Set;Udinese;Como;1;0
+2024/25;Sab;14;Set;Como;Bologna;2;2
+2024/25;Sab;14;Set;Empoli;Juventus;0;0
+2024/25;Sab;14;Set;Milan;Venezia;4;0
+2024/25;Dom;15;Set;Genoa;Roma;1;1
+2024/25;Dom;15;Set;Atalanta;Fiorentina;3;2
+2024/25;Dom;15;Set;Torino;Lecce;0;0
+2024/25;Dom;15;Set;Cagliari;Napoli;0;4
+2024/25;Dom;15;Set;Monza;Inter;1;1
+2024/25;Lun;16;Set;Parma;Udinese;2;3
+2024/25;Lun;16;Set;Lazio;Hellas Verona;2;1
+2024/25;Ven;20;Set;Cagliari;Empoli;0;2
+2024/25;Ven;20;Set;Hellas Verona;Torino;2;3
+2024/25;Sab;21;Set;Venezia;Genoa;2;0
+2024/25;Sab;21;Set;Juventus;Napoli;0;0
+2024/25;Sab;21;Set;Lecce;Parma;2;2
+2024/25;Dom;22;Set;Fiorentina;Lazio;2;1
+2024/25;Dom;22;Set;Monza;Bologna;1;2
+2024/25;Dom;22;Set;Roma;Udinese;3;0
+2024/25;Dom;22;Set;Inter;Milan;1;2
+2024/25;Mar;24;Set;Atalanta;Como;2;3
+2024/25;Ven;27;Set;Milan;Lecce;3;0
+2024/25;Sab;28;Set;Udinese;Inter;2;3
+2024/25;Sab;28;Set;Genoa;Juventus;0;3
+2024/25;Sab;28;Set;Bologna;Atalanta;1;1
+2024/25;Dom;29;Set;Torino;Lazio;2;3
+2024/25;Dom;29;Set;Roma;Venezia;2;1
+2024/25;Dom;29;Set;Como;Hellas Verona;3;2
+2024/25;Dom;29;Set;Empoli;Fiorentina;0;0
+2024/25;Dom;29;Set;Napoli;Monza;2;0
+2024/25;Lun;30;Set;Parma;Cagliari;2;3
+2024/25;Ven;4;Ott;Napoli;Como;3;1
+2024/25;Ven;4;Ott;Hellas Verona;Venezia;2;1
+2024/25;Sab;5;Ott;Udinese;Lecce;1;0
+2024/25;Sab;5;Ott;Atalanta;Genoa;5;1
+2024/25;Sab;5;Ott;Inter;Torino;3;2
+2024/25;Dom;6;Ott;Juventus;Cagliari;1;1
+2024/25;Dom;6;Ott;Bologna;Parma;0;0
+2024/25;Dom;6;Ott;Lazio;Empoli;2;1
+2024/25;Dom;6;Ott;Monza;Roma;1;1
+2024/25;Dom;6;Ott;Fiorentina;Milan;2;1
+2024/25;Sab;19;Ott;Como;Parma;1;1
+2024/25;Sab;19;Ott;Genoa;Bologna;2;2
+2024/25;Sab;19;Ott;Milan;Udinese;1;0
+2024/25;Sab;19;Ott;Juventus;Lazio;1;0
+2024/25;Dom;20;Ott;Empoli;Napoli;0;1
+2024/25;Dom;20;Ott;Lecce;Fiorentina;0;6
+2024/25;Dom;20;Ott;Venezia;Atalanta;0;2
+2024/25;Dom;20;Ott;Cagliari;Torino;3;2
+2024/25;Dom;20;Ott;Roma;Inter;0;1
+2024/25;Lun;21;Ott;Hellas Verona;Monza;0;3
+2024/25;Ven;25;Ott;Udinese;Cagliari;2;0
+2024/25;Ven;25;Ott;Torino;Como;1;0
+2024/25;Sab;26;Ott;Napoli;Lecce;1;0
+2024/25;Sab;26;Ott;Bologna;Milan;2;1
+2024/25;Sab;26;Ott;Atalanta;Hellas Verona;6;1
+2024/25;Dom;27;Ott;Parma;Empoli;1;1
+2024/25;Dom;27;Ott;Lazio;Genoa;3;0
+2024/25;Dom;27;Ott;Monza;Venezia;2;2
+2024/25;Dom;27;Ott;Inter;Juventus;4;4
+2024/25;Dom;27;Ott;Fiorentina;Roma;5;1
+2024/25;Mar;29;Ott;Cagliari;Bologna;0;2
+2024/25;Mar;29;Ott;Lecce;Hellas Verona;1;0
+2024/25;Mar;29;Ott;Milan;Napoli;0;2
+2024/25;Mer;30;Ott;Empoli;Inter;0;3
+2024/25;Mer;30;Ott;Venezia;Udinese;3;2
+2024/25;Mer;30;Ott;Atalanta;Monza;2;0
+2024/25;Mer;30;Ott;Juventus;Parma;2;2
+2024/25;Gio;31;Ott;Genoa;Fiorentina;0;1
+2024/25;Gio;31;Ott;Roma;Torino;1;0
+2024/25;Gio;31;Ott;Como;Lazio;1;5
+2024/25;Sab;2;Nov;Bologna;Lecce;1;0
+2024/25;Sab;2;Nov;Udinese;Juventus;0;2
+2024/25;Sab;2;Nov;Monza;Milan;0;1
+2024/25;Dom;3;Nov;Napoli;Atalanta;0;3
+2024/25;Dom;3;Nov;Torino;Fiorentina;0;1
+2024/25;Dom;3;Nov;Hellas Verona;Roma;3;2
+2024/25;Dom;3;Nov;Inter;Venezia;1;0
+2024/25;Lun;4;Nov;Empoli;Como;1;0
+2024/25;Lun;4;Nov;Parma;Genoa;0;1
+2024/25;Lun;4;Nov;Lazio;Cagliari;2;1
+2024/25;Gio;7;Nov;Genoa;Como;1;1
+2024/25;Ven;8;Nov;Lecce;Empoli;1;1
+2024/25;Sab;9;Nov;Venezia;Parma;1;2
+2024/25;Sab;9;Nov;Cagliari;Milan;3;3
+2024/25;Sab;9;Nov;Juventus;Torino;2;0
+2024/25;Dom;10;Nov;Atalanta;Udinese;2;1
+2024/25;Dom;10;Nov;Roma;Bologna;2;3
+2024/25;Dom;10;Nov;Fiorentina;Hellas Verona;3;1
+2024/25;Dom;10;Nov;Monza;Lazio;0;1
+2024/25;Dom;10;Nov;Inter;Napoli;1;1
+2024/25;Sab;23;Nov;Hellas Verona;Inter;0;5
+2024/25;Sab;23;Nov;Milan;Juventus;0;0
+2024/25;Sab;23;Nov;Parma;Atalanta;1;3
+2024/25;Dom;24;Nov;Genoa;Cagliari;2;2
+2024/25;Dom;24;Nov;Como;Fiorentina;0;2
+2024/25;Dom;24;Nov;Torino;Monza;1;1
+2024/25;Dom;24;Nov;Napoli;Roma;1;0
+2024/25;Dom;24;Nov;Lazio;Bologna;3;0
+2024/25;Lun;25;Nov;Empoli;Udinese;1;1
+2024/25;Lun;25;Nov;Venezia;Lecce;0;1
+2024/25;Ven;29;Nov;Cagliari;Hellas Verona;1;0
+2024/25;Sab;30;Nov;Como;Monza;1;1
+2024/25;Sab;30;Nov;Milan;Empoli;3;0
+2024/25;Sab;30;Nov;Bologna;Venezia;3;0
+2024/25;Dom;1;Dic;Udinese;Genoa;0;2
+2024/25;Dom;1;Dic;Parma;Lazio;3;1
+2024/25;Dom;1;Dic;Torino;Napoli;0;1
+2024/25;Dom;1;Dic;Fiorentina;Inter;3;0
+2024/25;Dom;1;Dic;Lecce;Juventus;1;1
+2024/25;Lun;2;Dic;Roma;Atalanta;0;2
+2024/25;Ven;6;Dic;Inter;Parma;3;1
+2024/25;Ven;6;Dic;Atalanta;Milan;2;1
+2024/25;Sab;7;Dic;Genoa;Torino;0;0
+2024/25;Sab;7;Dic;Juventus;Bologna;2;2
+2024/25;Sab;7;Dic;Roma;Lecce;4;1
+2024/25;Dom;8;Dic;Fiorentina;Cagliari;1;0
+2024/25;Dom;8;Dic;Hellas Verona;Empoli;1;4
+2024/25;Dom;8;Dic;Venezia;Como;2;2
+2024/25;Dom;8;Dic;Napoli;Lazio;0;1
+2024/25;Lun;9;Dic;Monza;Udinese;1;2
+2024/25;Ven;13;Dic;Empoli;Torino;0;1
+2024/25;Sab;14;Dic;Cagliari;Atalanta;0;1
+2024/25;Sab;14;Dic;Udinese;Napoli;1;3
+2024/25;Sab;14;Dic;Juventus;Venezia;2;2
+2024/25;Dom;15;Dic;Lecce;Monza;2;1
+2024/25;Dom;15;Dic;Bologna;Fiorentina;1;0
+2024/25;Dom;15;Dic;Parma;Hellas Verona;2;3
+2024/25;Dom;15;Dic;Como;Roma;2;0
+2024/25;Dom;15;Dic;Milan;Genoa;0;0
+2024/25;Lun;16;Dic;Lazio;Inter;0;6
+2024/25;Ven;20;Dic;Hellas Verona;Milan;0;1
+2024/25;Sab;21;Dic;Torino;Bologna;0;2
+2024/25;Sab;21;Dic;Genoa;Napoli;1;2
+2024/25;Sab;21;Dic;Lecce;Lazio;1;2
+2024/25;Dom;22;Dic;Roma;Parma;5;0
+2024/25;Dom;22;Dic;Venezia;Cagliari;2;1
+2024/25;Dom;22;Dic;Atalanta;Empoli;3;2
+2024/25;Dom;22;Dic;Monza;Juventus;1;2
+2024/25;Lun;23;Dic;Fiorentina;Udinese;1;2
+2024/25;Lun;23;Dic;Inter;Como;2;0
+2024/25;Sab;28;Dic;Empoli;Genoa;1;2
+2024/25;Sab;28;Dic;Parma;Monza;2;1
+2024/25;Sab;28;Dic;Cagliari;Inter;0;3
+2024/25;Sab;28;Dic;Lazio;Atalanta;1;1
+2024/25;Dom;29;Dic;Udinese;Torino;2;2
+2024/25;Dom;29;Dic;Napoli;Venezia;1;0
+2024/25;Dom;29;Dic;Juventus;Fiorentina;2;2
+2024/25;Dom;29;Dic;Milan;Roma;1;1
+2024/25;Lun;30;Dic;Como;Lecce;2;0
+2024/25;Lun;30;Dic;Bologna;Hellas Verona;2;3
+2024/25;Sab;4;Gen;Venezia;Empoli;1;1
+2024/25;Sab;4;Gen;Fiorentina;Napoli;0;3
+2024/25;Sab;4;Gen;Hellas Verona;Udinese;0;0
+2024/25;Dom;5;Gen;Monza;Cagliari;1;2
+2024/25;Dom;5;Gen;Lecce;Genoa;0;0
+2024/25;Dom;5;Gen;Torino;Parma;0;0
+2024/25;Dom;5;Gen;Roma;Lazio;2;0
+2024/25;Mar;14;Gen;Como;Milan;1;2
+2024/25;Mar;14;Gen;Atalanta;Juventus;1;1
+2024/25;Mer;15;Gen;Inter;Bologna;2;2
+2024/25;Ven;10;Gen;Lazio;Como;1;1
+2024/25;Sab;11;Gen;Empoli;Lecce;1;3
+2024/25;Sab;11;Gen;Udinese;Atalanta;0;0
+2024/25;Sab;11;Gen;Torino;Juventus;1;1
+2024/25;Sab;11;Gen;Milan;Cagliari;1;1
+2024/25;Dom;12;Gen;Genoa;Parma;1;0
+2024/25;Dom;12;Gen;Venezia;Inter;0;1
+2024/25;Dom;12;Gen;Bologna;Roma;2;2
+2024/25;Dom;12;Gen;Napoli;Hellas Verona;2;0
+2024/25;Lun;13;Gen;Monza;Fiorentina;2;1
+2024/25;Ven;17;Gen;Roma;Genoa;3;1
+2024/25;Sab;18;Gen;Bologna;Monza;3;1
+2024/25;Sab;18;Gen;Juventus;Milan;2;0
+2024/25;Sab;18;Gen;Atalanta;Napoli;2;3
+2024/25;Dom;19;Gen;Fiorentina;Torino;1;1
+2024/25;Dom;19;Gen;Cagliari;Lecce;4;1
+2024/25;Dom;19;Gen;Parma;Venezia;1;1
+2024/25;Dom;19;Gen;Hellas Verona;Lazio;0;3
+2024/25;Dom;19;Gen;Inter;Empoli;3;1
+2024/25;Lun;20;Gen;Como;Udinese;4;1
+2024/25;Ven;24;Gen;Torino;Cagliari;2;0
+2024/25;Sab;25;Gen;Como;Atalanta;1;2
+2024/25;Sab;25;Gen;Napoli;Juventus;2;1
+2024/25;Sab;25;Gen;Empoli;Bologna;1;1
+2024/25;Dom;26;Gen;Milan;Parma;3;2
+2024/25;Dom;26;Gen;Udinese;Roma;1;2
+2024/25;Dom;26;Gen;Lecce;Inter;0;4
+2024/25;Dom;26;Gen;Lazio;Fiorentina;1;2
+2024/25;Lun;27;Gen;Venezia;Hellas Verona;1;1
+2024/25;Lun;27;Gen;Genoa;Monza;2;0
+2024/25;Ven;31;Gen;Parma;Lecce;1;3
+2024/25;Sab;1;Feb;Monza;Hellas Verona;0;1
+2024/25;Sab;1;Feb;Udinese;Venezia;3;2
+2024/25;Sab;1;Feb;Atalanta;Torino;1;1
+2024/25;Sab;1;Feb;Bologna;Como;2;0
+2024/25;Dom;2;Feb;Juventus;Empoli;4;1
+2024/25;Dom;2;Feb;Fiorentina;Genoa;2;1
+2024/25;Dom;2;Feb;Milan;Inter;1;1
+2024/25;Dom;2;Feb;Roma;Napoli;1;1
+2024/25;Lun;3;Feb;Cagliari;Lazio;1;2
+2024/25;Ven;7;Feb;Como;Juventus;1;2
+2024/25;Sab;8;Feb;Hellas Verona;Atalanta;0;5
+2024/25;Sab;8;Feb;Empoli;Milan;0;2
+2024/25;Sab;8;Feb;Torino;Genoa;1;1
+2024/25;Dom;9;Feb;Venezia;Roma;0;1
+2024/25;Dom;9;Feb;Cagliari;Parma;2;1
+2024/25;Dom;9;Feb;Lazio;Monza;5;1
+2024/25;Dom;9;Feb;Lecce;Bologna;0;0
+2024/25;Dom;9;Feb;Napoli;Udinese;1;1
+2024/25;Lun;10;Feb;Inter;Fiorentina;2;1
+2024/25;Ven;14;Feb;Bologna;Torino;3;2
+2024/25;Sab;15;Feb;Atalanta;Cagliari;0;0
+2024/25;Sab;15;Feb;Lazio;Napoli;2;2
+2024/25;Sab;15;Feb;Milan;Hellas Verona;1;0
+2024/25;Dom;16;Feb;Fiorentina;Como;0;2
+2024/25;Dom;16;Feb;Monza;Lecce;0;0
+2024/25;Dom;16;Feb;Udinese;Empoli;3;0
+2024/25;Dom;16;Feb;Parma;Roma;0;1
+2024/25;Dom;16;Feb;Juventus;Inter;1;0
+2024/25;Lun;17;Feb;Genoa;Venezia;2;0
+2024/25;Ven;21;Feb;Lecce;Udinese;0;1
+2024/25;Sab;22;Feb;Parma;Bologna;2;0
+2024/25;Sab;22;Feb;Venezia;Lazio;0;0
+2024/25;Sab;22;Feb;Torino;Milan;2;1
+2024/25;Sab;22;Feb;Inter;Genoa;1;0
+2024/25;Dom;23;Feb;Como;Napoli;2;1
+2024/25;Dom;23;Feb;Hellas Verona;Fiorentina;1;0
+2024/25;Dom;23;Feb;Empoli;Atalanta;0;5
+2024/25;Dom;23;Feb;Cagliari;Juventus;0;1
+2024/25;Lun;24;Feb;Roma;Monza;4;0
+2024/25;Ven;28;Feb;Fiorentina;Lecce;1;0
+2024/25;Sab;1;Mar;Atalanta;Venezia;0;0
+2024/25;Sab;1;Mar;Napoli;Inter;1;1
+2024/25;Sab;1;Mar;Udinese;Parma;1;0
+2024/25;Dom;2;Mar;Monza;Torino;0;2
+2024/25;Dom;2;Mar;Bologna;Cagliari;2;1
+2024/25;Dom;2;Mar;Genoa;Empoli;1;1
+2024/25;Dom;2;Mar;Roma;Como;2;1
+2024/25;Dom;2;Mar;Milan;Lazio;1;2
+2024/25;Lun;3;Mar;Juventus;Hellas Verona;2;0
+2024/25;Ven;7;Mar;Cagliari;Genoa;1;1
+2024/25;Sab;8;Mar;Como;Venezia;1;1
+2024/25;Sab;8;Mar;Parma;Torino;2;2
+2024/25;Sab;8;Mar;Lecce;Milan;2;3
+2024/25;Sab;8;Mar;Inter;Monza;3;2
+2024/25;Dom;9;Mar;Hellas Verona;Bologna;1;2
+2024/25;Dom;9;Mar;Napoli;Fiorentina;2;1
+2024/25;Dom;9;Mar;Empoli;Roma;0;1
+2024/25;Dom;9;Mar;Juventus;Atalanta;0;4
+2024/25;Lun;10;Mar;Lazio;Udinese;1;1
+2024/25;Ven;14;Mar;Genoa;Lecce;2;1
+2024/25;Sab;15;Mar;Monza;Parma;1;1
+2024/25;Sab;15;Mar;Udinese;Hellas Verona;0;1
+2024/25;Sab;15;Mar;Milan;Como;2;1
+2024/25;Sab;15;Mar;Torino;Empoli;1;0
+2024/25;Dom;16;Mar;Venezia;Napoli;0;0
+2024/25;Dom;16;Mar;Bologna;Lazio;5;0
+2024/25;Dom;16;Mar;Roma;Cagliari;1;0
+2024/25;Dom;16;Mar;Fiorentina;Juventus;3;0
+2024/25;Dom;16;Mar;Atalanta;Inter;0;2
+2024/25;Sab;29;Mar;Como;Empoli;1;1
+2024/25;Sab;29;Mar;Venezia;Bologna;0;1
+2024/25;Sab;29;Mar;Juventus;Genoa;1;0
+2024/25;Sab;29;Mar;Lecce;Roma;0;1
+2024/25;Dom;30;Mar;Cagliari;Monza;3;0
+2024/25;Dom;30;Mar;Fiorentina;Atalanta;1;0
+2024/25;Dom;30;Mar;Inter;Udinese;2;1
+2024/25;Dom;30;Mar;Napoli;Milan;2;1
+2024/25;Lun;31;Mar;Hellas Verona;Parma;0;0
+2024/25;Lun;31;Mar;Lazio;Torino;1;1
+2024/25;Ven;4;Apr;Genoa;Udinese;1;0
+2024/25;Sab;5;Apr;Monza;Como;1;3
+2024/25;Sab;5;Apr;Parma;Inter;2;2
+2024/25;Sab;5;Apr;Milan;Fiorentina;2;2
+2024/25;Dom;6;Apr;Lecce;Venezia;1;1
+2024/25;Dom;6;Apr;Empoli;Cagliari;0;0
+2024/25;Dom;6;Apr;Torino;Hellas Verona;1;1
+2024/25;Dom;6;Apr;Atalanta;Lazio;0;1
+2024/25;Dom;6;Apr;Roma;Juventus;1;1
+2024/25;Lun;7;Apr;Bologna;Napoli;1;1
+2024/25;Ven;11;Apr;Udinese;Milan;0;4
+2024/25;Sab;12;Apr;Venezia;Monza;1;0
+2024/25;Sab;12;Apr;Inter;Cagliari;3;1
+2024/25;Sab;12;Apr;Juventus;Lecce;2;1
+2024/25;Dom;13;Apr;Atalanta;Bologna;2;0
+2024/25;Dom;13;Apr;Fiorentina;Parma;0;0
+2024/25;Dom;13;Apr;Hellas Verona;Genoa;0;0
+2024/25;Dom;13;Apr;Como;Torino;1;0
+2024/25;Dom;13;Apr;Lazio;Roma;1;1
+2024/25;Lun;14;Apr;Napoli;Empoli;3;0
+2024/25;Sab;19;Apr;Lecce;Como;0;3
+2024/25;Sab;19;Apr;Monza;Napoli;0;1
+2024/25;Sab;19;Apr;Roma;Hellas Verona;1;0
+2024/25;Dom;20;Apr;Empoli;Venezia;2;2
+2024/25;Dom;20;Apr;Bologna;Inter;1;0
+2024/25;Dom;20;Apr;Milan;Atalanta;0;1
+2024/25;Mer;23;Apr;Cagliari;Fiorentina;1;2
+2024/25;Mer;23;Apr;Genoa;Lazio;0;2
+2024/25;Mer;23;Apr;Parma;Juventus;1;0
+2024/25;Mer;23;Apr;Torino;Udinese;2;0
+2024/25;Dom;27;Apr;Como;Genoa;1;0
+2024/25;Dom;27;Apr;Venezia;Milan;0;2
+2024/25;Dom;27;Apr;Fiorentina;Empoli;2;1
+2024/25;Dom;27;Apr;Inter;Roma;0;1
+2024/25;Dom;27;Apr;Juventus;Monza;2;0
+2024/25;Dom;27;Apr;Atalanta;Lecce;1;1
+2024/25;Dom;27;Apr;Napoli;Torino;2;0
+2024/25;Lun;28;Apr;Udinese;Bologna;0;0
+2024/25;Lun;28;Apr;Hellas Verona;Cagliari;0;2
+2024/25;Lun;28;Apr;Lazio;Parma;2;2
+2024/25;Ven;2;Mag;Torino;Venezia;1;1
+2024/25;Sab;3;Mag;Cagliari;Udinese;1;2
+2024/25;Sab;3;Mag;Parma;Como;0;1
+2024/25;Sab;3;Mag;Lecce;Napoli;0;1
+2024/25;Sab;3;Mag;Inter;Hellas Verona;1;0
+2024/25;Dom;4;Mag;Empoli;Lazio;0;1
+2024/25;Dom;4;Mag;Monza;Atalanta;0;4
+2024/25;Dom;4;Mag;Roma;Fiorentina;1;0
+2024/25;Dom;4;Mag;Bologna;Juventus;1;1
+2024/25;Lun;5;Mag;Genoa;Milan;1;2
+2024/25;Ven;9;Mag;Milan;Bologna;3;1
+2024/25;Sab;10;Mag;Como;Cagliari;3;1
+2024/25;Sab;10;Mag;Lazio;Juventus;1;1
+2024/25;Sab;10;Mag;Empoli;Parma;2;1
+2024/25;Dom;11;Mag;Udinese;Monza;1;2
+2024/25;Dom;11;Mag;Hellas Verona;Lecce;1;1
+2024/25;Dom;11;Mag;Torino;Inter;0;2
+2024/25;Dom;11;Mag;Napoli;Genoa;2;2
+2024/25;Lun;12;Mag;Venezia;Fiorentina;2;1
+2024/25;Lun;12;Mag;Atalanta;Roma;2;1
+2024/25;Sab;17;Mag;Genoa;Atalanta;2;3
+2024/25;Dom;18;Mag;Roma;Milan;3;1
+2024/25;Dom;18;Mag;Cagliari;Venezia;3;0
+2024/25;Dom;18;Mag;Fiorentina;Bologna;3;2
+2024/25;Dom;18;Mag;Hellas Verona;Como;1;1
+2024/25;Dom;18;Mag;Inter;Lazio;2;2
+2024/25;Dom;18;Mag;Juventus;Udinese;2;0
+2024/25;Dom;18;Mag;Lecce;Torino;1;0
+2024/25;Dom;18;Mag;Monza;Empoli;1;3
+2024/25;Dom;18;Mag;Parma;Napoli;0;0
+2024/25;Ven;23;Mag;Como;Inter;0;2
+2024/25;Ven;23;Mag;Napoli;Cagliari;2;0
+2024/25;Sab;24;Mag;Bologna;Genoa;1;3
+2024/25;Sab;24;Mag;Milan;Monza;2;0
+2024/25;Dom;25;Mag;Atalanta;Parma;2;3
+2024/25;Dom;25;Mag;Empoli;Hellas Verona;1;2
+2024/25;Dom;25;Mag;Lazio;Lecce;0;1
+2024/25;Dom;25;Mag;Torino;Roma;0;2
+2024/25;Dom;25;Mag;Udinese;Fiorentina;2;3
+2024/25;Dom;25;Mag;Venezia;Juventus;2;3

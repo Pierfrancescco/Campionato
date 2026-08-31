@@ -1,0 +1,44 @@
+Informazione,Valore
+STRUTTURA DEL DATASET,
+Numero righe,120
+Numero colonne,8
+Dimensioni totali,960
+Memoria totale (MB),0.04
+,
+QUALITÀ DEI DATI,
+Righe duplicate,0
+% Righe duplicate,0.0%
+,
+INFORMAZIONI PER COLONNA,
+Colonna: Championship,
+  Tipo dato,object
+  Valori unici,1
+  Valori mancanti,0 (0.0%)
+Colonna: DayWeek,
+  Tipo dato,object
+  Valori unici,7
+  Valori mancanti,0 (0.0%)
+Colonna: DayMonth,
+  Tipo dato,int64
+  Valori unici,25
+  Valori mancanti,0 (0.0%)
+Colonna: Month,
+  Tipo dato,object
+  Valori unici,4
+  Valori mancanti,0 (0.0%)
+Colonna: Home,
+  Tipo dato,object
+  Valori unici,20
+  Valori mancanti,0 (0.0%)
+Colonna: Away,
+  Tipo dato,object
+  Valori unici,20
+  Valori mancanti,0 (0.0%)
+Colonna: GoalHome,
+  Tipo dato,int64
+  Valori unici,6
+  Valori mancanti,0 (0.0%)
+Colonna: GoalAway,
+  Tipo dato,int64
+  Valori unici,5
+  Valori mancanti,0 (0.0%)

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/Icone/Immagini/Icona/iconaApp.ico</normaloff>:/Icone/Immagini/Icona/iconaApp.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>1041</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.659773, y1:0.62, x2:0.960227, y2:0.978, stop:0 rgba(0, 0, 185, 248), stop:1 rgba(85, 147, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>981</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat ExtraBold</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>Classifica campionato di calcio serie A 2025/26</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>850</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 123, 255);</string>
+    </property>
+    <property name="text">
+     <string>Champions League</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>850</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 215, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Europa League</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>900</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 139, 34);</string>
+    </property>
+    <property name="text">
+     <string>Conference League</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>900</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(144, 238, 144);</string>
+    </property>
+    <property name="text">
+     <string>Conference alternativa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>950</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 140, 0);</string>
+    </property>
+    <property name="text">
+     <string>Spareggio salvezza</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>950</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(220, 20, 60);</string>
+    </property>
+    <property name="text">
+     <string>Zona retrocessione</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>780</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Esci</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Esci dalla classifica</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>90</y>
+      <width>411</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <family>Montserrat Black</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: rgb(0, 123, 255);
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}</string>
+       </property>
+       <property name="text">
+        <string>📺 Sky Sport Serie A</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_classifica">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza la classifica Sky</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>🏆 Classifica Serie A</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_risultati">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza i risultati delle partite nel browser</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>📊 Risultati e Calendario</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_news">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza le ultime notizie nel browser</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>⚽ News Serie A</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_formazioni">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza le formazioni delle squadre</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>📈 Probabili Formazioni</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_squadre">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza immagini delle squdre</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>👥 Squadre</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_marcatori">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza la classifica dei marcatori</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>🥅 Marcatori</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_programma">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza tv che trasmettono eventi sportivi</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>📺 Programma TV Sky e DAZN</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_partite">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Visualizza partite su Sky previo abbonamento</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>🏟️ Partite su Sky</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_app">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Invito a scaricare sky Go</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>📱 App Sky Sport</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sky_btn_highlights">
+       <property name="font">
+        <font>
+         <family>Montserrat</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Eventi rilevanti delle varie squadre</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 123, 255, 255), stop:1 rgba(85, 147, 255, 255));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(85, 147, 255, 255), stop:1 rgba(0, 123, 255, 255));
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                      stop:0 rgba(0, 100, 200, 255), stop:1 rgba(70, 120, 200, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>🎯 Highlights</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1040</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  background-color: qlineargradient(spread:pad, x1:0.659773, y1:0.62, x2:0.960227, y2:0.978, stop:0 rgba(0, 0, 185, 255), stop:1 rgba(85, 147, 255, 255));
+    border: none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>tableView</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
