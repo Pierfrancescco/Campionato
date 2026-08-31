@@ -2,25 +2,19 @@ import time
 _T_INIZIO_AVVIO = time.perf_counter()
 
 import os
-import pandas as pd
+import sys
+import csv
+import webbrowser
+import signal
+import subprocess
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
-import signal
 
-import subprocess
-import sys
-import webbrowser
-
-# I miei moduli
-from aggiornaCampionato import main as aggiornaCampionatoMain
-from appStatistiche import AppStatistiche
-from appClassifica import AppClassifica
-from appPredizioni import RunPredizioni
+# Moduli base locali
 from ErrorManager import catturaEccezione
-from EstrazioneDati import EstrazioneDati
 from myPath import myPath, myFile
-from UI.Window import Ui_MainWindow  # il file generato da pyuic5
+from UI.Window import Ui_MainWindow
 
 _T_FINE_IMPORT = time.perf_counter()
 
@@ -33,7 +27,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
         self.processiFigli = []  # Lista per tenere traccia dei processi figli
         self.setPath(**kwargs)
-        self.sitiSquadre = self.popolaSitiSquadre(self.urlSquadre) # Carica i dati all'inizio
+        self.sitiSquadre = self.popolaSitiSquadre(self.urlSquadre) # Carica i siti con parser CSV nativo ultrarapido
+        
         # Imposta stile globale
         self.setStyleSheet("""
         QToolTip {
@@ -63,8 +58,7 @@ class MainWindow(QtWidgets.QMainWindow):
         }
         """)
 
-        # Imposta dimensioni e flag - usando valori di default
-        # self.setWindowFlags(QtCore.Qt.Window)  # Commentato per evitare errori
+        # Imposta dimensioni
         self.setMinimumSize(800, 600)
         self.setMaximumSize(16777215, 16777215)
         self.resize(1920, 1000)
@@ -76,8 +70,6 @@ class MainWindow(QtWidgets.QMainWindow):
         
         # 🔗 Collegamenti ai pulsanti
         self.connettiPulsantiDelleSquadre()
-        # Puoi aggiungere altri pulsanti qui...
-
         self.connettiPulsantiApp()
     # end __init__()
 
@@ -112,109 +104,114 @@ class MainWindow(QtWidgets.QMainWindow):
     
     @catturaEccezione
     def popolaSitiSquadre(self, file_path=None):
+        """Legge il file CSV con il parser standard (ultrarapido, <1ms)"""
         sitiSquadre = {}
         target = file_path or self.urlSquadre or myFile.urlSquadre
         if target and os.path.exists(target):
-            df = pd.read_csv(target, sep=';')
-            for index, row in df.iterrows():
-                if 'Squadre' in row and 'Url' in row:
-                    sitiSquadre[str(row['Squadre']).strip()] = str(row['Url']).strip()
+            try:
+                with open(target, mode='r', encoding='utf-8') as f:
+                    reader = csv.DictReader(f, delimiter=';')
+                    for row in reader:
+                        if 'Squadre' in row and 'Url' in row:
+                            sitiSquadre[row['Squadre'].strip()] = row['Url'].strip()
+            except Exception:
+                with open(target, mode='r', encoding='latin1') as f:
+                    reader = csv.DictReader(f, delimiter=';')
+                    for row in reader:
+                        if 'Squadre' in row and 'Url' in row:
+                            sitiSquadre[row['Squadre'].strip()] = row['Url'].strip()
         return sitiSquadre
     # end of popolaSitiSquadre()
     
     @catturaEccezione
     def connettiPulsantiDelleSquadre(self):
-        # Associo il sito della squadra al pulsante corrispondente
+        """Collega i pulsanti ai siti ufficiali e imposta tooltip/icone"""
         if not self.sitiSquadre or not isinstance(self.sitiSquadre, dict):
             self.sitiSquadre = self.popolaSitiSquadre(self.urlSquadre) or {}
             
         squadre_list = list(self.sitiSquadre.keys())
-        for btn in range(1, min(21, len(squadre_list) + 1)):  # Evita errori se ci sono meno di 20 squadre
+        for btn in range(1, min(21, len(squadre_list) + 1)):
             toolButton = getattr(self.ui, f'toolButton_{btn}', None)
             if toolButton and (btn - 1) < len(squadre_list):
                 squadra_nome = squadre_list[btn - 1]
                 url = self.sitiSquadre.get(squadra_nome, "")
-                path_icona = os.path.join(myPath.scudetti, f"{squadra_nome}.png")
-                if os.path.exists(path_icona):
-                    toolButton.setIcon(QtGui.QIcon(path_icona))
-                    toolButton.setIconSize(QtCore.QSize(90, 90))
+                
+                # Se l'icona non è già stata caricata dalle risorse Qt
+                if toolButton.icon().isNull():
+                    path_icona = os.path.join(myPath.scudetti, f"{squadra_nome}.png")
+                    if os.path.exists(path_icona):
+                        toolButton.setIcon(QtGui.QIcon(path_icona))
+                        toolButton.setIconSize(QtCore.QSize(90, 90))
+                
                 toolButton.setToolTip(f"{squadra_nome} - Sito Ufficiale")
                 if url:
                     toolButton.clicked.connect(lambda checked, u=url: webbrowser.open(u))
-
     # end of connettiPulsantiDelleSquadre()
     
     @catturaEccezione
     def connettiPulsantiApp(self):
-        
         self.ui.pushButton_Classifica.clicked.connect(lambda: self.apri_appClassifica())
-        # if hasattr(self.ui, 'pushButton_Statistiche'):
         self.ui.pushButton_Statistiche.clicked.connect(lambda: self.apri_appStatistiche())
         self.ui.pushButtonPredizioni.clicked.connect(lambda: self.apri_appPredizioni())
-        # else:
-        #     print("Warning: pushButton_Statistiche not found in UI.")
         self.ui.pushButton_closeApp.clicked.connect(self.close_application)
     # end of connettiPulsantiApp()
     
     @catturaEccezione
-    def close_application(self, event = None):
+    def close_application(self, event=None):
         """Chiude l'applicazione"""
         self.close()
     # end close_application()
     
     @catturaEccezione
     def apri_appClassifica(self):
-        """Apre un'applicazione come processo figlio"""
-        
+        """Apre l'app Classifica come processo figlio con caricamento on-demand (lazy)"""
         tempo_inizio = time.time()
+        from appClassifica import AppClassifica
         appClassifica = AppClassifica()
         self.processiFigli.append(appClassifica)
         appClassifica.show()
         tempo_fine = time.time()
         tempo_esecuzione = tempo_fine - tempo_inizio
-        print(f"⏱️  Tempo di esecuzione dell'app Classifica (righe 292-296): {tempo_esecuzione:.4f} secondi")
-        print(f"⏱️  Tempo di esecuzione dell'app Classifica (righe 292-296): {tempo_esecuzione*1000:.2f} millisecondi")
+        print(f"⏱️  Tempo di apertura Classifica: {tempo_esecuzione:.4f} secondi ({tempo_esecuzione*1000:.2f} ms)")
     # end apri_appClassifica()
     
     @catturaEccezione
     def apri_appStatistiche(self):
-        """Apre un'applicazione come processo figlio"""
+        """Apre l'app Statistiche come processo figlio con caricamento on-demand (lazy)"""
         tempo_inizio = time.time()
-        
-        # app = QtWidgets.QApplication(sys.argv)
+        from appStatistiche import AppStatistiche
         window = AppStatistiche()
         self.processiFigli.append(window)
         window.show()
-        # sys.exit(app.exec_())
-        
         tempo_fine = time.time()
         tempo_esecuzione = tempo_fine - tempo_inizio
-        print(f"⏱️  Tempo di esecuzione dell'app Statistiche (righe 292-296): {tempo_esecuzione:.4f} secondi")
-        print(f"⏱️  Tempo di esecuzione dell'app Statistiche (righe 292-296): {tempo_esecuzione*1000:.2f} millisecondi")
+        print(f"⏱️  Tempo di apertura Statistiche: {tempo_esecuzione:.4f} secondi ({tempo_esecuzione*1000:.2f} ms)")
     # end apri_appStatistiche()
     
     @catturaEccezione
-    def chiudi_tutte_le_app(self):
-        """Chiude tutti i processi figli attivi"""
-        for processo in self.processiFigli[:]:  # Copia la lista per iterare sicuramente
-            processo.close()  # Chiude la finestra dell'applicazione figlia
-            processo.deleteLater()  # Assicura la deallocazione della memoria
-        self.processiFigli.clear()  # Pulisce la lista
-    # end of chiudi_tutte_le_app()
-    
-    @catturaEccezione
     def apri_appPredizioni(self):
-        """Apre l'app delle predizioni come processo figlio"""
-        # Implementa l'apertura dell'app delle predizioni qui
+        """Apre l'app Predizioni come processo figlio con caricamento on-demand (lazy)"""
         tempo_inizio = time.time()
+        from appPredizioni import RunPredizioni
         appPredizioni = RunPredizioni()
         self.processiFigli.append(appPredizioni)
         appPredizioni.show()
         tempo_fine = time.time()
         tempo_esecuzione = tempo_fine - tempo_inizio
-        print(f"⏱️  Tempo di esecuzione dell'app Classifica (righe 292-296): {tempo_esecuzione:.4f} secondi")
-        print(f"⏱️  Tempo di esecuzione dell'app Classifica (righe 292-296): {tempo_esecuzione*1000:.2f} millisecondi")
+        print(f"⏱️  Tempo di apertura Predizioni: {tempo_esecuzione:.4f} secondi ({tempo_esecuzione*1000:.2f} ms)")
     # end apri_appPredizioni() 
+    
+    @catturaEccezione
+    def chiudi_tutte_le_app(self):
+        """Chiude tutti i processi figli attivi"""
+        for processo in self.processiFigli[:]:
+            try:
+                processo.close()
+                processo.deleteLater()
+            except Exception:
+                pass
+        self.processiFigli.clear()
+    # end of chiudi_tutte_le_app()
     
     @catturaEccezione
     def closeEvent(self, event):
@@ -225,27 +222,26 @@ class MainWindow(QtWidgets.QMainWindow):
     # end of closeEvent()
 # end of MainWindow class
 
-# TODO: continua
-class CheckFile:
 
+class CheckFile:
     @staticmethod
     @catturaEccezione
     def checkFilesExistence():
         """Controlla l'esistenza dei file critici all'avvio"""
         critical_files = [
-        myFile.urlSquadre,
-        myFile.campionatoCorrente,
-        myFile.campionatiPrecedenti,
-        myFile.campionatiPrecedentiExcel,
-        myFile.campionatoCorrenteExcel
-    ]
+            myFile.urlSquadre,
+            myFile.campionatoCorrente,
+            myFile.campionatiPrecedenti,
+            myFile.campionatiPrecedentiExcel,
+            myFile.campionatoCorrenteExcel
+        ]
         missing_files = [f for f in critical_files if not os.path.isfile(f)]
         if myFile.campionatoCorrenteExcel in missing_files:
             QMessageBox.critical(None, "Errore Critico", f"Il file Excel --> {myFile.campionatoCorrenteExcel} è mancante. Impossibile fare predizioni e statistiche.")
             sys.exit(1)
-        # end if 
         
         if myFile.campionatiPrecedentiExcel in missing_files:
+            from EstrazioneDati import EstrazioneDati
             estrazioneDati = EstrazioneDati(myFile.campionatiPrecedentiExcel)
             QMessageBox.critical(None, "Errore Critico", f"Il file Excel {myFile.campionatiPrecedentiExcel} è mancante. File generato automaticamente.")
             sys.exit(1)
@@ -255,28 +251,11 @@ class CheckFile:
             sys.exit(1)
         
         if myFile.campionatiPrecedenti in missing_files:
+            from EstrazioneDati import EstrazioneDati
             estrazioneDati = EstrazioneDati(myFile.campionatiPrecedentiExcel)
-            
-        # end if
-        
-        # if missing_files:
-        #     QMessageBox.critical(self, "Errore Critico",)
-        #     print("Errore: I seguenti file critici sono mancanti:")
-        #     for f in missing_files:
-        #         print(f" - {f}")
-        #     sys.exit(1)  # Esce dall'applicazione con codice di errore
+
 
 if __name__ == "__main__":
-    
-    # Necessario per i file .exe compilati
-    # import multiprocessing
-    # multiprocessing.freeze_support()
-    
-    # # Aggiorna il campionato prima di avviare il programma principale
-    # subprocess.run([sys.executable, "AggiornaCampionato.py"])
-    # aggiornaCampionatoMain()
-    # pathUrl = myFile.urlSquadre
-    # print(f"\nPath URL Squadre: {pathUrl}")
     app = QtWidgets.QApplication(sys.argv)
     app.setStyleSheet("""
         QToolTip {
@@ -290,14 +269,13 @@ if __name__ == "__main__":
         }
     """)
     window = MainWindow(
-        utente=myPath.utente,   # Non è più usato direttamente, ma lo passo comunque per coerenza e per eventuali usi futuri
-        radice=myPath.radice,   # Non è più usato direttamente, ma lo passo comunque per coerenza e per eventuali usi futuri
-        urlSquadre=myFile.urlSquadre,   # Passo il path del file CSV con le URL delle squadre
-        campionatoCorrente=myFile.campionatoCorrente,   # Passo il path del file CSV del campionato corrente
-        campionatiPrecedenti=myFile.campionatiPrecedenti,   # Passo il path del file CSV dei campionati precedenti
-        classifica=myFile.classifica,   # Passo il path del file CSV della classifica
-        metadati=myFile.metadati,   # Passo il path del file CSV dei metadati
-        # campionatoCorrenteExcel=myFile.campionatoCorrenteExcel,
+        utente=myPath.utente,
+        radice=myPath.radice,
+        urlSquadre=myFile.urlSquadre,
+        campionatoCorrente=myFile.campionatoCorrente,
+        campionatiPrecedenti=myFile.campionatiPrecedenti,
+        classifica=myFile.classifica,
+        metadati=myFile.metadati,
         campionatiPrecedentiExcel=myFile.campionatiPrecedentiExcel
     )
     
@@ -312,7 +290,4 @@ if __name__ == "__main__":
         signal.signal(signal.SIGTERM, signal_handler)
 
     window.show()
-    
-    
-    
     sys.exit(app.exec_())
