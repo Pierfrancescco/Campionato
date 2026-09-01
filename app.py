@@ -91,14 +91,60 @@ class MainWindow(QtWidgets.QMainWindow):
         icon_path = os.path.join(myPath.icone, "iconaApp.ico")
         if os.path.exists(icon_path):
             self.setWindowIcon(QtGui.QIcon(icon_path))
+            
+        # 🌟 Frase ad effetto nel frontespizio (Gioco Responsabile) - Centrata a schermo
+        self.labelQuote = QtWidgets.QLabel(self.ui.centralwidget)
+        self.labelQuote.setText("""
+        <div style="text-align: center; line-height: 135%;">
+            <span style="font-size: 24pt; color: #FFFFFF; font-weight: 800; font-style: italic; letter-spacing: 0.5px;">“ Giocare è bello,</span><br>
+            <span style="font-size: 22pt; color: #CBD5E1; font-weight: 600; font-style: italic;">farlo in modo responsabile</span><br>
+            <span style="font-size: 26pt; color: #FFD700; font-weight: 800; font-style: italic; letter-spacing: 0.5px;">è meglio! ”</span>
+        </div>
+        """)
+        self.labelQuote.setAlignment(QtCore.Qt.AlignCenter)
+        self.labelQuote.setStyleSheet("""
+            QLabel {
+                background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                            stop:0 rgba(15, 23, 42, 230), 
+                            stop:1 rgba(30, 58, 138, 210));
+                border: 2px solid rgba(255, 215, 0, 0.75);
+                border-radius: 18px;
+                padding: 14px 28px;
+                font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+            }
+        """)
+        
+        # Ombra elegante sul banner
+        shadow = QtWidgets.QGraphicsDropShadowEffect(self)
+        shadow.setBlurRadius(25)
+        shadow.setColor(QtGui.QColor(0, 0, 0, 190))
+        shadow.setOffset(4, 6)
+        self.labelQuote.setGraphicsEffect(shadow)
+        self.labelQuote.raise_()
+        
+        self.aggiornaPosizioneQuote()
         
         # 🔗 Collegamenti ai pulsanti
         self.connettiPulsantiDelleSquadre()
         self.connettiPulsantiApp()
     # end __init__()
 
+    def aggiornaPosizioneQuote(self):
+        """Mantiene il banner della frase ad effetto perfettamente centrato orizzontalmente"""
+        if hasattr(self, 'labelQuote'):
+            bw = 820
+            bh = 175
+            bx = max(20, (self.width() - bw) // 2)
+            by = max(150, self.height() - bh - 80)
+            self.labelQuote.setGeometry(bx, by, bw, bh)
+
+    def resizeEvent(self, event):
+        super().resizeEvent(event)
+        self.aggiornaPosizioneQuote()
+
     def showEvent(self, event):
         super().showEvent(event)
+        self.aggiornaPosizioneQuote()
         if not getattr(self, '_misurato_tempo_avvio', False):
             self._misurato_tempo_avvio = True
             t_fine = time.perf_counter()
