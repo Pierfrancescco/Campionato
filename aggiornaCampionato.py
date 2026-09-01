@@ -226,8 +226,9 @@ class WorkerThread(QThread):
 
 
 class AggiornaClassificaWindow(QMainWindow):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, parent=None, standalone=True):
+        super().__init__(parent)
+        self.standalone = standalone
         self.ui = Ui_AggiornaClassificaWindow()
         self.ui.setupUi(self)
         
@@ -259,8 +260,19 @@ class AggiornaClassificaWindow(QMainWindow):
     def estrazione_completata(self, partite_totali):
         self.ui.statusbar.showMessage(f"Estrazione completata - {partite_totali} partite estratte")
         from PyQt5.QtCore import QTimer
-        from PyQt5.QtWidgets import QApplication
-        QTimer.singleShot(2500, lambda: QApplication.quit())
+        
+        # Se avviata come finestra autonoma (da campionato.py), chiude l'app dopo 2.5s per passare ad app.py
+        # Se avviata come dialogo da app.py, chiude solo la propria finestra
+        if self.standalone:
+            from PyQt5.QtWidgets import QApplication
+            QTimer.singleShot(2500, lambda: QApplication.quit())
+        else:
+            try:
+                from EstrazioneDati import _DF_CACHE
+                _DF_CACHE.clear()
+            except Exception:
+                pass
+            QTimer.singleShot(2000, lambda: self.close())
         
     def aggiungi_log(self, messaggio):
         self.ui.textBrowserLog.append(messaggio)

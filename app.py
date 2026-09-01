@@ -178,6 +178,8 @@ class MainWindow(QtWidgets.QMainWindow):
     
     @catturaEccezione
     def connettiPulsantiApp(self):
+        if hasattr(self.ui, 'pushButton_Aggiorna'):
+            self.ui.pushButton_Aggiorna.clicked.connect(lambda: self.apri_aggiornaCampionato())
         self.ui.pushButton_Classifica.clicked.connect(lambda: self.apri_appClassifica())
         self.ui.pushButton_Statistiche.clicked.connect(lambda: self.apri_appStatistiche())
         self.ui.pushButtonPredizioni.clicked.connect(lambda: self.apri_appPredizioni())
@@ -190,6 +192,35 @@ class MainWindow(QtWidgets.QMainWindow):
         self.close()
     # end close_application()
     
+    @catturaEccezione
+    def apri_aggiornaCampionato(self):
+        """Apre la finestra di estrazione e aggiornamento dati da internet"""
+        tempo_inizio = time.time()
+        from aggiornaCampionato import AggiornaClassificaWindow
+        self.win_aggiorna = AggiornaClassificaWindow(parent=self, standalone=False)
+        self.processiFigli.append(self.win_aggiorna)
+        
+        # Alla conclusione dell'aggiornamento, invalidiamo le vecchie istanze e la cache in RAM
+        def on_aggiornamento_finito(*args):
+            try:
+                from EstrazioneDati import _DF_CACHE
+                _DF_CACHE.clear()
+            except Exception:
+                pass
+            self._win_classifica = None
+            self._win_statistiche = None
+            self._win_predizioni = None
+
+        if hasattr(self.win_aggiorna, 'worker') and self.win_aggiorna.worker:
+            self.win_aggiorna.worker.finished_signal.connect(on_aggiornamento_finito)
+            
+        self.win_aggiorna.show()
+        self.win_aggiorna.raise_()
+        self.win_aggiorna.activateWindow()
+        tempo_fine = time.time()
+        print(f"⏱️  Finestra di aggiornamento aperta in: {(tempo_fine - tempo_inizio)*1000:.2f} ms")
+    # end apri_aggiornaCampionato()
+
     @catturaEccezione
     def apri_appClassifica(self):
         """Apre l'app Classifica come processo figlio con apertura istantanea"""
