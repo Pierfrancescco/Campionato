@@ -63,9 +63,11 @@ class MyTableModel(QAbstractTableModel):
         try:
             if 'Punti' in self._headers:
                 col_idx = self._headers.index('Punti')
+            elif 'PT' in self._headers:
+                col_idx = self._headers.index('PT')
             else:
                 col_idx = -1
-            return int(self._data[row_idx][col_idx])
+            return int(str(self._data[row_idx][col_idx]).strip())
         except (ValueError, TypeError, IndexError):
             return 0
 
@@ -79,7 +81,7 @@ class MyTableModel(QAbstractTableModel):
         
         # Valore della cella
         if role == Qt.DisplayRole:  # type: ignore
-            return str(self._data[row][col])
+            return str(self._data[row][col]).strip()
             
         # Colorazione dinamica dello sfondo (pre-calcolata)
         elif role == Qt.BackgroundRole:  # type: ignore
@@ -95,11 +97,10 @@ class MyTableModel(QAbstractTableModel):
 
         # Gestione dell'allineamento del testo
         elif role == Qt.TextAlignmentRole:  # type: ignore
-            colonne_centrate = [0, 2, 3, 4, 5, 6, 7, 8, 9]  # Pos, PG, V, P, S, GF, GS, DR, Punti
-            if col in colonne_centrate:
-                return Qt.AlignCenter  # type: ignore
-            else:
+            if col < len(self._headers) and self._headers[col] == 'Squadra':
                 return Qt.AlignLeft | Qt.AlignVCenter  # type: ignore
+            else:
+                return Qt.AlignCenter  # type: ignore
         
         return QVariant()
     # end data()
@@ -342,24 +343,18 @@ class AppClassifica(QMainWindow):
     @catturaEccezione
     def importaDati(self, path):
         df = self.determinaPosizioni(path)
-        headers = df.columns.tolist()
-        for header in headers:
-            if header == 'PartiteGiocate':
-                headers[headers.index(header)] = 'PG'
-            elif header == 'Vittorie':
-                headers[headers.index(header)] = 'V'
-            elif header == 'Pareggi':
-                headers[headers.index(header)] = 'P'
-            elif header == 'Sconfitte':
-                headers[headers.index(header)] = 'S'
-            elif header == 'GoalFatti':
-                headers[headers.index(header)] = 'GF'
-            elif header == 'GoalSubiti':
-                headers[headers.index(header)] = 'GS'
-            elif header == 'DifferenzaReti':
-                headers[headers.index(header)] = 'DR'
-            # end if
-        # end for
+        
+        # Mappa abbreviazioni per le intestazioni della tabella
+        mappa_abbreviazioni = {
+            'PartiteGiocate': 'PG',
+            'Vittorie': 'V',
+            'Pareggi': 'P',
+            'Sconfitte': 'S',
+            'GoalFatti': 'GF',
+            'GoalSubiti': 'GS',
+            'DifferenzaReti': 'DR'
+        }
+        headers = [mappa_abbreviazioni.get(h.strip(), h.strip()) for h in df.columns.tolist()]
         data = df.values.tolist()
         
         return headers, data
@@ -370,22 +365,21 @@ class AppClassifica(QMainWindow):
         df = ottieni_dataframe_cache(path)
         if df is None:
             df = pd.read_csv(path, sep=';')
+            
+        # Pulisci i nomi delle colonne da eventuali spazi bianchi
+        df.columns = df.columns.str.strip()
+        
         # Ordinamento ufficiale Serie A: Punti, DifferenzaReti, GoalFatti
-        if 'DifferenzaReti' in df.columns and 'GoalFatti' in df.columns:
+        if 'DifferenzaReti' in df.columns and 'GoalFatti' in df.columns and 'Punti' in df.columns:
             df = df.sort_values(['Punti', 'DifferenzaReti', 'GoalFatti'], ascending=[False, False, False]).reset_index(drop=True)
-        else:
+        elif 'Punti' in df.columns:
             df = df.sort_values('Punti', ascending=False).reset_index(drop=True)
             
         df['Pos'] = range(1, len(df) + 1)
         
-        # Ordine colonne standard per la visualizzazione
-        colonne_ordine = ['Pos', 'Squadra', 'PartiteGiocate', 'Vittorie', 'Pareggi', 'Sconfitte', 'GoalFatti', 'GoalSubiti', 'DifferenzaReti', 'Punti']
-        colonne_presenti = [c for c in colonne_ordine if c in df.columns]
-        # Inserisci eventuali altre colonne presenti
-        for c in df.columns:
-            if c not in colonne_presenti:
-                colonne_presenti.append(c)
-        df = df[colonne_presenti]
+        # Rispetta fedelmente l'ordine delle colonne del file Classifica.csv preceduto da Pos
+        altre_colonne = [c for c in df.columns if c != 'Pos']
+        df = df[['Pos'] + altre_colonne]
         
         return df
     # end determinaPosizioni()
@@ -403,17 +397,11 @@ class AppClassifica(QMainWindow):
         # Imposta larghezze uniformi per le colonne numeriche
         larghezza_numerica = 100  # Larghezza standard per colonne numeriche
         
-        self.tabella.setColumnWidth(0, larghezza_numerica)    # Pos
-        self.tabella.setColumnWidth(2, larghezza_numerica)    # PG  
-        self.tabella.setColumnWidth(3, larghezza_numerica)    # V
-        self.tabella.setColumnWidth(4, larghezza_numerica)    # P
-        self.tabella.setColumnWidth(5, larghezza_numerica)    # S
-        self.tabella.setColumnWidth(6, larghezza_numerica)    # GF
-        self.tabella.setColumnWidth(7, larghezza_numerica)    # GS
-        self.tabella.setColumnWidth(8, larghezza_numerica)    # DR
-        self.tabella.setColumnWidth(9, larghezza_numerica)    # Punti
+        for c in range(len(headers)):
+            if headers[c] != 'Squadra':
+                self.tabella.setColumnWidth(c, larghezza_numerica)
         
-        # La colonna Squadra (indice 1) mantiene la larghezza automatica
+        # La colonna Squadra mantiene la larghezza automatica
     # end caricaDati()
 
     @catturaEccezione
