@@ -10,7 +10,7 @@ import sys
 # I miei Moduli
 from ErrorManager import catturaEccezione
 from EsitoDalRanking import PredizionePartita
-from EstrazioneDati import EstrazioneDati
+from EstrazioneDati import EstrazioneDati, ottieni_dataframe_cache
 from myPath import myPath, myFile
 from UI.Predizioni import Ui_MainWindow
 from ProgressBar import ProgressBar
@@ -261,7 +261,9 @@ class RunPredizioni(QMainWindow):
     def checkScontriDiretti(self):
         squadraDiCasa = self.ui.comboBoxCasa.currentText()
         squadraInTrasferta = self.ui.comboBoxTrasferta.currentText()
-        df = pd.read_csv(self.campionatiPrecedenti, sep=";")
+        df = ottieni_dataframe_cache(self.campionatiPrecedenti)
+        if df is None or df.empty:
+            return False
         scontri_diretti = df[
                 ((df['Casa'] == squadraDiCasa) & (df['Trasferta'] == squadraInTrasferta)) |
                 ((df['Casa'] == squadraInTrasferta) & (df['Trasferta'] == squadraDiCasa))
@@ -275,7 +277,9 @@ class RunPredizioni(QMainWindow):
     @catturaEccezione
     def checkCampionatiPrecedentiSquadraDiCasa(self):
         squadraDiCasa = self.ui.comboBoxCasa.currentText()
-        df = pd.read_csv(self.campionatiPrecedenti, sep=";")
+        df = ottieni_dataframe_cache(self.campionatiPrecedenti)
+        if df is None or df.empty:
+            return False
         campionati_precedenti_casa = df[
                 (df['Casa'] == squadraDiCasa) | (df['Trasferta'] == squadraDiCasa)
         ]    
@@ -288,7 +292,9 @@ class RunPredizioni(QMainWindow):
     @catturaEccezione
     def checkCampionatiPrecedentiSquadraInTrasferta(self):
         squadraInTrasferta = self.ui.comboBoxTrasferta.currentText()
-        df = pd.read_csv(self.campionatiPrecedenti, sep=";")
+        df = ottieni_dataframe_cache(self.campionatiPrecedenti)
+        if df is None or df.empty:
+            return False
         campionati_precedenti_trasferta = df[
                 (df['Casa'] == squadraInTrasferta) | (df['Trasferta'] == squadraInTrasferta)
         ]    
@@ -687,7 +693,10 @@ class RunPredizioni(QMainWindow):
         self.ui.labelGrafico.setText("Grafico di confronto: -----")
     # end reset()
         
-    
+    def closeEvent(self, event):
+        """Nasconde la finestra alla chiusura standard per riapertura istantanea"""
+        self.hide()
+        event.ignore()
 # end of RunPredizioni class
 
 

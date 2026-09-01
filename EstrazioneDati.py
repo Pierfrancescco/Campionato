@@ -7,8 +7,28 @@ import numpy as np
 # I miei moduli
 from ErrorManager import catturaEccezione
 from TrasformaFileCsv import *
-from TrasformaFileCsv import *
 from myPath import myPath, myFile
+
+# Cache globale in memoria per evitare letture I/O ripetute dello stesso file CSV
+_DF_CACHE = {}
+
+def ottieni_dataframe_cache(file_path: str) -> pd.DataFrame:
+    """Restituisce il DataFrame dalla cache in RAM o lo legge da disco se modificato"""
+    if not file_path or not os.path.exists(file_path):
+        return None
+    try:
+        mtime = os.path.getmtime(file_path)
+        if file_path in _DF_CACHE:
+            cached_mtime, cached_df = _DF_CACHE[file_path]
+            if cached_mtime == mtime:
+                return cached_df.copy()
+        
+        df = pd.read_csv(file_path, sep=';')
+        _DF_CACHE[file_path] = (mtime, df)
+        return df.copy()
+    except Exception as e:
+        print(f"[ERRORE] Lettura CSV {file_path}: {e}")
+        return None
 
 
 class MetaDatiDf:
@@ -16,7 +36,6 @@ class MetaDatiDf:
     def __init__(self, file_xlsm: str):
         import os
         self.file_xlsm = file_xlsm
-        # print(f"[DEBUG] Percorso file ricevuto: {self.file_xlsm}")
         if not isinstance(self.file_xlsm, str) or not self.file_xlsm:
             print("[ERRORE] Il percorso del file deve essere una stringa non vuota.")
             self.df = None
@@ -35,7 +54,7 @@ class MetaDatiDf:
         try:
             if self.file_xlsm.lower().endswith('.csv'):
                 self.file_csv = self.file_xlsm  
-                self.df = pd.read_csv(f'{self.file_csv}', sep=';')
+                self.df = ottieni_dataframe_cache(self.file_csv)
                 return
             else:
                
@@ -48,7 +67,6 @@ class MetaDatiDf:
             return
         
         # Salva anche il percorso del file csv generato
-        # Ottieni il nome base del file senza percorso e cambia estensione in .csv
         base_name = os.path.splitext(os.path.basename(self.file_xlsm))[0]
         self.file_csv = f"{base_name}.csv"
         self.df.to_csv(f'Csv\\{self.file_csv}', sep=';', index=False)
@@ -390,8 +408,8 @@ class EstrazioneDati:
     
     @catturaEccezione
     def caricaDataFrameDaCsv(self, file_csv):
-        # Carica il DataFrame da un file CSV già trasformato
-        self.df = pd.read_csv(f'{file_csv}', sep=';')
+        # Carica il DataFrame da un file CSV con cache in memoria
+        self.df = ottieni_dataframe_cache(file_csv)
         self.controllaDataFrame()
         return self.df
     

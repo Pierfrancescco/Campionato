@@ -19,6 +19,29 @@ from UI.Window import Ui_MainWindow
 _T_FINE_IMPORT = time.perf_counter()
 
 
+class WarmupThread(QtCore.QThread):
+    """Thread in background per precaricare silenziosamente in RAM le librerie pesanti e i dataset"""
+    def run(self):
+        try:
+            # 1. Precarica librerie scientifiche e sottomoduli in memoria
+            import pandas as pd
+            import matplotlib.pyplot as plt
+            from appClassifica import AppClassifica
+            from appStatistiche import AppStatistiche
+            from appPredizioni import RunPredizioni
+            from EstrazioneDati import ottieni_dataframe_cache
+            
+            # 2. Pre-riscalda la cache in RAM dei file CSV principali
+            if os.path.exists(myFile.campionatoCorrente):
+                ottieni_dataframe_cache(myFile.campionatoCorrente)
+            if os.path.exists(myFile.campionatiPrecedenti):
+                ottieni_dataframe_cache(myFile.campionatiPrecedenti)
+            if os.path.exists(myFile.classifica):
+                ottieni_dataframe_cache(myFile.classifica)
+        except Exception:
+            pass
+
+
 class MainWindow(QtWidgets.QMainWindow):
     @catturaEccezione
     def __init__(self, **kwargs):
@@ -26,6 +49,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.processiFigli = []  # Lista per tenere traccia dei processi figli
+        self.warmup_thread = None
         self.setPath(**kwargs)
         self.sitiSquadre = self.popolaSitiSquadre(self.urlSquadre) # Carica i siti con parser CSV nativo ultrarapido
         
@@ -88,6 +112,10 @@ class MainWindow(QtWidgets.QMainWindow):
             print(f"   • Importazione moduli e librerie: {tempo_import:.4f} s ({tempo_import * 1000:.2f} ms)")
             print(f"   • Inizializzazione e rendering UI: {tempo_ui:.4f} s ({tempo_ui * 1000:.2f} ms)")
             print("=" * 60 + "\n")
+            
+            # Avvia riscaldamento in background a bassa priorità
+            self.warmup_thread = WarmupThread()
+            self.warmup_thread.start(QtCore.QThread.LowestPriority)
     
     @catturaEccezione
     def setPath(self, **kwargs):
@@ -164,12 +192,15 @@ class MainWindow(QtWidgets.QMainWindow):
     
     @catturaEccezione
     def apri_appClassifica(self):
-        """Apre l'app Classifica come processo figlio con caricamento on-demand (lazy)"""
+        """Apre l'app Classifica come processo figlio con apertura istantanea"""
         tempo_inizio = time.time()
         from appClassifica import AppClassifica
-        appClassifica = AppClassifica()
-        self.processiFigli.append(appClassifica)
-        appClassifica.show()
+        if not hasattr(self, '_win_classifica') or self._win_classifica is None:
+            self._win_classifica = AppClassifica()
+            self.processiFigli.append(self._win_classifica)
+        self._win_classifica.show()
+        self._win_classifica.raise_()
+        self._win_classifica.activateWindow()
         tempo_fine = time.time()
         tempo_esecuzione = tempo_fine - tempo_inizio
         print(f"⏱️  Tempo di apertura Classifica: {tempo_esecuzione:.4f} secondi ({tempo_esecuzione*1000:.2f} ms)")
@@ -177,12 +208,15 @@ class MainWindow(QtWidgets.QMainWindow):
     
     @catturaEccezione
     def apri_appStatistiche(self):
-        """Apre l'app Statistiche come processo figlio con caricamento on-demand (lazy)"""
+        """Apre l'app Statistiche come processo figlio con apertura istantanea"""
         tempo_inizio = time.time()
         from appStatistiche import AppStatistiche
-        window = AppStatistiche()
-        self.processiFigli.append(window)
-        window.show()
+        if not hasattr(self, '_win_statistiche') or self._win_statistiche is None:
+            self._win_statistiche = AppStatistiche()
+            self.processiFigli.append(self._win_statistiche)
+        self._win_statistiche.show()
+        self._win_statistiche.raise_()
+        self._win_statistiche.activateWindow()
         tempo_fine = time.time()
         tempo_esecuzione = tempo_fine - tempo_inizio
         print(f"⏱️  Tempo di apertura Statistiche: {tempo_esecuzione:.4f} secondi ({tempo_esecuzione*1000:.2f} ms)")
@@ -190,12 +224,15 @@ class MainWindow(QtWidgets.QMainWindow):
     
     @catturaEccezione
     def apri_appPredizioni(self):
-        """Apre l'app Predizioni come processo figlio con caricamento on-demand (lazy)"""
+        """Apre l'app Predizioni come processo figlio con apertura istantanea"""
         tempo_inizio = time.time()
         from appPredizioni import RunPredizioni
-        appPredizioni = RunPredizioni()
-        self.processiFigli.append(appPredizioni)
-        appPredizioni.show()
+        if not hasattr(self, '_win_predizioni') or self._win_predizioni is None:
+            self._win_predizioni = RunPredizioni()
+            self.processiFigli.append(self._win_predizioni)
+        self._win_predizioni.show()
+        self._win_predizioni.raise_()
+        self._win_predizioni.activateWindow()
         tempo_fine = time.time()
         tempo_esecuzione = tempo_fine - tempo_inizio
         print(f"⏱️  Tempo di apertura Predizioni: {tempo_esecuzione:.4f} secondi ({tempo_esecuzione*1000:.2f} ms)")

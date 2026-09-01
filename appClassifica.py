@@ -1,4 +1,3 @@
-from numpy import euler_gamma
 import pandas as pd
 from PyQt5.QtWidgets import QApplication, QWidget, QTableView, QMainWindow, QAbstractItemView, QFrame, QPushButton, QVBoxLayout, QLabel
 from PyQt5.QtCore import QAbstractTableModel, Qt, QVariant, QUrl
@@ -12,7 +11,7 @@ import time
 # I miei import
 from UI.Classifica import Ui_MainWindow
 from ErrorManager import catturaEccezione
-from EstrazioneDati import EstrazioneDati 
+from EstrazioneDati import EstrazioneDati, ottieni_dataframe_cache
 
 class MyTableModel(QAbstractTableModel):
     @catturaEccezione
@@ -20,7 +19,33 @@ class MyTableModel(QAbstractTableModel):
         super().__init__()
         self._data = data
         self._headers = headers
+        self._soglie = self._calcolaSogliePunti()
+        
+        # Pre-calcolo colori di sfondo e testo per ogni riga per rendere il rendering istantaneo
+        self._row_bg = []
+        self._row_fg = []
+        for r_idx in range(len(self._data)):
+            pts = self._getPuntiSquadra(r_idx)
+            bg, fg = self._determinaStileRiga(r_idx, pts)
+            self._row_bg.append(bg)
+            self._row_fg.append(fg)
     # end __init__()
+    
+    def _determinaStileRiga(self, row_idx: int, punti: int):
+        s = self._soglie
+        if not s:
+            return QBrush(QColor("#FFFFFF")), QBrush(QColor("#212529"))
+        
+        if punti >= s['soglia_Champions']:
+            return QBrush(QColor("#007BFF")), QBrush(QColor("#FFFFFF"))
+        elif s['soglia_Retrocessione'] is not None and punti <= s['soglia_Retrocessione']:
+            return QBrush(QColor("#DC3545")), QBrush(QColor("#FFFFFF"))
+        elif s['soglia_Europa_League'] is not None and punti == s['soglia_Europa_League']:
+            return QBrush(QColor("#FFD700")), QBrush(QColor("#212529"))
+        elif s['soglia_Conference_League'] is not None and punti == s['soglia_Conference_League'] and row_idx in (5, 6):
+            return QBrush(QColor("#28A745")), QBrush(QColor("#FFFFFF"))
+        else:
+            return QBrush(QColor("#FFFFFF")), QBrush(QColor("#212529"))
     
     @catturaEccezione
     def rowCount(self, parent=None):
@@ -49,60 +74,29 @@ class MyTableModel(QAbstractTableModel):
         if not index.isValid():
             return QVariant()
         
+        row = index.row()
+        col = index.column()
+        
         # Valore della cella
         if role == Qt.DisplayRole:  # type: ignore
-            return str(self._data[index.row()][index.column()])
+            return str(self._data[row][col])
             
-        # Colorazione dinamica dello sfondo basata sulle soglie di punteggio
+        # Colorazione dinamica dello sfondo (pre-calcolata)
         elif role == Qt.BackgroundRole:  # type: ignore
-            punti_squadra = self._getPuntiSquadra(index.row())
-            soglie = self._calcolaSogliePunti()
-            
-            if soglie:
-                # 1. Se punti >= soglia_Champions -> Colore Blu (#007BFF) [include tutti i pari merito al 4° posto]
-                if punti_squadra >= soglie['soglia_Champions']:
-                    return QBrush(QColor("#007BFF"))
+            if row < len(self._row_bg):
+                return self._row_bg[row]
+            return QBrush(QColor("#FFFFFF"))
                 
-                # 2. Se punti <= soglia_Retrocessione -> Colore Rosso (#DC3545) [include tutti i pari merito con le ultime 3]
-                elif soglie['soglia_Retrocessione'] is not None and punti_squadra <= soglie['soglia_Retrocessione']:
-                    return QBrush(QColor("#DC3545"))
-                
-                # 3. Se punti == soglia_Europa_League -> Colore Giallo (#FFD700)
-                elif soglie['soglia_Europa_League'] is not None and punti_squadra == soglie['soglia_Europa_League']:
-                    return QBrush(QColor("#FFD700"))
-                
-                # 4. Sfumatura verde per Conference League
-                elif soglie['soglia_Conference_League'] is not None and punti_squadra == soglie['soglia_Conference_League'] and index.row() in (5, 6):
-                    return QBrush(QColor("#28A745"))
-                
-                # 5. Per i punteggi intermedi -> Bianco (#FFFFFF)
-                else:
-                    return QBrush(QColor("#FFFFFF"))
-            else:
-                return QBrush(QColor("#FFFFFF"))
-                
-        # Contrasto colore del testo per massima leggibilità
+        # Contrasto colore del testo (pre-calcolato)
         elif role == Qt.ForegroundRole:  # type: ignore
-            punti_squadra = self._getPuntiSquadra(index.row())
-            soglie = self._calcolaSogliePunti()
-            
-            if soglie:
-                # Testo bianco su sfondi scuri (Blu Champions, Rosso Retrocessione, Verde Conference)
-                if punti_squadra >= soglie['soglia_Champions']:
-                    return QBrush(QColor("#FFFFFF"))
-                elif soglie['soglia_Retrocessione'] is not None and punti_squadra <= soglie['soglia_Retrocessione']:
-                    return QBrush(QColor("#FFFFFF"))
-                elif soglie['soglia_Conference_League'] is not None and punti_squadra == soglie['soglia_Conference_League'] and index.row() in (5, 6):
-                    return QBrush(QColor("#FFFFFF"))
-                else:
-                    return QBrush(QColor("#212529"))  # Testo scuro su Giallo e Bianco
+            if row < len(self._row_fg):
+                return self._row_fg[row]
             return QBrush(QColor("#212529"))
 
         # Gestione dell'allineamento del testo
         elif role == Qt.TextAlignmentRole:  # type: ignore
-            # Colonne da centrare (usando gli indici delle colonne)
             colonne_centrate = [0, 2, 3, 4, 5, 6, 7, 8, 9]  # Pos, PG, V, P, S, GF, GS, DR, Punti
-            if index.column() in colonne_centrate:
+            if col in colonne_centrate:
                 return Qt.AlignCenter  # type: ignore
             else:
                 return Qt.AlignLeft | Qt.AlignVCenter  # type: ignore
@@ -231,9 +225,9 @@ class AppClassifica(QMainWindow):
     
     @catturaEccezione
     def creaClassifica(self):
-        # estrattore = EstrazioneDati(self.fileCampionato_xlsm)
-        # self.df = estrattore.dataFrame()
-        self.df = pd.read_csv(self.fileCampionato_csv, sep=';')
+        self.df = ottieni_dataframe_cache(self.fileCampionato_csv)
+        if self.df is None or self.df.empty:
+            return 'Csv/Classifica.csv'
         # Calcola la classifica dal DataFrame delle partite con le nuove colonne
         df = self.df.copy()
         squadre = pd.concat([df['Casa'], df['Trasferta']]).unique() # Ottiene tutte le squadre uniche da entrambe le colonne
@@ -373,7 +367,9 @@ class AppClassifica(QMainWindow):
     
     @catturaEccezione
     def determinaPosizioni(self, path):
-        df = pd.read_csv(path, sep=';')
+        df = ottieni_dataframe_cache(path)
+        if df is None:
+            df = pd.read_csv(path, sep=';')
         # Ordinamento ufficiale Serie A: Punti, DifferenzaReti, GoalFatti
         if 'DifferenzaReti' in df.columns and 'GoalFatti' in df.columns:
             df = df.sort_values(['Punti', 'DifferenzaReti', 'GoalFatti'], ascending=[False, False, False]).reset_index(drop=True)
@@ -466,16 +462,20 @@ class AppClassifica(QMainWindow):
     # end apri_link_sky()
     
     @catturaEccezione
-    def close_window(self, event = None):
-        """Wrapper per il metodo close che non restituisce valori"""
-        self.close()
+    def close_window(self, event=None):
+        """Nasconde la finestra per riapertura istantanea"""
+        self.hide()
     # end close_window()
-    # end apri_link_sky()
     
+    def closeEvent(self, event):
+        """Nasconde la finestra alla chiusura standard invece di distruggerla"""
+        self.hide()
+        event.ignore()
+
     @catturaEccezione
     def esci_applicazione(self, checked=False):
         """Funzione che chiude l'applicazione quando viene cliccato il pulsante"""
-        self.close()
+        self.hide()
     # end esci_applicazione()
 # end App
 

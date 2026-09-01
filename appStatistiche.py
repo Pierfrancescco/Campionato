@@ -479,6 +479,11 @@ class AppStatistiche(QtWidgets.QMainWindow):
         popup.close()  # Chiudi il popup quando hai finito
         
     # end aggiornaStatisticheSquadraInTrasferta()
+
+    def closeEvent(self, event):
+        """Nasconde la finestra alla chiusura standard per riapertura istantanea"""
+        self.hide()
+        event.ignore()
 # end MainWindow class
 
 @catturaEccezione
