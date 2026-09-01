@@ -19,31 +19,45 @@ class MyTableModel(QAbstractTableModel):
         super().__init__()
         self._data = data
         self._headers = headers
-        self._soglie = self._calcolaSogliePunti()
         
-        # Pre-calcolo colori di sfondo e testo per ogni riga per rendere il rendering istantaneo
+        # Pre-calcolo colori di sfondo e testo per ogni riga in base alla posizione esatta
         self._row_bg = []
         self._row_fg = []
-        for r_idx in range(len(self._data)):
-            pts = self._getPuntiSquadra(r_idx)
-            bg, fg = self._determinaStileRiga(r_idx, pts)
+        num_righe = len(self._data)
+        for r_idx in range(num_righe):
+            bg, fg = self._determinaStileRiga(r_idx, num_righe)
             self._row_bg.append(bg)
             self._row_fg.append(fg)
     # end __init__()
     
-    def _determinaStileRiga(self, row_idx: int, punti: int):
-        s = self._soglie
-        if not s:
-            return QBrush(QColor("#FFFFFF")), QBrush(QColor("#212529"))
+    def _determinaStileRiga(self, row_idx: int, num_righe: int):
+        """
+        Determina colore di sfondo e colore del testo in base alla posizione esatta in classifica:
+        - Pos 1-4 (row 0-3): Champions League (Blu #007BFF, Testo Bianco)
+        - Pos 5-6 (row 4-5): Europa League (Giallo #FFD700, Testo Scuro)
+        - Pos 7 (row 6): Conference League (Verde #28A745, Testo Bianco)
+        - Pos 8-17 (row 7-16): Zona Neutra (Bianco #FFFFFF, Testo Scuro)
+        - Ultime 3 (18-20): Zona Retrocessione (Rosso #DC3545, Testo Bianco)
+        """
+        pos = row_idx + 1
         
-        if punti >= s['soglia_Champions']:
+        # 1. Champions League (Prime 4 posizioni)
+        if pos <= 4:
             return QBrush(QColor("#007BFF")), QBrush(QColor("#FFFFFF"))
-        elif s['soglia_Retrocessione'] is not None and punti <= s['soglia_Retrocessione']:
-            return QBrush(QColor("#DC3545")), QBrush(QColor("#FFFFFF"))
-        elif s['soglia_Europa_League'] is not None and punti == s['soglia_Europa_League']:
+        
+        # 2. Europa League (Posizioni 5 e 6)
+        elif pos in (5, 6):
             return QBrush(QColor("#FFD700")), QBrush(QColor("#212529"))
-        elif s['soglia_Conference_League'] is not None and punti == s['soglia_Conference_League'] and row_idx in (5, 6):
+        
+        # 3. Conference League (7ª posizione)
+        elif pos == 7:
             return QBrush(QColor("#28A745")), QBrush(QColor("#FFFFFF"))
+        
+        # 5. Zona Retrocessione (Ultime 3 posizioni: 18, 19, 20)
+        elif pos > max(0, num_righe - 3):
+            return QBrush(QColor("#DC3545")), QBrush(QColor("#FFFFFF"))
+        
+        # 4. Zona Neutra (Posizioni 8 - 17)
         else:
             return QBrush(QColor("#FFFFFF")), QBrush(QColor("#212529"))
     
@@ -106,53 +120,6 @@ class MyTableModel(QAbstractTableModel):
     # end data()
     
     @catturaEccezione
-    def _calcolaSogliePunti(self):
-        """
-        Calcola le soglie di punteggio dinamiche basate sulla classifica ordinata:
-        - soglia_Champions: punti della squadra al 4° posto (indice 3)
-        - soglia_Europa_League: punti della prima squadra sotto la zona Champions
-        - soglia_Conference_League: punti della squadra in zona Conference
-        - soglia_Retrocessione: punti della 18ª squadra (terz'ultima)
-        """
-        if not self._data or len(self._data) == 0:
-            return None
-        
-        num_squadre = len(self._data)
-        
-        # Punti al 4° posto (indice 3)
-        idx_champions = min(3, num_squadre - 1)
-        soglia_champions = self._getPuntiSquadra(idx_champions)
-        
-        # Europa League: prima squadra con punteggio strettamente inferiore a soglia_champions
-        soglia_europa = None
-        for r_idx in range(idx_champions + 1, num_squadre):
-            pts = self._getPuntiSquadra(r_idx)
-            if pts < soglia_champions:
-                soglia_europa = pts
-                break
-                
-        # Conference League: prima squadra con punteggio strettamente inferiore a soglia_europa
-        soglia_conference = None
-        if soglia_europa is not None:
-            for r_idx in range(num_squadre):
-                pts = self._getPuntiSquadra(r_idx)
-                if pts < soglia_europa:
-                    soglia_conference = pts
-                    break
-        
-        # Retrocessione: punti della 18ª squadra (terz'ultima)
-        idx_retro = max(0, num_squadre - 3)
-        soglia_retrocessione = self._getPuntiSquadra(idx_retro)
-        
-        return {
-            'soglia_Champions': soglia_champions,
-            'soglia_Europa_League': soglia_europa,
-            'soglia_Conference_League': soglia_conference,
-            'soglia_Retrocessione': soglia_retrocessione
-        }
-    # end _calcolaSogliePunti()
-    
-    @catturaEccezione
     def setData(self, index, value, role=Qt.EditRole):  # type: ignore
         if not index.isValid():
             return False
@@ -190,6 +157,35 @@ class AppClassifica(QMainWindow):
         self.tabella = self.ui.tableView
         self.resize(self.dimensioniFinestra()[0], self.dimensioniFinestra()[1])
         self.setWindowTitle("Classifica Campionato di calcio Serie A 2026/27")
+        if hasattr(self.ui, 'label'):
+            self.ui.label.setText("Classifica campionato di calcio serie A 2026/27")
+            
+        # Configurazione Legenda Posizioni (allineata a tabella e regole Serie A)
+        if hasattr(self.ui, 'label_2'):
+            self.ui.label_2.setText("Champions League (1°-4° posto)")
+            self.ui.label_2.setStyleSheet("background-color: #007BFF; color: #FFFFFF; font-weight: bold; border-radius: 4px; padding: 4px;")
+            self.ui.label_2.setGeometry(150, 860, 340, 36)
+            
+        if hasattr(self.ui, 'label_3'):
+            self.ui.label_3.setText("Europa League (5°-6° posto)")
+            self.ui.label_3.setStyleSheet("background-color: #FFD700; color: #212529; font-weight: bold; border-radius: 4px; padding: 4px;")
+            self.ui.label_3.setGeometry(530, 860, 340, 36)
+            
+        if hasattr(self.ui, 'label_4'):
+            self.ui.label_4.setText("Conference League (7° posto)")
+            self.ui.label_4.setStyleSheet("background-color: #28A745; color: #FFFFFF; font-weight: bold; border-radius: 4px; padding: 4px;")
+            self.ui.label_4.setGeometry(150, 915, 340, 36)
+            
+        if hasattr(self.ui, 'label_7'):
+            self.ui.label_7.setText("Zona Retrocessione (18°-20° posto)")
+            self.ui.label_7.setStyleSheet("background-color: #DC3545; color: #FFFFFF; font-weight: bold; border-radius: 4px; padding: 4px;")
+            self.ui.label_7.setGeometry(530, 915, 340, 36)
+            
+        # Nascondi voci non utilizzate dalla legenda
+        if hasattr(self.ui, 'label_5'):
+            self.ui.label_5.setVisible(False)
+        if hasattr(self.ui, 'label_6'):
+            self.ui.label_6.setVisible(False)
 
         self.df = None
         self.fileClassifica = self.creaClassifica()
