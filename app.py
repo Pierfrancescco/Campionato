@@ -92,13 +92,13 @@ class MainWindow(QtWidgets.QMainWindow):
         if os.path.exists(icon_path):
             self.setWindowIcon(QtGui.QIcon(icon_path))
             
-        # 🌟 Frase ad effetto nel frontespizio (Gioco Responsabile) - Centrata a schermo
+        # 🌟 Frase ad effetto nel frontespizio (Gioco Responsabile) - Centrata sotto gli scudetti
         self.labelQuote = QtWidgets.QLabel(self.ui.centralwidget)
         self.labelQuote.setText("""
-        <div style="text-align: center; line-height: 135%;">
-            <span style="font-size: 24pt; color: #FFFFFF; font-weight: 800; font-style: italic; letter-spacing: 0.5px;">“ Giocare è bello,</span><br>
-            <span style="font-size: 22pt; color: #CBD5E1; font-weight: 600; font-style: italic;">farlo in modo responsabile</span><br>
-            <span style="font-size: 26pt; color: #FFD700; font-weight: 800; font-style: italic; letter-spacing: 0.5px;">è meglio! ”</span>
+        <div style="text-align: center; line-height: 120%;">
+            <span style="font-size: 23pt; color: #FFFFFF; font-weight: 800; font-style: italic; letter-spacing: 0.5px;">“ Giocare è bello,</span><br>
+            <span style="font-size: 20pt; color: #CBD5E1; font-weight: 600; font-style: italic;">farlo in modo responsabile</span><br>
+            <span style="font-size: 24pt; color: #FFD700; font-weight: 800; font-style: italic; letter-spacing: 0.5px;">è meglio! ”</span>
         </div>
         """)
         self.labelQuote.setAlignment(QtCore.Qt.AlignCenter)
@@ -109,7 +109,7 @@ class MainWindow(QtWidgets.QMainWindow):
                             stop:1 rgba(30, 58, 138, 210));
                 border: 2px solid rgba(255, 215, 0, 0.75);
                 border-radius: 18px;
-                padding: 14px 28px;
+                padding: 12px 24px;
                 font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
             }
         """)
@@ -130,12 +130,12 @@ class MainWindow(QtWidgets.QMainWindow):
     # end __init__()
 
     def aggiornaPosizioneQuote(self):
-        """Mantiene il banner della frase ad effetto perfettamente centrato orizzontalmente"""
+        """Mantiene il banner della frase ad effetto perfettamente centrato e posizionato appena sotto gli scudetti"""
         if hasattr(self, 'labelQuote'):
-            bw = 820
-            bh = 175
+            bw = 860
+            bh = 195
             bx = max(20, (self.width() - bw) // 2)
-            by = max(150, self.height() - bh - 80)
+            by = 150  # Posizionato appena sotto gli scudetti (y=130)
             self.labelQuote.setGeometry(bx, by, bw, bh)
 
     def resizeEvent(self, event):
