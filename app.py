@@ -341,32 +341,20 @@ class CheckFile:
     @staticmethod
     @catturaEccezione
     def checkFilesExistence():
-        """Controlla l'esistenza dei file critici all'avvio"""
+        """Controlla l'esistenza dei file critici CSV all'avvio"""
         critical_files = [
             myFile.urlSquadre,
             myFile.campionatoCorrente,
             myFile.campionatiPrecedenti,
-            myFile.campionatiPrecedentiExcel,
-            myFile.campionatoCorrenteExcel
+            myFile.classifica
         ]
         missing_files = [f for f in critical_files if not os.path.isfile(f)]
-        if myFile.campionatoCorrenteExcel in missing_files:
-            QMessageBox.critical(None, "Errore Critico", f"Il file Excel --> {myFile.campionatoCorrenteExcel} è mancante. Impossibile fare predizioni e statistiche.")
-            sys.exit(1)
-        
-        if myFile.campionatiPrecedentiExcel in missing_files:
-            from EstrazioneDati import EstrazioneDati
-            estrazioneDati = EstrazioneDati(myFile.campionatiPrecedentiExcel)
-            QMessageBox.critical(None, "Errore Critico", f"Il file Excel {myFile.campionatiPrecedentiExcel} è mancante. File generato automaticamente.")
-            sys.exit(1)
-            
         if myFile.urlSquadre in missing_files:
             QMessageBox.critical(None, "Errore Critico", f"Il file CSV {myFile.urlSquadre} è mancante. Impossibile continuare.")
             sys.exit(1)
-        
-        if myFile.campionatiPrecedenti in missing_files:
-            from EstrazioneDati import EstrazioneDati
-            estrazioneDati = EstrazioneDati(myFile.campionatiPrecedentiExcel)
+        if myFile.campionatoCorrente in missing_files:
+            QMessageBox.critical(None, "Errore Critico", f"Il file CSV {myFile.campionatoCorrente} è mancante. Impossibile continuare.")
+            sys.exit(1)
 
 
 if __name__ == "__main__":
@@ -404,4 +392,6 @@ if __name__ == "__main__":
         signal.signal(signal.SIGTERM, signal_handler)
 
     window.show()
+    if '--screenshot' in sys.argv:
+        QtCore.QTimer.singleShot(800, lambda: (window.grab().save('manuale_assets/01_frontespizio.png'), print("01_frontespizio OK"), app.quit()))
     sys.exit(app.exec_())
